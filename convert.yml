@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Install dependencies
         run: pip install pyyaml requests -q
 
@@ -37,8 +37,7 @@ jobs:
                       at = rest.index('@')
                       uuid = rest[:at]
                       rest2 = rest[at+1:]
-                      
-                      # handle IPv6
+
                       if rest2.startswith('['):
                           bracket = rest2.index(']')
                           server = rest2[1:bracket]
@@ -49,22 +48,57 @@ jobs:
                           colon = rest2.index(':')
                           server = rest2[:colon]
                           rest3 = rest2[colon+1:]
-                      
+
                       q = rest3.index('?')
                       port = rest3[:q]
                       params_str = rest3[q+1:]
-                      
-                      # remove remarks from params before parsing
+
                       if '#' in params_str:
                           params_str = params_str[:params_str.index('#')]
-                      
+
                       params = dict(urllib.parse.parse_qsl(params_str))
-                      
+
                       pbk = params.get('pbk', '')
                       sid = params.get('sid', '')
                       sni = params.get('sni', params.get('peer', ''))
-                      
+
                       if not pbk:
                           continue
-                      
-                      key = f"{server​​​​​​​​​​​​​​​​
+
+                      key = f"{server}:{port}:{uuid}"
+                      if key in seen:
+                          continue
+                      seen.add(key)
+
+                      proxy = {
+                          'name': f"{server}:{port}",
+                          'type': 'vless',
+                          'server': server,
+                          'port': int(port),
+                          'uuid': uuid,
+                          'network': 'tcp',
+                          'tls': True,
+                          'udp': True,
+                          'servername': sni,
+                          'flow': 'xtls-rprx-vision',
+                          'reality-opts': {
+                              'public-key': pbk,
+                              'short-id': sid
+                          },
+                          'client-fingerprint': 'chrome'
+                      }
+                      proxies.append(proxy)
+                  except Exception as e:
+                      continue
+
+          print(f"Converted {len(proxies)} proxies")
+          with open('clash.yaml', 'w') as f:
+              yaml.dump({'proxies': proxies}, f, allow_unicode=True, default_flow_style=False)
+          EOF
+
+      - name: Commit
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add clash.yaml
+          git diff --staged --quiet || (git commit -m "Update clash.yaml" && git pull --rebase && git push)
