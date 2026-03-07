@@ -9,62 +9,93 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
+      - name: Install dependencies
+        run: pip install pyyaml requests -q
+
       - name: Download and convert
         run: |
-          curl -s "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt" | while read line; do
-            echo "$line"
-          done > raw.txt
-          
           python3 << 'EOF'
-          import base64, urllib.parse, json
-          
+          import urllib.parse, yaml, requests
+
+          urls = [
+              "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+              "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt"
+          ]
+
           proxies = []
-          with open('raw.txt') as f:
-              for line in f:
+          seen = set()
+
+          for url in urls:
+              r = requests.get(url)
+              for line in r.text.splitlines():
                   line = line.strip()
                   if not line.startswith('vless://'):
                       continue
                   try:
                       rest = line[8:]
-                      at = rest.index('@')
+                      if '#' in rest:
+                          rest = rest[:rest.index('#')]
+                      
+                      at = rest.rindex('@')
                       uuid = rest[:at]
                       rest2 = rest[at+1:]
-                      colon = rest2.index(':')
-                      server = rest2[:colon]
-                      rest3 = rest2[colon+1:]
+
+                      if rest2.startswith('['):
+                          bracket = rest2.index(']')
+                          server = rest2[1:bracket]
+                          rest3 = rest2[bracket+2:]
+                      else:
+                          colon = rest2.index(':')
+                          server = rest2[:colon]
+                          rest3 = rest2[colon+1:]
+
                       q = rest3.index('?')
                       port = rest3[:q]
                       params = dict(urllib.parse.parse_qsl(rest3[q+1:]))
-                      name = urllib.parse.unquote(params.get('remarks', server))
+
+                      security = params.get('security', 'none')
+                      network = params.get('type', 'tcp')
+                      sni = params.get('sni', params.get('peer', ''))
+                      pbk = params.get('pbk', '')
+                      sid = params.get('sid', '')
+                      flow = params.get('flow', '')
+                      fp = params.get('fp', 'chrome')
+
+                      # только Reality серверы
+                      if security != 'reality' or not pbk:
+                          continue
+
+                      key = f"{server}:{port}:{uuid}"
+                      if key in seen:
+                          continue
+                      seen.add(key)
+
                       proxy = {
-                          'name': name,
+                          'name': f"{server}:{port}",
                           'type': 'vless',
                           'server': server,
                           'port': int(port),
                           'uuid': uuid,
-                          'network': 'tcp',
+                          'network': network,
                           'tls': True,
                           'udp': True,
-                          'servername': params.get('peer', ''),
-                          'flow': 'xtls-rprx-vision',
+                          'servername': sni,
+                          'flow': flow,
                           'reality-opts': {
-                              'public-key': params.get('pbk', ''),
-                              'short-id': params.get('sid', '')
+                              'public-key': pbk,
+                              'short-id': sid
                           },
-                          'client-fingerprint': 'chrome'
+                          'client-fingerprint': fp
                       }
                       proxies.append(proxy)
-                  except:
+                  except Exception as e:
                       continue
-          
-          import yaml
-          with open('clash.yaml', 'w') as f:
-              yaml.dump({'proxies': proxies}, f, allow_unicode=True)
+
           print(f"Converted {len(proxies)} proxies")
+          with open('clash.yaml', 'w') as f:
+              yaml.dump({'proxies': proxies}, f, allow_unicode=True, default_flow_style=False)
           EOF
-          
-          pip install pyyaml -q
 
       - name: Commit
         run: |
@@ -72,4 +103,4 @@ jobs:
           git config user.name "GitHub Action"
           git add clash.yaml
           git diff --staged --quiet || git commit -m "Update clash.yaml"
-          git push
+          git push --force
