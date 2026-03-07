@@ -1,0 +1,75 @@
+name: Convert Subscriptions
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Download and convert
+        run: |
+          curl -s "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt" | while read line; do
+            echo "$line"
+          done > raw.txt
+          
+          python3 << 'EOF'
+          import base64, urllib.parse, json
+          
+          proxies = []
+          with open('raw.txt') as f:
+              for line in f:
+                  line = line.strip()
+                  if not line.startswith('vless://'):
+                      continue
+                  try:
+                      rest = line[8:]
+                      at = rest.index('@')
+                      uuid = rest[:at]
+                      rest2 = rest[at+1:]
+                      colon = rest2.index(':')
+                      server = rest2[:colon]
+                      rest3 = rest2[colon+1:]
+                      q = rest3.index('?')
+                      port = rest3[:q]
+                      params = dict(urllib.parse.parse_qsl(rest3[q+1:]))
+                      name = urllib.parse.unquote(params.get('remarks', server))
+                      proxy = {
+                          'name': name,
+                          'type': 'vless',
+                          'server': server,
+                          'port': int(port),
+                          'uuid': uuid,
+                          'network': 'tcp',
+                          'tls': True,
+                          'udp': True,
+                          'servername': params.get('peer', ''),
+                          'flow': 'xtls-rprx-vision',
+                          'reality-opts': {
+                              'public-key': params.get('pbk', ''),
+                              'short-id': params.get('sid', '')
+                          },
+                          'client-fingerprint': 'chrome'
+                      }
+                      proxies.append(proxy)
+                  except:
+                      continue
+          
+          import yaml
+          with open('clash.yaml', 'w') as f:
+              yaml.dump({'proxies': proxies}, f, allow_unicode=True)
+          print(f"Converted {len(proxies)} proxies")
+          EOF
+          
+          pip install pyyaml -q
+
+      - name: Commit
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add clash.yaml
+          git diff --staged --quiet || git commit -m "Update clash.yaml"
+          git push
