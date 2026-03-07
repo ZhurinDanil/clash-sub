@@ -36,7 +36,7 @@ jobs:
                       rest = line[8:]
                       if '#' in rest:
                           rest = rest[:rest.index('#')]
-                      
+
                       at = rest.rindex('@')
                       uuid = rest[:at]
                       rest2 = rest[at+1:]
@@ -62,7 +62,6 @@ jobs:
                       flow = params.get('flow', '')
                       fp = params.get('fp', 'chrome')
 
-                      # только Reality серверы
                       if security != 'reality' or not pbk:
                           continue
 
@@ -101,6 +100,8 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
+          git fetch origin
+          git reset --hard origin/main
           git add clash.yaml
           git diff --staged --quiet || git commit -m "Update clash.yaml"
-          git push --force
+          git push
