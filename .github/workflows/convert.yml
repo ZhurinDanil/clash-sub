@@ -60,7 +60,8 @@ jobs:
                       pbk = params.get('pbk', '')
                       sid = params.get('sid', '')
                       flow = params.get('flow', '')
-                      fp = params.get('fp', 'chrome')
+                      fp_raw = params.get('fp', 'chrome')
+                      fp = 'chrome' if fp_raw not in ['chrome', 'firefox', 'safari', 'ios', 'android', 'edge', 'random'] else fp_raw
 
                       if security != 'reality' or not pbk:
                           continue
