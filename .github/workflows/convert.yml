@@ -28,9 +28,7 @@ jobs:
           country_count = {}
 
           def extract_country(remarks):
-              # берём только флаг и страну, убираем лишнее
               remarks = urllib.parse.unquote(remarks)
-              # убираем всё после | или [
               clean = re.split(r'[|\[]', remarks)[0].strip()
               return clean if clean else None
 
@@ -118,8 +116,10 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
+          cp clash.yaml /tmp/clash.yaml
           git fetch origin
           git reset --hard origin/main
+          cp /tmp/clash.yaml clash.yaml
           git add clash.yaml
           git diff --staged --quiet || git commit -m "Update clash.yaml"
           git push
