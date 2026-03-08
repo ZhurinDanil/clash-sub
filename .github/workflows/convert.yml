@@ -121,5 +121,5 @@ jobs:
           git reset --hard origin/main
           cp /tmp/clash.yaml clash.yaml
           git add clash.yaml
-          git diff --staged --quiet || git commit -m "Update clash.yaml"
+          git commit -m "Update clash.yaml" --allow-empty
           git push
