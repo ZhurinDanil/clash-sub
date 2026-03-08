@@ -16,7 +16,7 @@ jobs:
       - name: Download and convert
         run: |
           python3 << 'EOF'
-          import urllib.parse, yaml, requests
+          import urllib.parse, yaml, requests, re
 
           urls = [
               "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
@@ -25,6 +25,14 @@ jobs:
 
           proxies = []
           seen = set()
+          country_count = {}
+
+          def extract_country(remarks):
+              # берём только флаг и страну, убираем лишнее
+              remarks = urllib.parse.unquote(remarks)
+              # убираем всё после | или [
+              clean = re.split(r'[|\[]', remarks)[0].strip()
+              return clean if clean else None
 
           for url in urls:
               r = requests.get(url)
@@ -33,7 +41,8 @@ jobs:
                   if not line.startswith('vless://'):
                       continue
                   try:
-                      remarks = urllib.parse.unquote(line.split('#')[1]) if '#' in line else ''
+                      remarks_raw = line.split('#')[1] if '#' in line else ''
+                      country = extract_country(remarks_raw)
 
                       rest = line[8:]
                       if '#' in rest:
@@ -73,7 +82,11 @@ jobs:
                           continue
                       seen.add(key)
 
-                      name = remarks if remarks else f"{server}:{port}"
+                      if country:
+                          country_count[country] = country_count.get(country, 0) + 1
+                          name = f"{country} {country_count[country]}"
+                      else:
+                          name = f"{server}:{port}"
 
                       proxy = {
                           'name': name,
