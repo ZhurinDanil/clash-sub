@@ -33,6 +33,8 @@ jobs:
                   if not line.startswith('vless://'):
                       continue
                   try:
+                      remarks = urllib.parse.unquote(line.split('#')[1]) if '#' in line else ''
+
                       rest = line[8:]
                       if '#' in rest:
                           rest = rest[:rest.index('#')]
@@ -71,8 +73,10 @@ jobs:
                           continue
                       seen.add(key)
 
+                      name = remarks if remarks else f"{server}:{port}"
+
                       proxy = {
-                          'name': f"{server}:{port}",
+                          'name': name,
                           'type': 'vless',
                           'server': server,
                           'port': int(port),
