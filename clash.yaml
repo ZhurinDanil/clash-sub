@@ -1,29 +1,57 @@
 proxies:
 - client-fingerprint: chrome
+  flow: ''
+  name: 🇦🇹 Austria 1
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ss.ll0ll.vip
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5610a52c-48e0-4e8c-9230-fb302b04d02e
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
+  name: 🇪🇪 Estonia 1
   network: tcp
   port: 443
   reality-opts:
     public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
     short-id: 0a6ba2716a409da6
-  server: fishsea.api.dznn.net
-  servername: fishsea.api.dznn.net
+  server: eeshka.api.dznn.net
+  servername: eeshka.api.dznn.net
   tls: true
   type: vless
   udp: true
   uuid: 9bc46020-c550-439a-86c5-38f64abc1ffd
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇵🇱 Poland 1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
   network: tcp
-  port: 443
+  port: 1443
   reality-opts:
-    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
-    short-id: a1b2c3d4
-  server: 89.126.229.40
-  servername: www.samsung.com
+    public-key: h8BDQnylBOkY67mfYEWv47OtXIo8FOjL5Y1tlozo8D0
+    short-id: ''
+  server: 158.160.122.237
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
+  uuid: cd5bb6c7-7736-4122-a1f9-a3e4f3dd8b18
+- client-fingerprint: random
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 65nqcY-jE1J_G27W-X_qGCSpXMEHif6MBLXN8kBoFB0
+    short-id: 1f18adc24d1d
+  server: 51.250.113.157
+  servername: www.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6083a84-80a5-3e88-9dbb-5c8ef241be3a
