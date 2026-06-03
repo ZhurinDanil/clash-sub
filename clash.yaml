@@ -1,43 +1,57 @@
 proxies:
 - client-fingerprint: chrome
-  flow: ''
-  name: 🇺🇸 United States 1
-  network: tcp
-  port: 2040
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
-  server: auto.datamove.online
-  servername: tradingview.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
+  name: 🇨🇿 Czechia 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: ''
-  server: pro-ru-84.emrata.top
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: 65c7748be8
+  server: 158.160.150.233
   servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 6e84b643-1c90-41e7-9028-ce4dea28c21c
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 1
-  network: grpc
-  port: 7443
+  uuid: c510a8f8-4191-489f-9b92-03a827031912
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇨🇿 Czechia 2
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: _AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs
-    short-id: 3210e0eee6605048
-  server: 89.208.208.92
-  servername: loadtest.dev.urent.ru
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: cf4d
+  server: 158.160.22.127
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4
+  uuid: c510a8f8-4191-489f-9b92-03a827031912
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 5987
+  reality-opts:
+    public-key: L4kWgoTxqQc4kAGLrF_ARMRVMPy3_WInhjwt_8OPenU
+    short-id: c19de8fa
+  server: 185.241.194.34
+  servername: surfvpn24.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2397be53-f62b-42f7-80fe-5d22627c03a9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: tcp
+  port: 5994
+  reality-opts:
+    public-key: trrVBG2fDc411qxZQ8__7x6ZlJC4lI2m_mwl-O-BEjQ
+    short-id: c19de8fa
+  server: 185.241.194.34
+  servername: surfvpn24.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2397be53-f62b-42f7-80fe-5d22627c03a9
