@@ -1,21 +1,35 @@
 proxies:
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: tcp
-  port: 443
+  flow: ''
+  name: 🇧🇷 Brazil 1
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: kjTspDrisV8226wHoYmGlK3M3f5ti3J3SABdhRqAMCY
-    short-id: ''
-  server: 62.152.60.82
-  servername: eh.vk.com
+    public-key: ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA
+    short-id: d9a7c1e2b3f4481a
+  server: 217.144.184.251
+  servername: cdn.jsdelivr.net
   tls: true
   type: vless
   udp: true
-  uuid: fef41e97-400e-4db2-a638-dac1297b36bc
+  uuid: 8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
+  name: 🇫🇮 Finland 1
+  network: tcp
+  port: 2026
+  reality-opts:
+    public-key: yt2kyF7DABbLCwB49Hd3VuNu7-QN57GiLoeiD5vVg30
+    short-id: c576f7ccd9019b
+  server: 65.109.217.246
+  servername: www.oracle.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a59eb4c-d127-4f32-9f51-9a1be5086fc0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
   network: tcp
   port: 443
   reality-opts:
@@ -27,6 +41,20 @@ proxies:
   type: vless
   udp: true
   uuid: ce7ed617-0312-4bf3-b40c-6ecf6f612578
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4
+    short-id: ''
+  server: 37.139.34.124
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae0959f1-f25a-43d0-9c88-be1672641fc3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇿 Kazakhstan 1
@@ -41,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: 227131c5-1063-4d5d-9038-8dacdcefc569
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇨🇭 Switzerland 1
   network: tcp
@@ -55,7 +83,21 @@ proxies:
   type: vless
   udp: true
   uuid: ff76c582-77fa-4840-9247-729076fbab29
-- client-fingerprint: chrome
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇳🇱 The Netherlands 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: f3FMThwEbSnGM8h31NH50e-X_zuALPittQv3MAWCkkA
+    short-id: c93a6c16b8ef5c0f
+  server: 158.160.239.151
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7d4a028-d5cd-4e1d-ab0a-6712ac1580dc
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇹🇷 Turkey 1
   network: tcp
@@ -69,6 +111,20 @@ proxies:
   type: vless
   udp: true
   uuid: dd9901b2-1b17-0017-b468-b7e94a5bc2c6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -sij6MifOyoPdIBR9kjB3ww2ClWk7IhITppFxUEdBzI
+    short-id: 9e0ba98da61cb818
+  server: 45.92.177.186
+  servername: ru.bvps.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
@@ -83,37 +139,9 @@ proxies:
   type: vless
   udp: true
   uuid: 7e6d3393-bb84-45c7-9eef-35de95805b7e
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🌐 Anycast-IP 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: Ga_FpKnw8ZXngh86KkciKc7SrKNljVat1_8fkyVWbjY
-    short-id: 4fd3840415403f31
-  server: 193.33.133.189
-  servername: fi1.foxnezia.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77864cb4-7791-4e01-97ed-0aaf6904389f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zrI1CkSQo1dFn-hhue1FRj0BTMwbjKN1x4oDqI5ZDXQ
-    short-id: ''
-  server: 45.81.33.34
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96a59dc3-226d-475c-89c5-3ef74d7f84a7
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 4
   network: xhttp
   port: 8443
   reality-opts:
@@ -125,17 +153,3 @@ proxies:
   type: vless
   udp: true
   uuid: 201e3301-9e4b-4136-8d45-d8d61d2b04bc
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zrI1CkSQo1dFn-hhue1FRj0BTMwbjKN1x4oDqI5ZDXQ
-    short-id: ''
-  server: 45.81.33.35
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96a59dc3-226d-475c-89c5-3ef74d7f84a7
