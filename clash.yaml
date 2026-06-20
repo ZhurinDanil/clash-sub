@@ -1,15 +1,71 @@
 proxies:
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 1
-  network: tcp
-  port: 443
+  flow: ''
+  name: 🇧🇷 Brazil 1
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: F_ibx7pBjkhhTBHhi-8Tma7w3DtfGTzpE6uqRDB-KWU
-    short-id: e75f556eef8f096f
-  server: 62.152.56.157
-  servername: max.ru
+    public-key: ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA
+    short-id: d9a7c1e2b3f4481a
+  server: 217.144.184.251
+  servername: cdn.jsdelivr.net
   tls: true
   type: vless
   udp: true
-  uuid: 3cbf82a7-1f95-4a39-a77f-788b1737ed64
+  uuid: 8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇳 India 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BAtrvTxguCHHOR0x9JdC0YSTNVfg3YCRZtH09gnuNkY
+    short-id: ''
+  server: 217.25.92.53
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f4b6e90-3e91-4ad2-8c3f-d0e4dd29264b
+- client-fingerprint: random
+  flow: ''
+  name: 🇸🇪 Sweden 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI
+    short-id: d5c7f84e37e0c12d
+  server: sw-3.coinbridge.nl
+  servername: google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed3e860f-c97d-45be-a56b-47b77da11059
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 United Kingdom 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2dUnvgWjYo4Xs5T17CfWoImszwB0I6hGHwRxZZEQvQs
+    short-id: b0d8f964b7ac8ac3
+  server: cdn9-03.cdn-vkvideo.com
+  servername: cdn9-03.cdn-vkvideo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a2573c5-936f-4f93-8409-e43164793176
+- client-fingerprint: firefox
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: Ga_FpKnw8ZXngh86KkciKc7SrKNljVat1_8fkyVWbjY
+    short-id: 4fd3840415403f31
+  server: 193.33.133.189
+  servername: fi1.foxnezia.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77864cb4-7791-4e01-97ed-0aaf6904389f
