@@ -1,71 +1,43 @@
 proxies:
-- client-fingerprint: random
-  flow: ''
-  name: 🇫🇷 France 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI
-    short-id: d5c7f84e37e0c12d
-  server: 130.49.179.128
-  servername: google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec242fb6-faeb-4f34-afb8-3fbf80e527e3
-- client-fingerprint: random
-  flow: ''
-  name: 🇫🇷 France 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI
-    short-id: d5c7f84e37e0c12d
-  server: fr-1.coinbridge.nl
-  servername: google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec242fb6-faeb-4f34-afb8-3fbf80e527e3
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: ID6lMOmt7BiuPHjZkoLSWNR9ONmB6b4L9skIIFjtXxU
-    short-id: ''
-  server: 45.131.214.45
-  servername: d.primarymaster.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: e64100fd-773d-4cc6-adbe-a4c94876d07a
 - client-fingerprint: firefox
   flow: ''
-  name: 🇳🇱 The Netherlands 1
-  network: xhttp
-  port: 443
+  name: 🇧🇷 Brazil 1
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: f3FMThwEbSnGM8h31NH50e-X_zuALPittQv3MAWCkkA
-    short-id: c93a6c16b8ef5c0f
-  server: 158.160.239.151
-  servername: yandex.ru
+    public-key: ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA
+    short-id: d9a7c1e2b3f4481a
+  server: 217.144.184.251
+  servername: cdn.jsdelivr.net
   tls: true
   type: vless
   udp: true
-  uuid: d7d4a028-d5cd-4e1d-ab0a-6712ac1580dc
-- client-fingerprint: chrome
+  uuid: 8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
+  name: 🇩🇪 Germany 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: 6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0
-    short-id: be0191cc
-  server: 185.241.195.217
-  servername: www.tesla.com
+    public-key: FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4
+    short-id: ''
+  server: 37.139.34.124
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 551b9e18-4327-462d-aa03-f730b4e3bb0a
+  uuid: ae0959f1-f25a-43d0-9c88-be1672641fc3
+- client-fingerprint: firefox
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: Ga_FpKnw8ZXngh86KkciKc7SrKNljVat1_8fkyVWbjY
+    short-id: 4fd3840415403f31
+  server: 193.33.133.189
+  servername: fi1.foxnezia.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77864cb4-7791-4e01-97ed-0aaf6904389f
