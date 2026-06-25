@@ -1,21 +1,133 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 1
   network: tcp
-  port: 443
+  port: 59471
   reality-opts:
-    public-key: kDGigLxn2RUJ8HqhPVUb8pRAcjn5zMhR0-QrORmbIDk
-    short-id: be6abde66d48cd13
-  server: 87.228.101.211
-  servername: 5post-gate.x5.ru
+    public-key: 6y-5HEYZCfjJF_JSANIiennwdiO11NERv_OwaN4PEjk
+    short-id: 518f2b9fdbeec4
+  server: 178.76.194.18
+  servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: c25d94a5-7ac8-41f1-86f1-512a4098df19
+  uuid: 764b4422-0962-4c18-8260-95cbda86f6f8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4
+    short-id: ''
+  server: 37.139.34.124
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae0959f1-f25a-43d0-9c88-be1672641fc3
 - client-fingerprint: firefox
   flow: ''
+  name: 🇱🇻 Latvia 1
+  network: tcp
+  port: 5269
+  reality-opts:
+    public-key: hx1gkWBL2ixtwQSGXEvLT1Yz8GBsCFWriz_WLzLQNHQ
+    short-id: 4eb166dbed98e63d
+  server: 82.202.177.144
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 083471bf-bbf4-4e1d-8953-912b8d3b6255
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 Sweden 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 87.242.110.169
+  servername: se.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 United Kingdom 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 193.39.168.154
+  servername: gb.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸 United States 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 87.242.110.7
+  servername: ai.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 37.9.4.209
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef930ef9-8dc2-4da9-88f1-59dae14ccd28
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 213.219.212.30
+  servername: eh.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef930ef9-8dc2-4da9-88f1-59dae14ccd28
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 95.163.211.206
+  servername: at.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
+- client-fingerprint: chrome
+  flow: ''
+  name: 🌐 Anycast-IP 2
   network: xhttp
   port: 443
   reality-opts:
@@ -27,3 +139,31 @@ proxies:
   type: vless
   udp: true
   uuid: 77864cb4-7791-4e01-97ed-0aaf6904389f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 95.163.211.17
+  servername: fi.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 95.163.211.22
+  servername: fi.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
