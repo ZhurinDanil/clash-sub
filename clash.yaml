@@ -1,19 +1,33 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇦🇹 Austria 1
-  network: tcp
+  name: 🇩🇪 Germany 1
+  network: raw
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    public-key: FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4
     short-id: ''
-  server: 95.163.211.206
-  servername: at.sellflow.org
+  server: 37.139.34.124
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
-- client-fingerprint: chrome
+  uuid: ae0959f1-f25a-43d0-9c88-be1672641fc3
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇵🇱 Poland 1
+  network: tcp
+  port: 28737
+  reality-opts:
+    public-key: Q8yB9j_8uP7SgGdVZdQQBzcnB7IROViEbnGtedncSVo
+    short-id: 5dcc574365
+  server: plmw.verymad.net
+  servername: www.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0961459-f199-4c41-899b-b16138f875e7
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪 Sweden 1
   network: tcp
@@ -22,6 +36,20 @@ proxies:
     public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
     short-id: 428ef87fd47a3a32
   server: 62.152.56.198
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b97b46c9-974a-4e0e-8812-01abfcf3a843
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 Sweden 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+    short-id: 428ef87fd47a3a32
+  server: 62.152.56.205
   servername: ads.x5.ru
   tls: true
   type: vless
@@ -41,3 +69,17 @@ proxies:
   type: vless
   udp: true
   uuid: c919e592-5639-491e-a9b7-7a201175ae12
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 95.163.211.206
+  servername: at.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
