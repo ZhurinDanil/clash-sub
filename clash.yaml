@@ -2,84 +2,112 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4
-    short-id: ''
-  server: 37.139.34.124
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0959f1-f25a-43d0-9c88-be1672641fc3
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇵🇱 Poland 1
   network: tcp
-  port: 28737
+  port: 8443
   reality-opts:
-    public-key: Q8yB9j_8uP7SgGdVZdQQBzcnB7IROViEbnGtedncSVo
-    short-id: 5dcc574365
-  server: plmw.verymad.net
-  servername: www.vk.com
+    public-key: 7ohfkZlozjyAzazHHyeABBTyjEGwmNKj4wpnSsajyzU
+    short-id: 4fd3840415403f31
+  server: 178.250.243.14
+  servername: voicechat.core-multiplayer.com
   tls: true
   type: vless
   udp: true
-  uuid: c0961459-f199-4c41-899b-b16138f875e7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
-    short-id: 428ef87fd47a3a32
-  server: 62.152.56.198
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97b46c9-974a-4e0e-8812-01abfcf3a843
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
-    short-id: 428ef87fd47a3a32
-  server: 62.152.56.205
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97b46c9-974a-4e0e-8812-01abfcf3a843
+  uuid: 65c05606-6c1d-42d7-8f27-c06520159fb7
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 8441
-  reality-opts:
-    public-key: Q5mtL2qHRAoPEVnl9GRezCHkTrNTnvW_FL3_HQhhKDo
-    short-id: 06011ef464e3313f
-  server: 158.160.204.211
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c919e592-5639-491e-a9b7-7a201175ae12
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  flow: ''
   name: 🌐 Anycast-IP 1
-  network: tcp
-  port: 443
+  network: grpc
+  port: 2096
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 95.163.211.206
-  servername: at.sellflow.org
+  server: 185.218.0.41
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
+  uuid: d9228d5d-618d-4771-835f-96b4ebdd38cd
+- client-fingerprint: chrome
+  flow: ''
+  name: 🌐 Anycast-IP 2
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 185.251.89.9
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9228d5d-618d-4771-835f-96b4ebdd38cd
+- client-fingerprint: chrome
+  flow: ''
+  name: 🌐 Anycast-IP 3
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 185.251.91.184
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9228d5d-618d-4771-835f-96b4ebdd38cd
+- client-fingerprint: chrome
+  flow: ''
+  name: 🌐 Anycast-IP 4
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ss.ll0ll.vip
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9228d5d-618d-4771-835f-96b4ebdd38cd
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: USzFIqCCFTRAzEJo8Npt_Ds-uRK_FnlvRsR-Iv88_AE
+    short-id: a1
+  server: 95.163.209.42
+  servername: vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d7032fa-47e2-40b9-86ee-0072b23feff8
+- client-fingerprint: firefox
+  flow: ''
+  name: 🌐 Anycast-IP 6
+  network: xhttp
+  port: 7443
+  reality-opts:
+    public-key: nLVAbXs5asAkKffn3oQy27DEusg68QUvJ7Fy8I-KVmk
+    short-id: aaaa
+  server: 84.201.162.130
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e5468e1-01f6-4000-8883-16716722a672
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: USzFIqCCFTRAzEJo8Npt_Ds-uRK_FnlvRsR-Iv88_AE
+    short-id: a1
+  server: 95.163.209.42
+  servername: vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2285c587-67f4-4404-bb78-c91e8e4f5338
