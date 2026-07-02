@@ -13,20 +13,34 @@ proxies:
   type: vless
   udp: true
   uuid: b2b8bd00-2e42-4875-8d7b-bcf97093a1d4
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
-  name: 🇧🇷 Brazil 1
+  name: 🇫🇮 Finland 1
   network: grpc
-  port: 2053
+  port: 8443
   reality-opts:
-    public-key: ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA
-    short-id: d9a7c1e2b3f4481a
-  server: 217.144.184.251
-  servername: cdn.jsdelivr.net
+    public-key: DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM
+    short-id: 08
+  server: 81.94.148.75
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1
+  uuid: c1cd1b7f-0d89-4e59-ab7d-db406e690649
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 2
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM
+    short-id: 08
+  server: 81.94.148.75
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5db08bd9-b9a0-4684-80bf-27f744e4a8e8
 - client-fingerprint: firefox
   flow: ''
   name: 🇩🇪 Germany 1
@@ -54,8 +68,8 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2beb1638-eac7-40c8-95fa-e4908c6c80ea
-- client-fingerprint: firefox
+  uuid: 77102ba4-0fb0-430e-81f1-f9415fa6f37d
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 3
   network: tcp
@@ -68,7 +82,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2beb1638-eac7-40c8-95fa-e4908c6c80ea
+  uuid: 77102ba4-0fb0-430e-81f1-f9415fa6f37d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 4
@@ -82,7 +96,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 77102ba4-0fb0-430e-81f1-f9415fa6f37d
+  uuid: cd61a9a0-f8b9-464f-b330-ab707daf2738
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 5
@@ -96,38 +110,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 77102ba4-0fb0-430e-81f1-f9415fa6f37d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 6
-  network: tcp
-  port: 8446
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 78.24.216.191
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd61a9a0-f8b9-464f-b330-ab707daf2738
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 7
-  network: tcp
-  port: 8454
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 78.24.216.191
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
   uuid: cd61a9a0-f8b9-464f-b330-ab707daf2738
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 8
+  name: 🇩🇪 Germany 6
   network: tcp
   port: 1111
   reality-opts:
@@ -141,19 +127,19 @@ proxies:
   uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇱🇻 Latvia 1
+  name: 🇩🇪 Germany 7
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 194.55.239.122
-  servername: rutube.ru
+    public-key: FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4
+    short-id: ''
+  server: 37.139.34.124
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 89db0319-9651-0006-b599-770e18cab892
-- client-fingerprint: chrome
+  uuid: ae0959f1-f25a-43d0-9c88-be1672641fc3
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇳🇴 Norway 1
   network: tcp
@@ -167,34 +153,6 @@ proxies:
   type: vless
   udp: true
   uuid: 89db0319-9651-000d-b599-770e18cab892
-- client-fingerprint: random
-  flow: ''
-  name: 🇵🇱 Poland 1
-  network: xhttp
-  port: 2052
-  reality-opts:
-    public-key: ryAJ1zqT4NsjbHBsoBwRxatrLQEy9VmercwCQgMd6DI
-    short-id: de1384028d477a2b
-  server: 144.31.5.9
-  servername: dzen.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64a50803-4f5e-4500-8d53-94a4d4f0f8ea
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 1
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 78.159.250.193
-  servername: player.mediavitrina.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89db0319-9651-0009-b599-770e18cab892
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇨🇭 Switzerland 1
@@ -209,7 +167,21 @@ proxies:
   type: vless
   udp: true
   uuid: 05a01432-0302-439f-a88d-8442cd27b7d5
-- client-fingerprint: firefox
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio
+    short-id: c6d0b2fa72eb6389
+  server: 84.201.155.125
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
   network: tcp
@@ -222,7 +194,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2beb1638-eac7-40c8-95fa-e4908c6c80ea
+  uuid: 3e60d9a8-bcc1-4d20-8017-ecec84eab9f5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 2
@@ -250,21 +222,21 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: cd61a9a0-f8b9-464f-b330-ab707daf2738
+  uuid: 7c4977b0-e0f5-49a1-9998-349c9cbfa48f
 - client-fingerprint: chrome
-  flow: ''
-  name: 🇫🇮 Finland 1
-  network: grpc
-  port: 8443
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 4
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM
-    short-id: 08
-  server: 81.94.148.75
-  servername: ads.x5.ru
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 62.109.21.190
+  servername: jobinvest.ru
   tls: true
   type: vless
   udp: true
-  uuid: eefc5e04-b5a3-4a9f-914d-3dd6b3f13b4d
+  uuid: cd61a9a0-f8b9-464f-b330-ab707daf2738
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
