@@ -1,8 +1,8 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇦🇱 Albania 1
-  network: raw
+  network: tcp
   port: 1829
   reality-opts:
     public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
@@ -13,7 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8fa126b3-56a1-4f24-9987-ef700dfcf5e2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇦🇱 Albania 2
   network: raw
@@ -31,16 +31,16 @@ proxies:
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
   network: raw
-  port: 443
+  port: 1695
   reality-opts:
-    public-key: bAbF5K_pk8MRvVIXJfH65xYiksNPNFYqLHLwaTEHojQ
-    short-id: ''
-  server: 5.188.80.211
-  servername: ads.x5.ru
+    public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
+    short-id: c3607d
+  server: 217.16.31.86
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: d3d932d2-ff06-4005-8ce7-b49b73f13967
+  uuid: 8fa126b3-56a1-4f24-9987-ef700dfcf5e2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 2
@@ -54,36 +54,8 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 8fa126b3-56a1-4f24-9987-ef700dfcf5e2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 3
-  network: raw
-  port: 1695
-  reality-opts:
-    public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
-    short-id: c3607d
-  server: 217.16.31.86
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
   uuid: db7cae85-3c1a-4e4f-b317-7cdeaf419c5a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: qizploKeIlu3K73dXjAtdc0TqZ70wnIPCP_BzqWbKmY
-    short-id: 17e9a4f3
-  server: 84.201.138.139
-  servername: sso.passport.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68880407-6f46-4431-89da-19b51705caf9
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 1
   network: grpc
@@ -100,28 +72,14 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
-  network: raw
-  port: 1829
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
-    short-id: c3607d
-  server: 84.201.134.98
+    public-key: djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo
+    short-id: ea1058117be12087
+  server: 46.149.68.228
   servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 8fa126b3-56a1-4f24-9987-ef700dfcf5e2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 2
-  network: raw
-  port: 1829
-  reality-opts:
-    public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
-    short-id: c3607d
-  server: 84.201.134.98
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: db7cae85-3c1a-4e4f-b317-7cdeaf419c5a
+  uuid: 3106ff13-51fb-489f-a082-5669ad7a6f13
