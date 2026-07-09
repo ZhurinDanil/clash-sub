@@ -12,6 +12,20 @@ proxies:
   tls: true
   type: vless
   udp: true
+  uuid: 8fa126b3-56a1-4f24-9987-ef700dfcf5e2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇱 Albania 2
+  network: raw
+  port: 1829
+  reality-opts:
+    public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
+    short-id: c3607d
+  server: 217.16.31.226
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
   uuid: db7cae85-3c1a-4e4f-b317-7cdeaf419c5a
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
@@ -21,7 +35,7 @@ proxies:
   reality-opts:
     public-key: bAbF5K_pk8MRvVIXJfH65xYiksNPNFYqLHLwaTEHojQ
     short-id: ''
-  server: 95.163.208.184
+  server: 5.188.80.211
   servername: ads.x5.ru
   tls: true
   type: vless
@@ -55,17 +69,59 @@ proxies:
   type: vless
   udp: true
   uuid: db7cae85-3c1a-4e4f-b317-7cdeaf419c5a
-- client-fingerprint: edge
-  flow: ''
-  name: 🇰🇿 Kazakhstan 1
-  network: xhttp
-  port: 544
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: raw
+  port: 443
   reality-opts:
-    public-key: xP3LIJ6-qQ51S89vFyW2PQeCjN921yVjN7pFDWKaswU
-    short-id: '1111'
-  server: 82.202.158.188
-  servername: www.amd.com
+    public-key: qizploKeIlu3K73dXjAtdc0TqZ70wnIPCP_BzqWbKmY
+    short-id: 17e9a4f3
+  server: 84.201.138.139
+  servername: sso.passport.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: e69b8598-2910-4e43-97b6-d4effda2e5dc
+  uuid: 68880407-6f46-4431-89da-19b51705caf9
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: grpc
+  port: 48212
+  reality-opts:
+    public-key: 8rZnE8gkbRv3ZVHUvkyrMZnmoIRhtncAgQpUAPAwIlo
+    short-id: 62b5466a2183d4da
+  server: 5.42.100.84
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f93a08b-5c23-502c-936d-a53072cf9882
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: raw
+  port: 1829
+  reality-opts:
+    public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
+    short-id: c3607d
+  server: 84.201.134.98
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fa126b3-56a1-4f24-9987-ef700dfcf5e2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 2
+  network: raw
+  port: 1829
+  reality-opts:
+    public-key: dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg
+    short-id: c3607d
+  server: 84.201.134.98
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: db7cae85-3c1a-4e4f-b317-7cdeaf419c5a
