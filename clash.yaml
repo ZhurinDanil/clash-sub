@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
   name: 🇩🇪 Germany 1
   network: xhttp
@@ -27,9 +27,23 @@ proxies:
   type: vless
   udp: true
   uuid: 46f0a0f2-0c8c-4003-98d1-487ddf906314
-- client-fingerprint: safari
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 2
+  network: tcp
+  port: 41111
+  reality-opts:
+    public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
+    short-id: 2356d1ae4b
+  server: 185.229.9.16
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7feb0edc-d7eb-42cf-b153-7cfa3d5ace6e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇱 Poland 3
   network: tcp
   port: 2099
   reality-opts:
@@ -41,20 +55,6 @@ proxies:
   type: vless
   udp: true
   uuid: ccc77dc6-68fc-40e3-8339-61f2fb0ce35d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: Jvo3mtGzgJPAntN3FgljPoUvZZgLzOh9wPlTrzI3AiY
-    short-id: ''
-  server: 138.16.169.188
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 United States 1
@@ -69,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
-- client-fingerprint: chrome
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 🇺🇸 United States 2
   network: raw
@@ -84,34 +84,6 @@ proxies:
   udp: true
   uuid: c7884880-5209-439d-b9c2-9d2f9fd34767
 - client-fingerprint: firefox
-  flow: ''
-  name: 🌐 Anycast-IP 1
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: GoARpHEm6UEmBN9i78FnpQw4qcQDgn6FoIIQZ1yBOxI
-    short-id: 01b3e33129
-  server: 212.22.82.138
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0069ea4-18b3-4af1-bc64-f525d0fac759
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 2
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: Uwj82vGl-jAhU3VflWnTy7rISYi03slggjS32Zx8pkk
-    short-id: 6ba85179e30d4fc2
-  server: 92.246.138.101
-  servername: www.heise.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-- client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 1
   network: tcp
@@ -128,140 +100,42 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 2
-  network: tcp
+  network: raw
   port: 5443
   reality-opts:
     public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
     short-id: ''
-  server: gdg.herumhas.shop
+  server: 185.86.145.231
   servername: max.ru
   tls: true
   type: vless
   udp: true
   uuid: 1e06c388-d31c-420e-916a-94a990648e34
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 3
   network: raw
-  port: 443
+  port: 5443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
     short-id: ''
-  server: 51.250.0.174
-  servername: 5post-gate.x5.ru
+  server: 5.188.140.160
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: 099b1932-b921-4e0d-8794-83b641088719
-- client-fingerprint: chrome
+  uuid: 1e06c388-d31c-420e-916a-94a990648e34
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 4
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 51.250.0.174
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 21453ee3-0bd0-48de-92a8-25e573e596af
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 5
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 51.250.0.174
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36506f7a-1185-4ffe-acb6-fd44f586156d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 6
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 51.250.0.174
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b3c4472-a53c-4e91-a13b-987dc1bdfd29
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 7
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 51.250.0.174
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c062ec8-93aa-4fce-bb08-822f7e847633
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 8
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 51.250.0.174
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bc793ef7-e854-476b-a849-3cc26d41e1c9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 9
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 51.250.0.174
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d71a2a0a-8699-469b-8c6a-651b399fbe0f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 10
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 51.250.0.174
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0bd68f6-d228-4826-b483-60f1fa221571
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 11
   network: tcp
-  port: 443
+  port: 5443
   reality-opts:
-    public-key: A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0
+    public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
     short-id: ''
-  server: 45.11.26.63
-  servername: cloud.mail.ru
+  server: omg.herumhas.shop
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: 967b2fad-bb2a-46d1-8efb-3bfda81f7f92
+  uuid: 1e06c388-d31c-420e-916a-94a990648e34
