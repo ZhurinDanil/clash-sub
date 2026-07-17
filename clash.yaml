@@ -1,20 +1,6 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
-    short-id: b7fc0f11dda97edb
-  server: corelink.su
-  servername: corelink.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
   name: 🇪🇪 Estonia 1
   network: tcp
   port: 443
@@ -27,7 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 83cd3888-2ebe-4cb0-a012-d3c572358ac9
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 1
   network: grpc
@@ -41,9 +27,23 @@ proxies:
   type: vless
   udp: true
   uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 171.22.134.213
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 3
   network: tcp
   port: 443
   reality-opts:
@@ -55,37 +55,65 @@ proxies:
   type: vless
   udp: true
   uuid: 83cd3888-2ebe-4cb0-a012-d3c572358ac9
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇳🇴 Norway 1
-  network: raw
-  port: 6443
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 4
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I
-    short-id: 45ba91f179ad1f26
-  server: 62.152.56.110
-  servername: api-maps.yandex.ru
+    public-key: cfP-aGpMV6o0n3Iwee_K8viWBvvr_qbOUTE-KkFnplg
+    short-id: f5591714fd
+  server: 147.45.163.134
+  servername: nixos.ubuntuhosting.host
   tls: true
   type: vless
   udp: true
-  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-- client-fingerprint: edge
+  uuid: 14de9ca9-c963-4b65-a054-acb98b4abd3f
+- client-fingerprint: firefox
   flow: ''
-  name: 🇸🇪 Sweden 1
-  network: raw
+  name: 🇩🇪 Germany 5
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 171.22.134.207
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 6
+  network: tcp
   port: 8443
   reality-opts:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
     short-id: 43dcff53849b81e6
-  server: 78.159.250.193
-  servername: player.mediavitrina.ru
+  server: 194.55.239.206
+  servername: rutube.ru
   tls: true
   type: vless
   udp: true
-  uuid: ecad47b0-249e-0009-adff-e3c8f02b1897
-- client-fingerprint: chrome
+  uuid: ecad47b0-249e-001a-adff-e3c8f02b1897
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 2
+  name: 🇰🇿 Kazakhstan 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l0R5_L16z0BMq5HhYvA538EJd3ztzHgIOtysCl6Q60U
+    short-id: e78c4073
+  server: 213.226.112.113
+  servername: rutube.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇸🇪 Sweden 1
   network: tcp
   port: 443
   reality-opts:
@@ -99,43 +127,29 @@ proxies:
   uuid: 83cd3888-2ebe-4cb0-a012-d3c572358ac9
 - client-fingerprint: firefox
   flow: ''
-  name: 🇸🇪 Sweden 3
-  network: raw
-  port: 8443
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 194.55.239.203
-  servername: rutube.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecad47b0-249e-0009-adff-e3c8f02b1897
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 1
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0
-    short-id: 6fa13cdb
-  server: 89.23.113.168
-  servername: www.aviasales.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: ''
+  server: 45.143.203.21
+  servername: j.6sc.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
   network: raw
   port: 443
   reality-opts:
-    public-key: I5edSdNs1Pr3a90VOI2Nal8-uQR34W_aftcpuXQYqiA
-    short-id: 4c20234126c0ec7b
-  server: 185.91.54.108
-  servername: cdn12.cloud-cdn.xyz
+    public-key: wR1YUNd4Vbpn7rDgjblAP6SLhqaYiL1XElrn0J0VDjE
+    short-id: '77'
+  server: 109.172.46.105
+  servername: run.homeston.space
   tls: true
   type: vless
   udp: true
-  uuid: e8e16c08-aa60-451d-81c3-35d832dd1006
+  uuid: 510a7c87-0aa0-4ead-9c9f-6e1700e12b09
