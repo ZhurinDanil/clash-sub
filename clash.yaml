@@ -1,21 +1,7 @@
 proxies:
-- client-fingerprint: edge
-  flow: ''
-  name: 🇩🇪 Germany 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SK0KGyJuRjuijxlXfFIQ16DBIVRIMwYWUvYyS_CrWhA
-    short-id: ec092e19
-  server: 45.12.114.157
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 1
   network: grpc
   port: 443
   reality-opts:
@@ -27,23 +13,9 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: firefox
+- client-fingerprint: edge
   flow: ''
-  name: 🇩🇪 Germany 4
-  network: grpc
-  port: 8444
-  reality-opts:
-    public-key: pf35NPPeasQGSt7VDSpI3_RKenLZ1UKI-FrEnKbfvH8
-    short-id: ''
-  server: 188.225.47.241
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b38fd24-4d47-4ee2-a077-7d125e723230
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 5
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 49007
   reality-opts:
@@ -54,8 +26,8 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 40c10aa1-f6b9-4552-85b4-811348efe56d
-- client-fingerprint: firefox
+  uuid: 508487fe-af4b-42d2-8982-f40831313649
+- client-fingerprint: ios
   flow: ''
   name: 🇰🇿 Kazakhstan 1
   network: xhttp
@@ -70,48 +42,6 @@ proxies:
   udp: true
   uuid: b440a476-e65e-4f67-9993-b8c6d1308fd7
 - client-fingerprint: chrome
-  flow: ''
-  name: 🇪🇸 Spain 1
-  network: grpc
-  port: 8446
-  reality-opts:
-    public-key: pf35NPPeasQGSt7VDSpI3_RKenLZ1UKI-FrEnKbfvH8
-    short-id: ''
-  server: ru-kas.white-aist.com
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b38fd24-4d47-4ee2-a077-7d125e723230
-- client-fingerprint: ios
-  flow: ''
-  name: 🇪🇸 Spain 2
-  network: grpc
-  port: 8446
-  reality-opts:
-    public-key: pf35NPPeasQGSt7VDSpI3_RKenLZ1UKI-FrEnKbfvH8
-    short-id: ''
-  server: 188.225.47.241
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b38fd24-4d47-4ee2-a077-7d125e723230
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
-    short-id: 6ba7b8109dad11d1
-  server: 78.159.250.151
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: db72616a-517a-4673-b424-8c63181a8a08
-- client-fingerprint: firefox
   flow: ''
   name: 🌐 Anycast-IP 1
   network: grpc
