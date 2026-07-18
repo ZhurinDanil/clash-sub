@@ -1,19 +1,5 @@
 proxies:
 - client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇪🇪 Estonia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zMyJW8uYeZwurz4xCcnnPjYlCVP0nI5BDHp_0ZrxPjk
-    short-id: ''
-  server: 185.229.9.229
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83cd3888-2ebe-4cb0-a012-d3c572358ac9
-- client-fingerprint: firefox
   flow: ''
   name: 🇩🇪 Germany 1
   network: grpc
@@ -40,24 +26,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 15a592f4-8d89-4743-a7ee-59d6b9c16a51
-- client-fingerprint: android
-  flow: ''
-  name: 🇩🇪 Germany 3
-  network: grpc
-  port: 49007
-  reality-opts:
-    public-key: t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0
-    short-id: dfdee30a27b11f0f
-  server: 185.229.9.31
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 804b5b28-0d42-436c-b5ac-fd905a1c2a5b
+  uuid: ae13f36f-c1ad-4f86-88ca-15768f2eb384
 - client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 4
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 443
   reality-opts:
@@ -69,17 +41,73 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: safari
+- client-fingerprint: chrome
   flow: ''
-  name: 🇷🇴 Romania 1
+  name: 🇩🇪 Germany 5
   network: grpc
-  port: 8447
+  port: 49007
+  reality-opts:
+    public-key: t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0
+    short-id: dfdee30a27b11f0f
+  server: 185.229.9.31
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 450d8809-303a-4b9c-9720-36475b301c42
+- client-fingerprint: ios
+  flow: ''
+  name: 🇰🇿 Kazakhstan 1
+  network: xhttp
+  port: 544
+  reality-opts:
+    public-key: xP3LIJ6-qQ51S89vFyW2PQeCjN921yVjN7pFDWKaswU
+    short-id: '1111'
+  server: 82.202.158.188
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b440a476-e65e-4f67-9993-b8c6d1308fd7
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇪🇸 Spain 1
+  network: grpc
+  port: 8446
   reality-opts:
     public-key: pf35NPPeasQGSt7VDSpI3_RKenLZ1UKI-FrEnKbfvH8
     short-id: ''
-  server: 188.225.47.241
+  server: ru-kas.white-aist.com
   servername: yahoo.com
   tls: true
   type: vless
   udp: true
   uuid: 5b38fd24-4d47-4ee2-a077-7d125e723230
+- client-fingerprint: edge
+  flow: ''
+  name: 🇸🇪 Sweden 1
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: pf35NPPeasQGSt7VDSpI3_RKenLZ1UKI-FrEnKbfvH8
+    short-id: ''
+  server: ru-kas.white-aist.com
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b38fd24-4d47-4ee2-a077-7d125e723230
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇺🇸 United States 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: R_vN1b5MQI4y0puLibed8_MUo6oD-yzMyoMuDcP_DS8
+    short-id: ''
+  server: 87.228.101.32
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b3ed78-61b5-42bb-9143-eeb70e64b5aa
