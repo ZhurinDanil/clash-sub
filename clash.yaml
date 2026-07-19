@@ -1,5 +1,33 @@
 proxies:
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: tcp
+  port: 1080
+  reality-opts:
+    public-key: Bp5PnujrPK50eE_28vIWSyBjdIPLXCLGYPjRKx0pqgI
+    short-id: 845ac2739143b71d
+  server: 5.23.55.128
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2f723f5-b97d-4414-997c-d2925013af28
 - client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 171.22.134.207
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: safari
   flow: ''
   name: 🇮🇹 Italy 1
   network: tcp
@@ -14,50 +42,22 @@ proxies:
   udp: true
   uuid: 3fffe7ed-7374-57ba-956f-6e930f10f04f
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇱🇻 Latvia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
-    short-id: 4e07408562be
-  server: 51.250.82.165
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇱🇻 Latvia 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
-    short-id: 4e07408562be
-  server: red-fhmq5ehr3ievlnabv8l2.concept7.ru
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
-- client-fingerprint: android
   flow: ''
-  name: 🌐 Anycast-IP 1
-  network: grpc
-  port: 443
+  name: 🇷🇺 Russia 1
+  network: xhttp
+  port: 8888
   reality-opts:
-    public-key: aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0
-    short-id: 6fa13cdb
-  server: 45.151.62.149
-  servername: www.aviasales.com
+    public-key: 3ZLGuXjCUZw5vg8z9uS-P5SstfioL62NH_fRUuB0fmM
+    short-id: 9f2a7c4e1b6d8a30
+  server: 5.23.55.128
+  servername: github.com
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: f2f723f5-b97d-4414-997c-d2925013af28
 - client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
+  name: 🇷🇺 Russia 2
   network: tcp
   port: 443
   reality-opts:
@@ -69,20 +69,6 @@ proxies:
   type: vless
   udp: true
   uuid: 13b55e8e-fbea-4ee1-b6b7-115fa3043182
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: 01e7
-  server: node2.frost-api.com
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 217145c8-86d1-47c2-800f-1a85dec46a3c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 3
@@ -96,4 +82,4 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 4578138c-91a3-4c9f-8a59-ebb5696ebd54
+  uuid: 3b6123c3-eb74-4164-8aba-1765f787f5af
