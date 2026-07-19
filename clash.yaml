@@ -1,21 +1,35 @@
 proxies:
-- client-fingerprint: safari
-  flow: ''
-  name: 🇫🇮 Finland 1
-  network: grpc
-  port: 18443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: olUTV28dWkomVkfH50avy8iELvc2gohx2fJF6bokqGI
-    short-id: ''
-  server: 5.188.114.73
-  servername: id.pervye.ru
+    public-key: M0OIVB0y6CXMfNZ16OfHfWrHktWU9yZ0rgQ3a9-_gUY
+    short-id: 4952fc975688bce3
+  server: 176.98.178.136
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 089845a1-3746-4efd-a48b-b2d176337a5f
+  uuid: a95b3155-bc03-4789-b367-944b83be8f86
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU
+    short-id: cc7dc5fb
+  server: 92.223.109.89
+  servername: mc.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c436d7dc-170d-40bf-b2b8-6cf468db5e65
 - client-fingerprint: ios
   flow: ''
-  name: 🇩🇪 Germany 1
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 443
   reality-opts:
@@ -27,20 +41,6 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇩🇪 Germany 3
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: 3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q
-    short-id: dab093f5
-  server: 194.55.239.250
-  servername: yastatic.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6192b7d1-fc9d-4be1-900e-dbd69de95ddf
 - client-fingerprint: safari
   flow: ''
   name: 🇮🇹 Italy 1
@@ -55,59 +55,59 @@ proxies:
   type: vless
   udp: true
   uuid: 3fffe7ed-7374-57ba-956f-6e930f10f04f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇱🇻 Latvia 1
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
+    short-id: 4e07408562be
+  server: 51.250.82.165
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
 - client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0
+    short-id: 6fa13cdb
+  server: 45.151.62.149
+  servername: www.aviasales.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
   network: tcp
-  port: 443
+  port: 1080
   reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: 17faf32cb516c9cb
-  server: 94.103.90.213
-  servername: cdnjs.com
+    public-key: Bp5PnujrPK50eE_28vIWSyBjdIPLXCLGYPjRKx0pqgI
+    short-id: 845ac2739143b71d
+  server: 5.23.55.128
+  servername: github.com
   tls: true
   type: vless
   udp: true
-  uuid: 13b55e8e-fbea-4ee1-b6b7-115fa3043182
+  uuid: f2f723f5-b97d-4414-997c-d2925013af28
 - client-fingerprint: firefox
   flow: ''
   name: 🇷🇺 Russia 2
-  network: raw
-  port: 443
+  network: xhttp
+  port: 8888
   reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: ''
-  server: 45.143.203.21
-  servername: j.6sc.co
+    public-key: 3ZLGuXjCUZw5vg8z9uS-P5SstfioL62NH_fRUuB0fmM
+    short-id: 9f2a7c4e1b6d8a30
+  server: 5.23.55.128
+  servername: github.com
   tls: true
   type: vless
   udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M0OIVB0y6CXMfNZ16OfHfWrHktWU9yZ0rgQ3a9-_gUY
-    short-id: 4952fc975688bce3
-  server: 176.98.178.136
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a95b3155-bc03-4789-b367-944b83be8f86
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 4
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
-    short-id: 6ba7b8109dad11d1
-  server: 78.159.250.151
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: db72616a-517a-4673-b424-8c63181a8a08
+  uuid: f2f723f5-b97d-4414-997c-d2925013af28
