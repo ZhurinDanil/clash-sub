@@ -1,33 +1,61 @@
 proxies:
-- client-fingerprint: android
-  flow: ''
-  name: 🇫🇮 Finland 1
-  network: grpc
-  port: 443
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇨🇿 Czechia 1
+  network: tcp
+  port: 8443
   reality-opts:
-    public-key: _QNDgsnfJt9qUimf4fJFmtpDGgLCbx2oV02WLfTojj4
-    short-id: ''
-  server: 5.188.114.73
-  servername: max.ru
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  server: 185.40.28.212
+  servername: auto.quattro-tech.ru
   tls: true
   type: vless
   udp: true
-  uuid: 21e28374-04f3-40f8-987c-e7ea497e7d45
-- client-fingerprint: firefox
+  uuid: ecad47b0-249e-0011-adff-e3c8f02b1897
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: tcp
+  name: 🇪🇪 Estonia 1
+  network: raw
   port: 443
   reality-opts:
     public-key: wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU
     short-id: cc7dc5fb
   server: 92.223.109.89
-  servername: mc.yandex.ru
+  servername: 5post-gate.x5.ru
   tls: true
   type: vless
   udp: true
   uuid: c436d7dc-170d-40bf-b2b8-6cf468db5e65
-- client-fingerprint: android
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 171.22.134.207
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 171.22.134.213
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
   flow: ''
   name: 🇰🇿 Kazakhstan 1
   network: xhttp
@@ -41,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: b440a476-e65e-4f67-9993-b8c6d1308fd7
-- client-fingerprint: android
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 1
   network: tcp
@@ -55,24 +83,52 @@ proxies:
   type: vless
   udp: true
   uuid: 61a41eba-ae07-4394-939b-335310955047
-- client-fingerprint: edge
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
-  network: raw
-  port: 443
+  name: 🇳🇱 The Netherlands 2
+  network: tcp
+  port: 8451
   reality-opts:
-    public-key: G7ahPRdtx_M8bxkIDU0hHtMbH6pn6dG91jweBVESSi0
-    short-id: ''
-  server: 109.120.191.147
-  servername: eh.vk.com
+    public-key: Vns5BjmvOHR67671SYcLbotRY-Z-rPSGtHfDPAlGqjs
+    short-id: 9c2378562188c3cb
+  server: 176.109.85.106
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: afc49295-8d08-4f5e-b342-eb6f28344b21
-- client-fingerprint: firefox
-  flow: ''
+  uuid: f14a4abb-ecb9-4be4-8a99-3d3895ab3464
+- client-fingerprint: android
+  flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: 01e7
+  server: 91.219.227.253
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 217145c8-86d1-47c2-800f-1a85dec46a3c
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
   network: tcp
+  port: 443
+  reality-opts:
+    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
+    short-id: 4e07408562be
+  server: 51.250.82.165
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇷🇺 Russia 3
+  network: raw
   port: 49958
   reality-opts:
     public-key: wwIAlV04ehfHxXiYZtCum2uKRU5mXK2uQ0bL_2_R8mE
@@ -83,17 +139,17 @@ proxies:
   type: vless
   udp: true
   uuid: 6855c0ad-e259-4180-a6b8-776efdfbbcea
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
+  name: 🇷🇺 Russia 4
   network: tcp
   port: 443
   reality-opts:
-    public-key: A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0
-    short-id: ''
-  server: 188.68.218.101
-  servername: cloud.mail.ru
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: 01e7
+  server: node2.frost-api.com
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: 5238521b-c5dd-42af-870e-c174a2aaaafe
+  uuid: 217145c8-86d1-47c2-800f-1a85dec46a3c
