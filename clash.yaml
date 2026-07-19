@@ -1,35 +1,63 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: raw
-  port: 443
+  name: 🇨🇿 Czechia 1
+  network: tcp
+  port: 8443
   reality-opts:
-    public-key: ra-OyOGZwj9ZApabpTq2sZWIzub52UfzLvnfw1utsQg
-    short-id: '23637807'
-  server: 72.56.4.94
-  servername: www.gosuslugi.ru
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  server: 185.40.28.212
+  servername: auto.quattro-tech.ru
   tls: true
   type: vless
   udp: true
-  uuid: 86e1cbab-329e-48ca-a213-71745655886f
-- client-fingerprint: firefox
+  uuid: ecad47b0-249e-0011-adff-e3c8f02b1897
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
+  name: 🇪🇪 Estonia 1
   network: tcp
   port: 443
   reality-opts:
     public-key: wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU
     short-id: cc7dc5fb
   server: 92.223.109.89
-  servername: mc.yandex.ru
+  servername: 5post-gate.x5.ru
   tls: true
   type: vless
   udp: true
   uuid: c436d7dc-170d-40bf-b2b8-6cf468db5e65
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
-  name: 🇩🇪 Germany 3
+  name: 🇫🇮 Finland 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: _QNDgsnfJt9qUimf4fJFmtpDGgLCbx2oV02WLfTojj4
+    short-id: ''
+  server: 5.188.114.73
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 21e28374-04f3-40f8-987c-e7ea497e7d45
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 7440
+  reality-opts:
+    public-key: QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8
+    short-id: ''
+  server: 217.16.21.108
+  servername: id.pervye.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9aff9c52-b2ee-44b9-a5f0-9f11a3aeca8e
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 443
   reality-opts:
@@ -41,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇱🇹 Lithuania 1
   network: tcp
@@ -55,31 +83,3 @@ proxies:
   type: vless
   udp: true
   uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇱🇹 Lithuania 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
-    short-id: 4e07408562be
-  server: red-fhmq5ehr3ievlnabv8l2.concept7.ru
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
-- client-fingerprint: android
-  flow: ''
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 49958
-  reality-opts:
-    public-key: wwIAlV04ehfHxXiYZtCum2uKRU5mXK2uQ0bL_2_R8mE
-    short-id: 83e911b88e14
-  server: 84.201.162.99
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6855c0ad-e259-4180-a6b8-776efdfbbcea
