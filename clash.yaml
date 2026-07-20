@@ -1,5 +1,19 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU
+    short-id: cc7dc5fb
+  server: 92.223.109.89
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c436d7dc-170d-40bf-b2b8-6cf468db5e65
+- client-fingerprint: chrome
   flow: ''
   name: 🇨🇿 Czechia 1
   network: grpc
@@ -13,34 +27,6 @@ proxies:
   type: vless
   udp: true
   uuid: ba0f90b6-3c3c-4701-b2b6-afe57da05527
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪 Estonia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dxsu1yp4dcpuhq32vLIX6fZ3A7uWs_5OzNIlUmLBSzQ
-    short-id: c7c005c49b11d17c
-  server: ru-xr-1.124515.xyz
-  servername: ru-xr-1.124515.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56b812e4-2d96-0001-b365-6c801663a37a
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇪🇪 Estonia 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU
-    short-id: cc7dc5fb
-  server: 92.223.109.89
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c436d7dc-170d-40bf-b2b8-6cf468db5e65
 - client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 1
@@ -55,37 +41,9 @@ proxies:
   type: vless
   udp: true
   uuid: 1386e60d-53c2-4938-9af4-bddc5f536e03
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇩🇪 Germany 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- client-fingerprint: ios
-  flow: ''
-  name: 🇩🇪 Germany 3
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw
-    short-id: 9329f8b5985b2a7d
-  server: 46.8.209.70
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f39df59-0ec9-4b92-b6f7-10f746942c70
 - client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 4
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 49010
   reality-opts:
@@ -99,7 +57,7 @@ proxies:
   uuid: 67a039f8-84d4-4756-b1bd-96104c6df588
 - client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 5
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 49010
   reality-opts:
@@ -111,6 +69,20 @@ proxies:
   type: vless
   udp: true
   uuid: 8d8a4030-8ce9-4369-b376-4cb21d81faca
+- client-fingerprint: ios
+  flow: ''
+  name: 🇩🇪 Germany 4
+  network: grpc
+  port: 7444
+  reality-opts:
+    public-key: QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8
+    short-id: ''
+  server: 217.16.21.108
+  servername: id.pervye.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9aff9c52-b2ee-44b9-a5f0-9f11a3aeca8e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇰🇿 Kazakhstan 1
@@ -125,7 +97,7 @@ proxies:
   type: vless
   udp: true
   uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
-- client-fingerprint: firefox
+- client-fingerprint: edge
   flow: ''
   name: 🇱🇹 Lithuania 1
   network: grpc
@@ -139,7 +111,7 @@ proxies:
   type: vless
   udp: true
   uuid: ba0f90b6-3c3c-4701-b2b6-afe57da05527
-- client-fingerprint: ios
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇱🇹 Lithuania 2
   network: raw
@@ -153,10 +125,10 @@ proxies:
   type: vless
   udp: true
   uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 1
-  network: raw
+  network: tcp
   port: 8443
   reality-opts:
     public-key: RsbJUEIIEQxwNqCsFqwfyf_cDcjjsi87L2dkRcpQ9wc
@@ -167,7 +139,7 @@ proxies:
   type: vless
   udp: true
   uuid: a77cedab-f429-40bb-b6d4-fd9dd681e675
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 2
   network: raw
@@ -181,7 +153,7 @@ proxies:
   type: vless
   udp: true
   uuid: a17945f1-e8d3-4b7a-89a2-b2d4fecfaa92
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇹🇷 Turkey 1
   network: tcp
@@ -195,7 +167,7 @@ proxies:
   type: vless
   udp: true
   uuid: d768d4ba-0b73-4509-87ea-afb074d2f766
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
   name: 🇬🇧 United Kingdom 1
   network: raw
@@ -237,37 +209,9 @@ proxies:
   type: vless
   udp: true
   uuid: 00a84cc6-073c-454b-9487-f0b7238e715f
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇷🇺 Russia 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: ''
-  server: 45.143.203.21
-  servername: j.6sc.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 3
-  network: tcp
-  port: 25565
-  reality-opts:
-    public-key: 4i3aVyDqVM-6wbiUQnfaXfBwQkNXxQp5YQZ4SRVbL2I
-    short-id: ''
-  server: 176.108.245.184
-  servername: gp.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfa96ee8-0d73-4f24-9b61-4833e8a04b9b
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 4
+  name: 🇷🇺 Russia 2
   network: tcp
   port: 443
   reality-opts:
@@ -281,7 +225,7 @@ proxies:
   uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 5
+  name: 🇷🇺 Russia 3
   network: tcp
   port: 443
   reality-opts:
@@ -293,24 +237,10 @@ proxies:
   type: vless
   udp: true
   uuid: d768d4ba-0b73-4509-87ea-afb074d2f766
-- client-fingerprint: firefox
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 6
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0
-    short-id: ''
-  server: 188.68.218.101
-  servername: cloud.mail.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5238521b-c5dd-42af-870e-c174a2aaaafe
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 7
-  network: raw
+  name: 🇷🇺 Russia 4
+  network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -321,9 +251,9 @@ proxies:
   type: vless
   udp: true
   uuid: d768d4ba-0b73-4509-87ea-afb074d2f766
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 8
+  name: 🇷🇺 Russia 5
   network: tcp
   port: 443
   reality-opts:
@@ -335,7 +265,7 @@ proxies:
   type: vless
   udp: true
   uuid: bdc00b0d-e5f5-4cde-8414-6eb7ab5af117
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: ''
   name: 🌐 Anycast-IP 1
   network: grpc
@@ -350,8 +280,50 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  flow: ''
   name: 🌐 Anycast-IP 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q
+    short-id: 99d4cbf3
+  server: 194.55.239.250
+  servername: yastatic.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5d86c05-fead-4819-b6a2-83b2857fd5de
+- client-fingerprint: ios
+  flow: ''
+  name: 🌐 Anycast-IP 3
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q
+    short-id: 55763d54
+  server: 194.55.239.250
+  servername: yastatic.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8947f307-311a-461e-ab1c-f02b599d6baa
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 4
+  network: tcp
+  port: 25565
+  reality-opts:
+    public-key: 4i3aVyDqVM-6wbiUQnfaXfBwQkNXxQp5YQZ4SRVbL2I
+    short-id: ''
+  server: 176.108.245.184
+  servername: gp.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfa96ee8-0d73-4f24-9b61-4833e8a04b9b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 5
   network: raw
   port: 443
   reality-opts:
