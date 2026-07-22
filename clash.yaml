@@ -2,6 +2,62 @@ proxies:
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 87.242.85.102
+  servername: abuse.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 95.163.211.150
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d768d4ba-0b73-4509-87ea-afb074d2f766
+- client-fingerprint: edge
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 176.32.39.122
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI
+    short-id: 226509f017e4c36d
+  server: 79.174.94.248
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91f49f72-ba4a-4919-a2b7-b2fe442912f3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
   network: raw
   port: 443
   reality-opts:
@@ -13,59 +69,3 @@ proxies:
   type: vless
   udp: true
   uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 87.242.85.102
-  servername: abuse.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: edge
-  flow: ''
-  name: 🇨🇿 Czechia 1
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: O5qh4eXXs--Db5q9hgPdzYjpYr2XaSgqLLxlk_Pr5i8
-    short-id: bc5d7b5b34fc580b
-  server: k35757.w-mebel.pro
-  servername: k35757.w-mebel.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇺🇸 United States 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 147.45.47.17
-  servername: ai.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 25565
-  reality-opts:
-    public-key: 4i3aVyDqVM-6wbiUQnfaXfBwQkNXxQp5YQZ4SRVbL2I
-    short-id: ''
-  server: 176.108.245.184
-  servername: gp.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfa96ee8-0d73-4f24-9b61-4833e8a04b9b
