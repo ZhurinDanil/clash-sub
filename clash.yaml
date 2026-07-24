@@ -1,21 +1,35 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇨🇦 Canada 1
-  network: tcp
+  name: 🇩🇪 Germany 1
+  network: raw
   port: 443
   reality-opts:
-    public-key: inkvLvTWXaBAAubrTpivxrJAWPYldv2rBG25zzCd6k0
+    public-key: lW3HxVSEVzJI_jdr6F8Qgs-jpEKfwhZTDdL0oojtaF8
     short-id: ''
-  server: sfo.kooleknetwork.online
-  servername: dowload.max.ru
+  server: 31.177.111.213
+  servername: technologyllc.ru
   tls: true
   type: vless
   udp: true
-  uuid: ad790e5f-3e31-43c6-b047-336577a3b3de
-- client-fingerprint: android
+  uuid: 21e28374-04f3-40f8-987c-e7ea497e7d45
+- client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 1
+  name: 🇩🇪 Germany 2
+  network: grpc
+  port: 6443
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: 5c766813929a1fdd
+  server: 185.91.52.199
+  servername: play.overcloud.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: e39daf1c-f5d0-42fb-99d2-daf17f728e50
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 443
   reality-opts:
@@ -28,6 +42,20 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 4
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0
+    short-id: dfdee30a27b11f0f
+  server: 90.156.218.37
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a7ac319-d1fd-41c3-99a4-b2f7094f4181
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇱🇹 Lithuania 1
   network: raw
@@ -36,6 +64,20 @@ proxies:
     public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
     short-id: 4e07408562be
   server: 51.250.82.165
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇱🇹 Lithuania 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
+    short-id: 4e07408562be
+  server: red-fhmq5ehr3ievlnabv8l2.concept7.ru
   servername: api-maps.yandex.ru
   tls: true
   type: vless
