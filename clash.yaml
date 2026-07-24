@@ -1,71 +1,43 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇨🇦 Canada 1
+  name: 🇳🇴 Norway 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: inkvLvTWXaBAAubrTpivxrJAWPYldv2rBG25zzCd6k0
+    public-key: uv34kj8icuHbJem3muVK7aE7MQ__AV75_caC99ZinB4
     short-id: ''
-  server: sfo.kooleknetwork.online
-  servername: dowload.max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad790e5f-3e31-43c6-b047-336577a3b3de
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: raw
-  port: 8443
-  reality-opts:
-    public-key: 5FNsxaeEHfvOVVkCxvbwd2pWSLMLeG1So5vzLcygUzk
-    short-id: 9db07670a7b491cb
-  server: 185.91.54.46
-  servername: static.2gis.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇺🇸 United States 1
-  network: tcp
-  port: 48771
-  reality-opts:
-    public-key: 43wggWAvgZfAv46UuFcwnisOBy6o5zGvgHvWrMLRyAQ
-    short-id: ''
-  server: 212.113.123.31
-  servername: duckduckgo.com
+  server: 178.253.42.156
+  servername: www.ru.pinterest.com
   tls: true
   type: vless
   udp: true
   uuid: cbb0f5a2-cef6-40a1-be04-c6dcd8263dfb
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0
+    short-id: 6fa13cdb
+  server: 45.151.62.156
+  servername: dogs.abvphelp.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
-  network: tcp
-  port: 8443
+  name: 🇷🇺 Russia 1
+  network: raw
+  port: 443
   reality-opts:
-    public-key: XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo
-    short-id: 7bcfc0bc
-  server: 45.150.39.33
-  servername: storage.yandex.net
+    public-key: A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0
+    short-id: ''
+  server: 188.68.218.101
+  servername: cloud.mail.ru
   tls: true
   type: vless
   udp: true
-  uuid: 5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 2
-  network: tcp
-  port: 8445
-  reality-opts:
-    public-key: XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo
-    short-id: 7bcfc0bc
-  server: 45.150.39.33
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4
+  uuid: 5238521b-c5dd-42af-870e-c174a2aaaafe
