@@ -13,7 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: ''
   name: 🇨🇿 Czechia 1
   network: grpc
@@ -27,48 +27,6 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇪🇪 Estonia 1
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw
-    short-id: ''
-  server: 81.163.23.185
-  servername: id.pervye.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16785a51-045d-4939-8969-4869f469ff92
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇪🇪 Estonia 2
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw
-    short-id: ''
-  server: 81.163.23.185
-  servername: id.pervye.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2074fa1-90b7-4add-a840-194a671385ea
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇪🇪 Estonia 3
-  network: tcp
-  port: 29447
-  reality-opts:
-    public-key: b7L2qrpKuFSOVFNY9A-Phylorw1DuteAetgS5ipERyA
-    short-id: 2749d73d715730e1
-  server: 158.160.223.233
-  servername: www.twitch.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d7d959f-5498-457e-aee7-fd16b1f3e77d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇫🇮 Finland 1
@@ -83,51 +41,9 @@ proxies:
   type: vless
   udp: true
   uuid: 71cada65-d23e-418c-88e4-a06188d14689
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇫🇮 Finland 2
-  network: grpc
-  port: 9893
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  server: 80.78.247.239
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇫🇷 France 1
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 45.130.43.15
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 1
-  network: grpc
-  port: 6443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 45.130.43.15
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 1
   network: raw
   port: 8443
   reality-opts:
@@ -141,7 +57,7 @@ proxies:
   uuid: 71cada65-d23e-418c-88e4-a06188d14689
 - client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 3
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 8443
   reality-opts:
@@ -153,23 +69,9 @@ proxies:
   type: vless
   udp: true
   uuid: c2074fa1-90b7-4add-a840-194a671385ea
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 4
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
-    short-id: 89136b6e
-  server: 157.22.241.152
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇩🇪 Germany 5
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 443
   reality-opts:
@@ -195,7 +97,7 @@ proxies:
   type: vless
   udp: true
   uuid: 71cada65-d23e-418c-88e4-a06188d14689
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🇮🇹 Italy 2
   network: grpc
@@ -209,7 +111,7 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: edge
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇮🇹 Italy 3
   network: raw
@@ -223,9 +125,23 @@ proxies:
   type: vless
   udp: true
   uuid: cc822ee3-51ca-000c-846d-25ed535491e9
-- client-fingerprint: edge
+- client-fingerprint: ios
   flow: ''
   name: 🇵🇱 Poland 1
+  network: grpc
+  port: 4444
+  reality-opts:
+    public-key: QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8
+    short-id: ''
+  server: 188.68.218.197
+  servername: id.pervye.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f84401df-5064-485f-a5c5-d17fe7032ef6
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇵🇱 Poland 2
   network: grpc
   port: 9892
   reality-opts:
@@ -237,9 +153,9 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: firefox
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 2
+  name: 🇵🇱 Poland 3
   network: raw
   port: 2089
   reality-opts:
@@ -251,9 +167,9 @@ proxies:
   type: vless
   udp: true
   uuid: 7f967c17-c037-4a61-b73d-404468e5add8
-- client-fingerprint: chrome
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 3
+  name: 🇵🇱 Poland 4
   network: tcp
   port: 2089
   reality-opts:
@@ -267,36 +183,8 @@ proxies:
   uuid: 7f967c17-c037-4a61-b73d-404468e5add8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 4
-  network: tcp
-  port: 29446
-  reality-opts:
-    public-key: 3cCVMGigEU7wpQm3SkT7EeBuR7QT9_xgAyiC5trENFY
-    short-id: 1297b6f0f6dc88d0
-  server: 158.160.223.233
-  servername: www.twitch.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d7d959f-5498-457e-aee7-fd16b1f3e77d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw
-    short-id: 7a5b89ecdb01f781
-  server: node-tw0.omhvp.co
-  servername: cs10210.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8f84171-5f96-4547-b621-59758fe668c8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 🇸🇬 Singapore 1
-  network: raw
+  network: tcp
   port: 443
   reality-opts:
     public-key: jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw
@@ -307,7 +195,7 @@ proxies:
   type: vless
   udp: true
   uuid: a8f84171-5f96-4547-b621-59758fe668c8
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: ''
   name: 🇸🇪 Sweden 1
   network: grpc
@@ -321,49 +209,35 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇳🇱 The Netherlands 1
-  network: grpc
-  port: 9894
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇨🇭 Switzerland 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  server: 94.159.117.66
-  servername: dl.google.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 46.16.36.29
+  servername: abuse.sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: firefox
+  uuid: 440c0fed-6aa7-4c5b-8e54-5a198712c4e4
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 2
-  network: raw
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
   port: 2095
   reality-opts:
     public-key: I1v1juarLekOXUXIO1eh3-gUntqQQgnKYAbax8OKVU0
     short-id: 8f2a1c4b9d7e6053
-  server: 89.208.230.67
+  server: rude.go-bull.pro
   servername: proshkola.ru
   tls: true
   type: vless
   udp: true
   uuid: 7f967c17-c037-4a61-b73d-404468e5add8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 3
-  network: raw
-  port: 29444
-  reality-opts:
-    public-key: b7L2qrpKuFSOVFNY9A-Phylorw1DuteAetgS5ipERyA
-    short-id: 2749d73d715730e1
-  server: 158.160.223.233
-  servername: www.twitch.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d7d959f-5498-457e-aee7-fd16b1f3e77d
-- client-fingerprint: firefox
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇦🇪 United Arab Emirates 1
   network: raw
@@ -405,101 +279,101 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇺🇸 United States 2
+  name: 🌐 Anycast-IP 1
   network: tcp
-  port: 29445
-  reality-opts:
-    public-key: 3cCVMGigEU7wpQm3SkT7EeBuR7QT9_xgAyiC5trENFY
-    short-id: 1297b6f0f6dc88d0
-  server: 158.160.223.233
-  servername: www.twitch.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d7d959f-5498-457e-aee7-fd16b1f3e77d
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇷🇺 Russia 1
-  network: grpc
   port: 443
   reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 9e2a6f4c3b7d1e8a
-  server: ru.moktana.app
-  servername: ru.moktana.app
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 87.242.117.96
+  servername: abuse.sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-- client-fingerprint: firefox
+  uuid: 85329505-90c2-43d1-9c4a-689b1a0be884
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fXo3tH4oKvALIlQaEip4vKQ9wnOgGEgQ1RVS842IwGk
+    short-id: 9c2378562188c3cb
+  server: daas.astrokolchick.com
+  servername: daas.astrokolchick.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0fd412c1-6904-4ccc-bb6e-9653975c73f3
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 2
   network: raw
   port: 443
   reality-opts:
-    public-key: Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc
-    short-id: 9b0c1d2e
-  server: 62.233.43.34
-  servername: www.amd.com
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 213.219.212.14
+  servername: pro-ru-213.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: bd99da97-265e-425b-82cc-4ec009fe9ce2
-- client-fingerprint: edge
+  uuid: 2e72e2ca-2113-4775-9259-1ab5f9724d2e
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 3
-  network: tcp
+  network: raw
   port: 443
   reality-opts:
-    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
     short-id: ''
-  server: 45.143.201.8
-  servername: hasty-dolphin.cdn.cachefleet.com
+  server: 213.219.212.14
+  servername: pro-ru-213.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇷🇺 Russia 4
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: I2aM-iYWKsWCPtzA_zRbq4AYiaZFDrDNo--xFI51Nlw
-    short-id: 7a842f6632c23114
-  server: 213.171.31.29
-  servername: ru2.fastfive.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed425746-3d10-4b45-a71d-11ff5c3a772f
+  uuid: 3bb5ed47-99f9-4a13-be10-ac18ab6837bf
 - client-fingerprint: firefox
-  flow: ''
-  name: 🌐 Anycast-IP 1
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: 5b9dc5fe4ad87cc2
-  server: 89.208.231.82
-  servername: hh.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42d3cfb6-8a1d-11f1-9ca5-1e6febe3e1df
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 2
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 4
+  network: raw
   port: 443
   reality-opts:
-    public-key: _yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk
-    short-id: c8540a3e9e1d8136
-  server: 72.56.236.35
-  servername: usr.moktana.app
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 213.219.212.14
+  servername: pro-ru-213.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
+  uuid: 72b9b9bd-8cb9-49ed-bfd4-20fab16829ba
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 5
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 213.219.212.14
+  servername: pro-ru-213.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c271c9f-b895-47e3-8874-cd31f9396ced
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 6
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 213.219.212.14
+  servername: pro-ru-213.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3160bea-8479-4eb0-bcb5-a79453a4d0f7
