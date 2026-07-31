@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: f0131a4772b494d4
+  server: 85.209.135.38
+  servername: family.adguard-dns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - client-fingerprint: edge
   flow: ''
   name: 🇪🇪 Estonia 1
@@ -13,7 +27,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇪🇪 Estonia 2
   network: raw
@@ -27,79 +41,37 @@ proxies:
   type: vless
   udp: true
   uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
   network: tcp
-  port: 2095
-  reality-opts:
-    public-key: uHadMcQd2e7IsSmDHUZ_D14ArhoHHI0-k-yUlsJcy1o
-    short-id: 70411cb48ef87796
-  server: 176.109.94.40
-  servername: converter.sowt.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 866cb854-9047-4317-baae-e118ce53894e
-- client-fingerprint: android
-  flow: ''
-  name: 🇩🇪 Germany 2
-  network: grpc
-  port: 48443
-  reality-opts:
-    public-key: zRVSRinqebogFvlL5GWcaYfLlKGueXknigEI-f-tKAI
-    short-id: d82c4b67f9a13e5c
-  server: 85.209.135.38
-  servername: tradingview.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 3
-  network: grpc
   port: 443
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 46.8.220.182
-  servername: media2.tcpdoor.net
+    public-key: w5zu8kLKRRX_UQTto3FX1knEjGZJbyY2NzcgiOfzIws
+    short-id: def012
+  server: 176.109.92.154
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
+  uuid: 494072d7-d204-0001-8710-21154478b0c0
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: mCtDwMr9u9MdztUGzCGADj-nfHv6CQpAf_ywbyKl8ww
+    short-id: dbd745
+  server: ru.pool-b.netcenter-cdn.com
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee2f3100-512d-4ef1-9c8b-5725244aa740
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 🇮🇹 Italy 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw
-    short-id: 7a5b89ecdb01f781
-  server: 135.106.129.120
-  servername: www.eni.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8f84171-5f96-4547-b621-59758fe668c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇮🇹 Italy 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw
-    short-id: 7a5b89ecdb01f781
-  server: 178.72.132.36
-  servername: www.eni.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8f84171-5f96-4547-b621-59758fe668c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇮🇹 Italy 3
   network: raw
   port: 443
   reality-opts:
@@ -113,7 +85,7 @@ proxies:
   uuid: a8f84171-5f96-4547-b621-59758fe668c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇮🇹 Italy 4
+  name: 🇮🇹 Italy 2
   network: raw
   port: 443
   reality-opts:
@@ -127,19 +99,75 @@ proxies:
   uuid: a8f84171-5f96-4547-b621-59758fe668c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 🇮🇹 Italy 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw
+    short-id: 7a5b89ecdb01f781
+  server: node-tw0.omhvp.co
+  servername: www.eni.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8f84171-5f96-4547-b621-59758fe668c8
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇱🇻 Latvia 1
+  network: grpc
+  port: 2223
+  reality-opts:
+    public-key: MS4q2e2pA3SLn3juEo76-KTzCiRngr49mjf685MSXhg
+    short-id: 7aaf7ba9
+  server: 176.109.82.24
+  servername: mail.epass.mts.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c109d0d0-ebcb-48df-ba2b-7f9a2b53f9dd
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇨🇭 Switzerland 1
+  network: tcp
+  port: 44002
+  reality-opts:
+    public-key: sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ
+    short-id: e1233ae7e56111a7
+  server: ru.pool-b.netcenter-cdn.com
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cab0dd62-10ac-4b3d-86a1-873166e3dfd6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 1
   network: raw
   port: 443
   reality-opts:
     public-key: 5daY68T2-jYVVQ__Raq1a4ggV2d1kAdrR53YkRutZF0
     short-id: ''
-  server: ru79.overseashost.ru
+  server: 5.188.119.244
   servername: ru39.overseashost.ru
   tls: true
   type: vless
   udp: true
   uuid: d54df3dd-4fdd-0006-89ce-3c9bfe761ee5
-- client-fingerprint: android
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇳🇱 The Netherlands 2
+  network: xhttp
+  port: 18443
+  reality-opts:
+    public-key: TwMkcv1njZw5vFE-g5AUdpa_Y2vb_9393Nobv0Uqdi4
+    short-id: 6ba85179e30d4fc2
+  server: 31.177.111.70
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57284239-1ceb-439f-826e-cd25fcc1c1c5
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 United States 1
   network: tcp
@@ -153,17 +181,45 @@ proxies:
   type: vless
   udp: true
   uuid: 6ab8d525-f3db-0014-9f09-3683f719f756
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
+  name: 🌐 Anycast-IP 1
   network: tcp
-  port: 443
+  port: 44001
   reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: f0131a4772b494d4
-  server: 85.209.135.38
-  servername: family.adguard-dns.com
+    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
+    short-id: 32e0
+  server: ru.pool-b.netcenter-cdn.com
+  servername: pool-b.pools.netcenter-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+  uuid: ef2aba40-bb54-468e-b782-3a991f9e83f0
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: H-e-yE-hA1-95RFi79ybIp-Zuovemea03YQHk5o7fRI
+    short-id: 23a2dca5aa18c5a0
+  server: 77.91.92.203
+  servername: ru.tradingview.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
+    short-id: 7f2e9c4b1a8d6a53
+  server: 37.139.43.57
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb6b3497-2026-4a86-b9a5-3e5f18e77a37
