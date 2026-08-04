@@ -1,19 +1,47 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: raw
+  name: 🇧🇪 Belgium 1
+  network: tcp
   port: 443
   reality-opts:
-    public-key: lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg
-    short-id: cf43c0c197cd464a
-  server: 62.152.56.73
-  servername: wl-12.nodes.ac
+    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
+    short-id: 154ebd513e2751
+  server: master-node.dylariz.ru
+  servername: master-node.dylariz.ru
   tls: true
   type: vless
   udp: true
-  uuid: cdfa626f-ce5f-462e-8f09-52f0dca980c0
+  uuid: 36347721-d014-4e22-8acd-c3b798f417a8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇧🇪 Belgium 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
+    short-id: 154ebd513e2751
+  server: master-node.dylariz.ru
+  servername: master-node.dylariz.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36347721-d014-7532-8acd-c3b798f417a8
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇧🇪 Belgium 3
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
+    short-id: f9db06260afa
+  server: reserve-node.dylariz.ru
+  servername: reserve-node.dylariz.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36347721-d014-7532-8acd-c3b798f417a8
+- client-fingerprint: firefox
   flow: ''
   name: 🇪🇪 Estonia 1
   network: xhttp
@@ -27,9 +55,23 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
+    short-id: f9db06260afa
+  server: reserve-node.dylariz.ru
+  servername: reserve-node.dylariz.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36347721-d014-7533-8acd-c3b798f417a8
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
   network: raw
   port: 443
   reality-opts:
@@ -43,7 +85,7 @@ proxies:
   uuid: cdfa626f-ce5f-462e-8f09-52f0dca980c0
 - client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 3
   network: raw
   port: 443
   reality-opts:
@@ -56,19 +98,33 @@ proxies:
   udp: true
   uuid: cdfa626f-ce5f-462e-8f09-52f0dca980c0
 - client-fingerprint: android
-  flow: ''
-  name: 🌐 Anycast-IP 1
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🇳🇴 Norway 1
+  network: tcp
   port: 443
   reality-opts:
-    public-key: aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0
-    short-id: 6fa13cdb
-  server: 45.151.62.156
-  servername: dogs.abvphelp.cc
+    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
+    short-id: 154ebd513e2751
+  server: master-node.dylariz.ru
+  servername: master-node.dylariz.ru
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: 36347721-d014-4e21-8acd-c3b798f417a8
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇳🇴 Norway 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
+    short-id: 154ebd513e2751
+  server: master-node.dylariz.ru
+  servername: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36347721-d014-7531-8acd-c3b798f417a8
 - client-fingerprint: firefox
   flow: ''
   name: 🇷🇺 Russia 1
@@ -87,16 +143,16 @@ proxies:
   flow: ''
   name: 🇷🇺 Russia 2
   network: grpc
-  port: 16923
+  port: 443
   reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  server: 45.92.179.5
-  servername: delivery.yandex.ru
+    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
+    short-id: 93762a4ddf178703
+  server: api.univesalsrv.com
+  servername: api.univesalsrv.com
   tls: true
   type: vless
   udp: true
-  uuid: 7ff928be-8ffa-4db1-addb-6947ff4dfba7
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
 - client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 3
@@ -111,7 +167,7 @@ proxies:
   type: vless
   udp: true
   uuid: f078c1ff-ca5f-4e51-89a4-49f7c0d32758
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: ''
   name: 🇷🇺 Russia 4
   network: grpc
@@ -119,9 +175,37 @@ proxies:
   reality-opts:
     public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
     short-id: 10ffb85da1c2d986
-  server: 45.92.179.4
-  servername: market.yandex.ru
+  server: 45.94.121.3
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: a6d52d0d-7ce6-4601-8de3-bfcf07646f58
+  uuid: f078c1ff-ca5f-4e51-89a4-49f7c0d32758
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 5
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
+    short-id: 1b8e04c90af97d47
+  server: 158.160.9.223
+  servername: rbc.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
+    short-id: 154ebd513e2751
+  server: master-node.dylariz.ru
+  servername: master-node.dylariz.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36347721-d014-4e70-8acd-c3b798f417a8
