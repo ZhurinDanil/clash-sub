@@ -1,29 +1,99 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
+  network: raw
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 46.243.232.12
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: edge
+  flow: ''
+  name: 🇩🇪 Germany 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 46.8.220.182
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: edge
+  flow: ''
+  name: 🇳🇱 The Netherlands 1
+  network: xhttp
+  port: 9895
+  reality-opts:
+    public-key: tGdHNSrQKQ8Z2J0orn8z_4BtKU8sLvl3bZ_CdCRhi10
+    short-id: ''
+  server: 176.123.165.103
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84cd6acd-48e7-4fcc-8aaf-9c780be8b42c
 - client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: 75W-x6PKwwG6fJJbrIkGcsBgMKP7pQnw2HlM8oevDjM
+    short-id: 609721e3a1a47bb1
+  server: nl.gruztrack.online
+  servername: nl.gruztrack.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: e85915ce-90e2-11f1-83fa-daec65f704fd
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DCnvRXkB1qwzIypOgce-l4qtgcx9HgYP84QmFjPjBQ4
+    short-id: 8cc57f803665
+  server: 37.9.4.137
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25284d30-b4e6-4f86-b214-a78d4365ed05
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: yFdgeRvZ7pYNp7C5v3sOq1x3gwHxWYem62W2tB9RJ0k
-    short-id: ''
-  server: 104.171.133.18
-  servername: max.ru
+    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
+    short-id: a1b2c4d4a1b2c5d5
+  server: 85.209.135.10
+  servername: www.sciencedirect.com
   tls: true
   type: vless
   udp: true
-  uuid: bff1f3ee-aff7-480a-a968-d3511d9a33cb
+  uuid: 25284d30-b4e6-4f86-b214-a78d4365ed05
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 2
-  network: raw
-  port: 443
+  network: tcp
+  port: 8443
   reality-opts:
-    public-key: Z2c9dK70_0OWBEZGgeaXJyt9dup9h2-hZlCCvIGLg1Q
-    short-id: 496ee75c2f91f51d
-  server: 138.124.254.9
-  servername: cr-r1.astralweb.tech
+    public-key: CO1cX5I7eLh6PuGuQ--wx-SRgc5pEiBgBbZLiZXKyXk
+    short-id: ''
+  server: ru.vpnifty.ru
+  servername: www.icloud.com
   tls: true
   type: vless
   udp: true
-  uuid: cd1673b3-7cec-4fe6-bedf-b534eb54e647
+  uuid: 9c639277-373a-4e66-8987-982b172972ae
