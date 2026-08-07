@@ -13,20 +13,20 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: safari
-  flow: ''
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
-  network: grpc
-  port: 443
+  network: raw
+  port: 2027
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 46.8.220.182
-  servername: media2.tcpdoor.net
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 46.243.232.12
+  servername: storage.yandex.net
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 2
@@ -41,35 +41,7 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 3
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
-  server: 46.243.232.12
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- client-fingerprint: edge
-  flow: ''
-  name: 🇵🇱 Poland 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: krwQUB0aR-ezyW9uzdKNfPl8XmWP6_dHPTszEw9P8ho
-    short-id: bfe9acf4
-  server: 138.16.128.137
-  servername: www.wikipedia.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🇸🇪 Sweden 1
   network: grpc
@@ -82,21 +54,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 49d0ab3d-5324-4529-9328-ba8d31f9a055
-- client-fingerprint: android
-  flow: ''
-  name: 🇸🇪 Sweden 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: JRW7xkSPxy3_LCeJy-3ejFjVuwYEe_UBonumbNPmD0M
-    short-id: ''
-  server: 87.228.101.252
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49d0ab3d-5324-4529-9328-ba8d31f9a055
+  uuid: e2d2aa01-c429-4c56-a295-f69203d87e67
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 1
@@ -125,135 +83,23 @@ proxies:
   type: vless
   udp: true
   uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: firefox
+- client-fingerprint: android
   flow: ''
   name: 🌐 Anycast-IP 2
-  network: xhttp
-  port: 6443
+  network: grpc
+  port: 8443
   reality-opts:
     public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
     short-id: 844352756c1fabba
   server: 193.233.246.79
-  servername: avatars.mds.yandex.net
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
   uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: ''
   name: 🌐 Anycast-IP 3
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 193.233.246.79
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: android
-  flow: ''
-  name: 🌐 Anycast-IP 4
-  network: xhttp
-  port: 6443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 193.233.246.82
-  servername: avatars.mds.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 5
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 193.233.246.82
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: android
-  flow: ''
-  name: 🌐 Anycast-IP 6
-  network: xhttp
-  port: 6443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 193.233.246.85
-  servername: avatars.mds.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: ios
-  flow: ''
-  name: 🌐 Anycast-IP 7
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 193.233.246.85
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: safari
-  flow: ''
-  name: 🌐 Anycast-IP 8
-  network: xhttp
-  port: 6443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 193.233.246.88
-  servername: avatars.mds.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: edge
-  flow: ''
-  name: 🌐 Anycast-IP 9
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 193.233.246.89
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
-    short-id: a1b2c4d4a1b2c5d5
-  server: 85.209.135.10
-  servername: www.sciencedirect.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9500cf8b-020a-4a70-906c-e14bb5375875
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 10
   network: grpc
   port: 8443
   reality-opts:
@@ -265,15 +111,57 @@ proxies:
   type: vless
   udp: true
   uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: ''
-  name: 🌐 Anycast-IP 11
+  name: 🌐 Anycast-IP 4
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: 844352756c1fabba
+  server: 193.233.246.82
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
+- client-fingerprint: firefox
+  flow: ''
+  name: 🌐 Anycast-IP 5
+  network: xhttp
+  port: 6443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: 844352756c1fabba
+  server: 193.233.246.88
+  servername: avatars.mds.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 6
   network: grpc
   port: 8443
   reality-opts:
     public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
     short-id: 844352756c1fabba
   server: 193.233.246.88
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 7
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: 844352756c1fabba
+  server: 193.233.246.89
   servername: ads.x5.ru
   tls: true
   type: vless
