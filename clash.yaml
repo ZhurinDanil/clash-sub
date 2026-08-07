@@ -1,28 +1,28 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: lJhgPoDssG7uE2eKijjz3I4Hsb7CZpNXmVoQOBNJaFY
-    short-id: 9bc87ac6e147
-  server: 94.198.218.42
-  servername: api-maps.yandex.ru
+    public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
+    short-id: 9698d67e63bc8ee0
+  server: 157.22.193.73
+  servername: larkix.pulsio.cfd
   tls: true
   type: vless
   udp: true
-  uuid: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+  uuid: 1bced29a-3051-42b8-b393-005135b97616
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
-  network: raw
+  network: tcp
   port: 443
   reality-opts:
     public-key: xSvlclDt9Oz7WKqoCCyuT3mEGnLwyp5ciOUClsZADH8
     short-id: d4331052
   server: 37.77.106.249
-  servername: vk.com
+  servername: mail.ru
   tls: true
   type: vless
   udp: true
@@ -41,6 +41,34 @@ proxies:
   type: vless
   udp: true
   uuid: 6d94a071-8084-413f-8317-bc9c7dbcbaf5
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇪🇪 Estonia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lJhgPoDssG7uE2eKijjz3I4Hsb7CZpNXmVoQOBNJaFY
+    short-id: 9bc87ac6e147
+  server: 94.198.218.42
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e806fecb-af6c-4256-94ec-078c5ff3a700
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷 France 1
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: EC_gDR0zwFKeVnGhy2RD1GePSUYyDhRjxCM2wCGktTk
+    short-id: ad7dab462a323acb
+  server: 176.109.85.84
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99216440-8607-48a6-8a96-397a45e03356
 - client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 1
@@ -55,55 +83,13 @@ proxies:
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇩🇪 Germany 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇩🇪 Germany 4
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 46.8.220.182
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: ruded3.onlinestreamself.com
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0828ca20-7f83-409a-916b-79b8c9e9a1a6
 - client-fingerprint: chrome
   flow: ''
   name: 🇺🇸 United States 1
   network: grpc
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
     short-id: 2da4299da566b7
   server: 193.233.89.61
   servername: maps.apple.com
@@ -115,9 +101,9 @@ proxies:
   flow: ''
   name: 🇺🇸 United States 2
   network: grpc
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
     short-id: 2da4299da566b7
   server: 193.233.89.61
   servername: maps.apple.com
@@ -139,7 +125,21 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
+    short-id: 7f2e9c4b1a8d6a53
+  server: 37.139.43.57
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ceeba701-bb9f-4f2c-8142-677d27a2acb1
+- client-fingerprint: edge
   flow: ''
   name: 🌐 Anycast-IP 2
   network: grpc
