@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: raw
@@ -15,22 +15,8 @@ proxies:
   uuid: 1bced29a-3051-42b8-b393-005135b97616
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: xSvlclDt9Oz7WKqoCCyuT3mEGnLwyp5ciOUClsZADH8
-    short-id: d4331052
-  server: 37.77.106.249
-  servername: vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23e18cb4-9db3-4eb1-93d3-26c62095159d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
-  network: tcp
+  network: raw
   port: 7443
   reality-opts:
     public-key: 2g6aoah8fX9KVIXWJy42cVdMxIz2RLsMyI0UlRLgFBs
@@ -49,15 +35,29 @@ proxies:
   reality-opts:
     public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
     short-id: 2da4299da566b7
+  server: 45.151.101.103
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 3
+  network: grpc
+  port: 6443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
   server: 193.233.89.61
   servername: maps.apple.com
   tls: true
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: ios
+- client-fingerprint: edge
   flow: ''
-  name: 🇩🇪 Germany 4
+  name: 🇩🇪 Germany 5
   network: grpc
   port: 443
   reality-opts:
@@ -69,9 +69,9 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 5
+  name: 🇩🇪 Germany 6
   network: grpc
   port: 443
   reality-opts:
@@ -83,6 +83,20 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xSvlclDt9Oz7WKqoCCyuT3mEGnLwyp5ciOUClsZADH8
+    short-id: d4331052
+  server: 37.77.106.249
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23e18cb4-9db3-4eb1-93d3-26c62095159d
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 1
@@ -97,29 +111,29 @@ proxies:
   type: vless
   udp: true
   uuid: c099de6a-0805-4052-b959-fd4ab4fc209e
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MiUJrbaMI3sO_opw69tGnxTZC7Vk-J7V47AnXAwUdSM
-    short-id: ''
-  server: 94.126.204.67
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74e76ee2-1a19-47ce-ae64-ad9183613df5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 3
+  name: 🇳🇱 The Netherlands 2
   network: tcp
   port: 443
   reality-opts:
     public-key: 7ia9vxEY2E0cPa8TDGQzoVl_Q8DjP_AJgBdpf51cn0k
     short-id: ''
   server: 94.126.207.83
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74e76ee2-1a19-47ce-ae64-ad9183613df5
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MiUJrbaMI3sO_opw69tGnxTZC7Vk-J7V47AnXAwUdSM
+    short-id: ''
+  server: 94.126.204.67
   servername: apple.com
   tls: true
   type: vless
@@ -143,20 +157,6 @@ proxies:
   flow: ''
   name: 🇺🇸 United States 2
   network: grpc
-  port: 8443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 45.151.101.103
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇺🇸 United States 3
-  network: grpc
   port: 443
   reality-opts:
     public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
@@ -169,7 +169,7 @@ proxies:
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
 - client-fingerprint: chrome
   flow: ''
-  name: 🇺🇸 United States 4
+  name: 🇺🇸 United States 3
   network: grpc
   port: 8443
   reality-opts:
