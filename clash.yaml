@@ -1,19 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: KzJWGQhfCWVKuOl6yPiqLYYX_RwLHA1s_aZeL7h0eX8
-    short-id: e0713a2224fbe05c
-  server: 37.252.17.192
-  servername: www.rumedia-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53f940dd-b054-46c8-bac4-88a9733926fe
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇫🇷 France 1
   network: tcp
@@ -27,9 +13,23 @@ proxies:
   type: vless
   udp: true
   uuid: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+- client-fingerprint: ios
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 6443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 193.233.89.61
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
+  name: 🇩🇪 Germany 2
   network: tcp
   port: 8445
   reality-opts:
@@ -42,22 +42,50 @@ proxies:
   udp: true
   uuid: aed5aae2-b43c-402d-848c-9e6700562a1f
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 3
+  network: raw
+  port: 8444
+  reality-opts:
+    public-key: KzJWGQhfCWVKuOl6yPiqLYYX_RwLHA1s_aZeL7h0eX8
+    short-id: e0713a2224fbe05c
+  server: 37.252.17.192
+  servername: www.rumedia-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f940dd-b054-46c8-bac4-88a9733926fe
+- client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 4
   network: grpc
   port: 6443
   reality-opts:
     public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
     short-id: 2da4299da566b7
-  server: 193.233.89.61
+  server: 45.151.101.103
   servername: maps.apple.com
   tls: true
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 6
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 3
+  name: 🇩🇪 Germany 7
   network: grpc
   port: 443
   reality-opts:
@@ -69,20 +97,20 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 4
-  network: raw
-  port: 443
+  name: 🇸🇪 Sweden 1
+  network: tcp
+  port: 8447
   reality-opts:
-    public-key: xSvlclDt9Oz7WKqoCCyuT3mEGnLwyp5ciOUClsZADH8
-    short-id: d4331052
-  server: 37.77.106.249
-  servername: vk.com
+    public-key: F8nl7VBhEUZJnMOQKOH7yeiJDZbw32BiIW9aJn2PGlQ
+    short-id: 7afcb61e13966776
+  server: 37.252.17.192
+  servername: www.rumedia-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 23e18cb4-9db3-4eb1-93d3-26c62095159d
+  uuid: 3ad9031d-249c-46c1-a97d-ef16740f236a
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 1
@@ -97,9 +125,23 @@ proxies:
   type: vless
   udp: true
   uuid: 1bced29a-3051-42b8-b393-005135b97616
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 1tOzTdMFZ4SxUDhceNkE1ZE1yMoa0egZn-6MW_rs1jk
+    short-id: 8672145789abcdef
+  server: 5.188.115.4
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 70a3501a-93a5-41ad-82a0-46631cdd5856
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 3
   network: raw
   port: 8449
   reality-opts:
@@ -113,7 +155,7 @@ proxies:
   uuid: 6d94a071-8084-413f-8317-bc9c7dbcbaf5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 3
+  name: 🇳🇱 The Netherlands 4
   network: tcp
   port: 18443
   reality-opts:
@@ -125,51 +167,23 @@ proxies:
   type: vless
   udp: true
   uuid: c099de6a-0805-4052-b959-fd4ab4fc209e
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MiUJrbaMI3sO_opw69tGnxTZC7Vk-J7V47AnXAwUdSM
-    short-id: ''
-  server: 94.126.204.67
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74e76ee2-1a19-47ce-ae64-ad9183613df5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7ia9vxEY2E0cPa8TDGQzoVl_Q8DjP_AJgBdpf51cn0k
-    short-id: ''
-  server: 94.126.207.83
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74e76ee2-1a19-47ce-ae64-ad9183613df5
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UvJqmTGvadeK94_38ncycxTRqU4lmsjhDjJBuL0CQSA
-    short-id: c71af684feb2fef4
-  server: 178.253.55.89
-  servername: nl-one.quiet-rogue.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71cada65-d23e-418c-88e4-a06188d14689
-- client-fingerprint: chrome
-  flow: ''
   name: 🇺🇸 United States 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I
+    short-id: 45ba91f179ad1f26
+  server: 79.174.92.254
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 70a3501a-93a5-41ad-82a0-46631cdd5856
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇺🇸 United States 2
   network: grpc
   port: 443
   reality-opts:
@@ -183,13 +197,41 @@ proxies:
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
 - client-fingerprint: chrome
   flow: ''
-  name: 🇺🇸 United States 2
+  name: 🇺🇸 United States 3
   network: grpc
   port: 8443
   reality-opts:
     public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
     short-id: 2da4299da566b7
   server: 193.233.89.61
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇺🇸 United States 4
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
+    short-id: 2da4299da566b7
+  server: 45.151.101.103
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇺🇸 United States 5
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 45.151.101.103
   servername: maps.apple.com
   tls: true
   type: vless
@@ -209,9 +251,23 @@ proxies:
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Axohq6jd8keuu4_tut3zq9nkDSES6F21mEA_SFba3AM
+    short-id: 7cec667da1e0
+  server: 132.243.214.215
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
   network: raw
   port: 43000
   reality-opts:
@@ -223,17 +279,3 @@ proxies:
   type: vless
   udp: true
   uuid: 25d25f21-7a9e-426f-8c14-0c06782585ff
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
-    short-id: 7f2e9c4b1a8d6a53
-  server: 37.139.43.57
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ceeba701-bb9f-4f2c-8142-677d27a2acb1
