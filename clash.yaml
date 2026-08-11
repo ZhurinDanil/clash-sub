@@ -1,7 +1,49 @@
 proxies:
-- client-fingerprint: chrome
-  flow: ''
+- client-fingerprint: android
+  flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
+    short-id: ''
+  server: obx1.vypnet.su
+  servername: obx1.vypnet.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f6085da-2a5f-4969-97c8-ee3e490ec75d
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 1
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: fk_aUHA_JijqIiSXZH61Ur6WSfPQ-Ke7J1IGgEZAh0I
+    short-id: ''
+  server: 159.194.226.13
+  servername: vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+- client-fingerprint: android
+  flow: ''
+  name: 🇫🇮 Finland 2
+  network: xhttp
+  port: 8443
+  reality-opts:
+    public-key: 167UuK8Oaxr23FtoB2a2UbzMRrdRyoHv8JeiIbt3yH4
+    short-id: ''
+  server: 159.194.226.13
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+- client-fingerprint: ios
+  flow: ''
+  name: 🇫🇷 France 1
   network: grpc
   port: 9877
   reality-opts:
@@ -13,34 +55,20 @@ proxies:
   type: vless
   udp: true
   uuid: 130e6aab-9eba-441e-9021-22cbccc72832
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: raw
-  port: 5443
-  reality-opts:
-    public-key: A3BZvaih9lBbMaKWjndiEdhCDZLMRbeRD1fI8CP4324
-    short-id: ''
-  server: 91.185.83.94
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8e9e9f2a-f4ee-48a3-aa3f-d79169890ca8
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: ''
-  name: 🇮🇹 Italy 1
+  name: 🇩🇪 Germany 1
   network: grpc
-  port: 9879
+  port: 443
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 176.108.243.161
-  servername: dl.google.com
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
   tls: true
   type: vless
   udp: true
-  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: firefox
   flow: ''
   name: 🇸🇪 Sweden 1
@@ -57,57 +85,29 @@ proxies:
   uuid: 130e6aab-9eba-441e-9021-22cbccc72832
 - client-fingerprint: android
   flow: ''
-  name: 🇳🇱 The Netherlands 1
+  name: 🇺🇸 United States 2
   network: grpc
-  port: 9894
+  port: 8443
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  server: 46.253.132.240
-  servername: dl.google.com
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 45.151.101.103
+  servername: maps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
-- client-fingerprint: android
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- client-fingerprint: ios
   flow: ''
-  name: 🇺🇸 United States 1
+  name: 🇺🇸 United States 3
   network: grpc
   port: 9878
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
+    short-id: aa
   server: 5.189.223.90
   servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 553e3253-c454-431d-a7e6-42bc06ea5e14
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
-    short-id: 9698d67e63bc8ee0
-  server: 72.56.245.183
-  servername: ferrvia.pulsio.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc40f96-a2d1-4382-88b7-70ee01853229
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: wO1R7iYLFX09H4HXMZdSA3fUbHsP_Z9mwqO_egrs1nU
-    short-id: e1e175913f44af71
-  server: 45.9.15.93
-  servername: bestrecipes-online.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 533098d5-957a-4914-addd-528eea5f2b99
+  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
