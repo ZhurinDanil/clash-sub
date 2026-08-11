@@ -1,15 +1,43 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 1
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: tcp
-  port: 2083
+  port: 9443
   reality-opts:
-    public-key: 40eDnye2AHCQqgM2_ikKzRayZ4Vlu4rnnkHmLmNalQc
-    short-id: 32a37218722f0081
-  server: 178.159.94.108
-  servername: swe-one.quiet-rogue.site
+    public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
+    short-id: ''
+  server: 176.108.252.240
+  servername: io.ozone.ru
   tls: true
   type: vless
   udp: true
-  uuid: 83eda926-645c-4f88-9dbe-bf33ac18c8f4
+  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
+  network: raw
+  port: 5443
+  reality-opts:
+    public-key: A3BZvaih9lBbMaKWjndiEdhCDZLMRbeRD1fI8CP4324
+    short-id: ''
+  server: 91.185.83.94
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e9e9f2a-f4ee-48a3-aa3f-d79169890ca8
+- client-fingerprint: ios
+  flow: ''
+  name: 🇩🇪 Germany 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
