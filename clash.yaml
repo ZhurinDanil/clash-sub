@@ -1,103 +1,47 @@
 proxies:
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
-  network: raw
-  port: 447
-  reality-opts:
-    public-key: k7bOaMWpjIndkyWDw3WgzWTlE9mSYYbrvNDzdr0Nuwc
-    short-id: c226283c4de5b1ad
-  server: 46.182.24.50
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a80c969b-b6ba-49d4-9fb5-9a1a7c1c4e75
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇱🇻 Latvia 1
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: 4b685844d0b4f724
-  server: 5.188.140.194
-  servername: hh.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30825d3e-675c-11f1-a103-aef63c7126b0
 - client-fingerprint: chrome
   flow: ''
-  name: 🇱🇻 Latvia 2
+  name: 🇨🇿 Czechia 1
   network: grpc
-  port: 2053
+  port: 9891
   reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: e432eea05ffadf84
-  server: 5.188.141.144
-  servername: hh.ru
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: ''
+  server: 80.78.244.33
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 30825d3e-675c-11f1-a103-aef63c7126b0
-- client-fingerprint: android
+  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
+- client-fingerprint: firefox
   flow: ''
-  name: 🇱🇻 Latvia 3
+  name: 🇩🇪 Germany 1
   network: grpc
-  port: 2053
+  port: 443
   reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: 4b685844d0b4f724
-  server: 89.208.231.82
-  servername: hh.ru
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
   tls: true
   type: vless
   udp: true
-  uuid: 30825d3e-675c-11f1-a103-aef63c7126b0
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 1
-  network: tcp
-  port: 443
+  flow: ''
+  name: 🇺🇸 United States 1
+  network: grpc
+  port: 9872
   reality-opts:
-    public-key: C2UXp_E6haOqgyt387O6PANqSlj1Tg0_zUiB0bQejQQ
-    short-id: dfe661d9de06be28
-  server: 194.87.187.107
-  servername: eh.vk.com
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  server: 5.189.223.90
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: bbbb35c6-5999-0063-a71a-2b11ca88c543
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C2UXp_E6haOqgyt387O6PANqSlj1Tg0_zUiB0bQejQQ
-    short-id: dfe661d9de06be28
-  server: 201.51.6.216
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbbb35c6-5999-000c-a71a-2b11ca88c543
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇬🇧 United Kingdom 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JZ6o_q7-OSJ87w9kTrcn9I4UiMVZdPUnjXoRs4TbLzE
-    short-id: 61811b12a62fb2a4
-  server: 46.149.67.39
-  servername: slashdot.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: be243a36-6eb7-4466-8f0a-280e1b819511
-- client-fingerprint: android
+  uuid: 553e3253-c454-431d-a7e6-42bc06ea5e14
+- client-fingerprint: chrome
   flow: ''
   name: 🌐 Anycast-IP 1
   network: grpc
@@ -125,3 +69,31 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: lOCJA77F2V7AfA1aEvq32aYrXXuBoH-TM2q_gAe2b2c
+    short-id: ''
+  server: 185.189.195.6
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 373baa79-106f-415c-807e-6701d26e4218
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 3
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
+    short-id: ''
+  server: obx1.vypnet.su
+  servername: obx1.vypnet.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f6085da-2a5f-4969-97c8-ee3e490ec75d
