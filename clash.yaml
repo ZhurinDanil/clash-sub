@@ -2,48 +2,34 @@ proxies:
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: raw
-  port: 443
+  network: tcp
+  port: 25343
   reality-opts:
-    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
-    short-id: 08804e078e1257c8
-  server: 94.241.141.126
-  servername: boltvia.orbvia.online
+    public-key: ibI55x4fumFYQPkdGT5sY7pQn905UF80NuaYuEhfXBg
+    short-id: 416d4465d2b70b06
+  server: 45.152.198.104
+  servername: proxy11.h1guro.ovh
   tls: true
   type: vless
   udp: true
-  uuid: b50a52ba-891f-44ff-af82-f5f0f3317024
+  uuid: 489b61b6-e7fa-4254-ad2b-6ac989b75d86
 - client-fingerprint: android
   flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
-    short-id: 08804e078e1257c8
-  server: boltvia.orbvia.online
-  servername: boltvia.orbvia.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: b50a52ba-891f-44ff-af82-f5f0f3317024
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7a0xjAoeGvlHx-Vy-JC-nr_eKQhQyFUDL16M85Z-Zzo
-    short-id: 15affa0af66dfc79
-  server: wl-cdn.coconutstrip.co
-  servername: wl-cdn.coconutstrip.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6a030eb-cb53-0003-bcda-a30fd76d45ce
-- client-fingerprint: firefox
-  flow: ''
   name: 🇩🇪 Germany 1
+  network: raw
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  server: 37.18.14.121
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: edge
+  flow: ''
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 443
   reality-opts:
@@ -55,51 +41,23 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7a0xjAoeGvlHx-Vy-JC-nr_eKQhQyFUDL16M85Z-Zzo
-    short-id: 15affa0af66dfc79
-  server: wl-cdn.coconutstrip.co
-  servername: wl-cdn.coconutstrip.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6a030eb-cb53-0001-bcda-a30fd76d45ce
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
-    short-id: f0ba53a31b489b3e
-  server: 92.53.97.70
-  servername: novea.shieldix.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: b50a52ba-891f-44ff-af82-f5f0f3317024
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7a0xjAoeGvlHx-Vy-JC-nr_eKQhQyFUDL16M85Z-Zzo
-    short-id: 15affa0af66dfc79
-  server: wl-cdn.coconutstrip.co
-  servername: wl-cdn.coconutstrip.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6a030eb-cb53-0002-bcda-a30fd76d45ce
-- client-fingerprint: android
-  flow: xtls-rprx-vision
+- client-fingerprint: edge
+  flow: ''
   name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: LZyjSvaqbGOe9ELbGAT31gXirkeE294OxksO_-mPk0A
+    short-id: 40fdb230
+  server: 138.16.141.172
+  servername: media11.abvphelp.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
   network: raw
   port: 443
   reality-opts:
@@ -111,10 +69,10 @@ proxies:
   type: vless
   udp: true
   uuid: 8f6085da-2a5f-4969-97c8-ee3e490ec75d
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
-  network: tcp
+  name: 🇷🇺 Russia 3
+  network: raw
   port: 443
   reality-opts:
     public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
