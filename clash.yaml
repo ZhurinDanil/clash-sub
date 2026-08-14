@@ -1,21 +1,7 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HjstheApR8mjk3d1bseY4_B1mE1qjbgI8GbNj4sg6EE
-    short-id: d0e67e3e5e651257
-  server: 92.53.127.215
-  servername: happierpets.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63232bfa-34fc-438b-b74d-77fd9ff0fb9d
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 1
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: tcp
   port: 7443
   reality-opts:
@@ -27,9 +13,65 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: edge
-  flow: ''
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
+    short-id: 33b5887524592cad
+  server: 83.220.175.92
+  servername: tunelio.ciphero.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 80bd9045-a93a-4065-86a9-02e9401b8f73
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
+    short-id: 33b5887524592cad
+  server: tunelio.ciphero.xyz
+  servername: tunelio.ciphero.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 80bd9045-a93a-4065-86a9-02e9401b8f73
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
+    short-id: 08804e078e1257c8
+  server: 188.120.229.56
+  servername: veilora.orbvia.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 80bd9045-a93a-4065-86a9-02e9401b8f73
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇩🇪 Germany 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
+    short-id: 08804e078e1257c8
+  server: veilora.orbvia.online
+  servername: veilora.orbvia.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 80bd9045-a93a-4065-86a9-02e9401b8f73
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 443
   reality-opts:
@@ -69,7 +111,7 @@ proxies:
   type: vless
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: ''
   name: 🇷🇸 Serbia 1
   network: grpc
@@ -83,48 +125,6 @@ proxies:
   type: vless
   udp: true
   uuid: 130e6aab-9eba-441e-9021-22cbccc72832
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇳🇱 The Netherlands 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: W1HS-FMd_ifTXpXHzdLXTGcLRWF7ReGSecd7kdhRF2U
-    short-id: ''
-  server: 31.177.111.140
-  servername: m1.vk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 156f25a2-d015-4590-88a0-6780cfd6fcbd
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI
-    short-id: 226509f017e4c36d
-  server: 185.91.54.83
-  servername: eda.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b706aff-ca60-4632-9658-aeb5c0f48561
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI
-    short-id: 226509f017e4c36d
-  server: rusl-e.vktunnel.com
-  servername: eda.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b706aff-ca60-4632-9658-aeb5c0f48561
 - client-fingerprint: chrome
   flow: ''
   name: 🇺🇸 United States 1
@@ -195,23 +195,9 @@ proxies:
   type: vless
   udp: true
   uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-- client-fingerprint: edge
-  flow: ''
-  name: 🇷🇺 Russia 5
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: pu4IXSGCV3Rw02jrKU8ayNCXvZzQZ9KwavMizPFtHxw
-    short-id: 179324b747cb4ab6
-  server: 83.217.192.22
-  servername: get.univesalsrv.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: db92dae9-c884-4468-8777-0d1657b96ad5
 - client-fingerprint: chrome
   flow: ''
-  name: 🇷🇺 Russia 6
+  name: 🇷🇺 Russia 5
   network: xhttp
   port: 443
   reality-opts:
@@ -223,3 +209,45 @@ proxies:
   type: vless
   udp: true
   uuid: fc07967d-925b-4246-a535-9527a8242a16
+- client-fingerprint: android
+  flow: ''
+  name: 🇷🇺 Russia 6
+  network: grpc
+  port: 10443
+  reality-opts:
+    public-key: qflDse4yNSmw5uo74Leu1S9lHAcP9ThsanYSkZYSPTs
+    short-id: ''
+  server: 185.147.26.45
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c519c16d-e0c7-4533-93e5-23588cd47ccd
+- client-fingerprint: edge
+  flow: ''
+  name: 🇷🇺 Russia 7
+  network: grpc
+  port: 10443
+  reality-opts:
+    public-key: qflDse4yNSmw5uo74Leu1S9lHAcP9ThsanYSkZYSPTs
+    short-id: ''
+  server: 185.147.26.53
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c519c16d-e0c7-4533-93e5-23588cd47ccd
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇷🇺 Russia 8
+  network: grpc
+  port: 10443
+  reality-opts:
+    public-key: qflDse4yNSmw5uo74Leu1S9lHAcP9ThsanYSkZYSPTs
+    short-id: ''
+  server: 511.cdnconn.com
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c519c16d-e0c7-4533-93e5-23588cd47ccd
