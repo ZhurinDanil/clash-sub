@@ -1,74 +1,18 @@
 proxies:
 - client-fingerprint: chrome
   flow: ''
-  name: 🇦🇹 Austria 1
+  name: 🇩🇪 Germany 1
   network: grpc
-  port: 9830
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 176.109.108.83
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 553e3253-c454-431d-a7e6-42bc06ea5e14
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
-  network: tcp
   port: 443
   reality-opts:
-    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
-    short-id: 33b5887524592cad
-  server: tunelio.ciphero.xyz
-  servername: tunelio.ciphero.xyz
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 46.8.221.218
+  servername: media2.tcpdoor.net
   tls: true
   type: vless
   udp: true
-  uuid: 80bd9045-a93a-4065-86a9-02e9401b8f73
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
-    short-id: 33b5887524592cad
-  server: 83.220.175.92
-  servername: tunelio.ciphero.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80bd9045-a93a-4065-86a9-02e9401b8f73
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 3
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 195.19.164.85
-  servername: fi.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ccb00ba5-3f61-4766-b7de-abf774342d00
-- client-fingerprint: safari
-  flow: ''
-  name: 🇱🇻 Latvia 1
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: 7824dfd19eab1acc
-  server: 89.208.222.190
-  servername: hh.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b985df2-96f5-11f1-b159-be7006ffd073
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: chrome
   flow: ''
   name: 🇵🇱 Poland 1
@@ -83,21 +27,7 @@ proxies:
   type: vless
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: android
-  flow: ''
-  name: 🇷🇸 Serbia 1
-  network: grpc
-  port: 9888
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  server: 176.109.106.34
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: ''
   name: 🇺🇸 United States 1
   network: grpc
@@ -111,9 +41,9 @@ proxies:
   type: vless
   udp: true
   uuid: 553e3253-c454-431d-a7e6-42bc06ea5e14
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: ''
-  name: 🇷🇺 Russia 1
+  name: 🇷🇺 Russia 2
   network: tcp
   port: 443
   reality-opts:
@@ -125,9 +55,23 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: android
-  flow: ''
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 🇷🇺 Russia 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ckPCrgbrSdQaz1j3vP0-f0P8F4E8ZucQTeQGtxBKagU
+    short-id: 3882f019072c5dcd
+  server: vruaz.mostserv.xyz
+  servername: vruaz.mostserv.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 463a26c2-eba8-0031-89c4-ee5c1373ccbe
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇷🇺 Russia 4
   network: xhttp
   port: 443
   reality-opts:
