@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🇦🇹 Austria 1
   network: grpc
@@ -13,23 +13,23 @@ proxies:
   type: vless
   udp: true
   uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: ''
-  name: 🇦🇹 Austria 3
+  name: 🇨🇿 Czechia 1
   network: grpc
-  port: 9830
+  port: 9890
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 176.109.108.83
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+  server: 80.78.244.33
   servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: f4685d27-73e3-4588-9622-add50b84046a
-- client-fingerprint: chrome
+  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
+- client-fingerprint: firefox
   flow: ''
-  name: 🇨🇿 Czechia 1
+  name: 🇨🇿 Czechia 2
   network: grpc
   port: 9890
   reality-opts:
@@ -41,9 +41,135 @@ proxies:
   type: vless
   udp: true
   uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-- client-fingerprint: safari
+- client-fingerprint: firefox
   flow: ''
   name: 🇫🇮 Finland 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 79.174.83.75
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06a7a9c3-5ed6-4285-add4-d5368d534f47
+- client-fingerprint: edge
+  flow: ''
+  name: 🇫🇮 Finland 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 79.174.83.75
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1495019a-32fb-4bde-87ac-772a1f85add0
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 3
+  network: grpc
+  port: 9898
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: ''
+  server: 62.233.43.86
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
+- client-fingerprint: safari
+  flow: ''
+  name: 🇫🇮 Finland 4
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 79.174.83.75
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4be3d861-bf81-4511-8c98-d17700509d02
+- client-fingerprint: safari
+  flow: ''
+  name: 🇫🇮 Finland 5
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 79.174.83.75
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 654de067-5cd7-4a66-af08-c487f4f7fcd6
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇫🇮 Finland 6
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 79.174.83.75
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1f8541e-2515-464e-ad21-75ffbfcb401e
+- client-fingerprint: safari
+  flow: ''
+  name: 🇫🇮 Finland 7
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 79.174.83.75
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc178dce-ec30-4d16-ac03-520a842c4ea1
+- client-fingerprint: edge
+  flow: ''
+  name: 🇫🇮 Finland 8
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 79.174.83.75
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e09e2937-15da-4302-b124-425d2c6974a8
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 9
+  network: grpc
+  port: 9898
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 194.67.119.77
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4685d27-73e3-4588-9622-add50b84046a
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 10
   network: grpc
   port: 9898
   reality-opts:
@@ -57,35 +183,35 @@ proxies:
   uuid: f4685d27-73e3-4588-9622-add50b84046a
 - client-fingerprint: firefox
   flow: ''
-  name: 🇫🇮 Finland 2
+  name: 🇫🇷 France 1
   network: grpc
   port: 443
   reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: abcd
-  server: 79.174.83.75
-  servername: 5post-gate.x5.ru
+    public-key: 3f2qE54FhkEMnNUTVwxtSWWPJG9ZrQoxF-dyq3IQpQk
+    short-id: 558d5f07
+  server: 81.90.31.221
+  servername: ea.com
   tls: true
   type: vless
   udp: true
-  uuid: 654de067-5cd7-4a66-af08-c487f4f7fcd6
-- client-fingerprint: android
-  flow: ''
-  name: 🇫🇮 Finland 3
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: abcd
-  server: 79.174.83.75
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1f8541e-2515-464e-ad21-75ffbfcb401e
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 46.8.221.218
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: edge
+  flow: ''
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 9871
   reality-opts:
@@ -99,12 +225,26 @@ proxies:
   uuid: f4685d27-73e3-4588-9622-add50b84046a
 - client-fingerprint: chrome
   flow: ''
+  name: 🇮🇹 Italy 1
+  network: grpc
+  port: 9880
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: ''
+  server: 176.108.252.108
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
+- client-fingerprint: firefox
+  flow: ''
   name: 🇵🇱 Poland 1
   network: grpc
   port: 9892
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
+    short-id: ''
   server: 176.109.108.196
   servername: dl.google.com
   tls: true
@@ -125,7 +265,7 @@ proxies:
   type: vless
   udp: true
   uuid: 130e6aab-9eba-441e-9021-22cbccc72832
-- client-fingerprint: chrome
+- client-fingerprint: safari
   flow: ''
   name: 🇷🇸 Serbia 2
   network: grpc
@@ -139,9 +279,457 @@ proxies:
   type: vless
   udp: true
   uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇷🇸 Serbia 3
+  network: grpc
+  port: 9888
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  server: 176.109.106.34
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4685d27-73e3-4588-9622-add50b84046a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0157802f-17b6-4c76-9168-63fb4980246a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6a7ff9-dcf8-462c-b73a-041fefdf3feb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24d6b0f3-6a7a-47a8-b0b3-6a75d366860e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3429f07c-db33-4359-b9b0-ff66fb18b883
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a5802c3-f543-45a8-9232-99664f53dff3
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f04c53f-8fa4-44e0-824a-ed01d8db4f7e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 412a93d8-d6ef-46a2-bce6-c0d73ba1f100
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 8
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 427c1d7e-d485-44eb-a971-e3c35007b71e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71f71240-5743-49a0-bd5f-56ae66624068
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 10
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74f836f4-65a3-4d18-bd99-df4eff70b6dc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 11
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 774cd800-529b-4fbc-bc41-0521eb42e42b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 12
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a98b7a5-b158-4f0c-896e-0707fb883051
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 13
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87b320fe-2329-498d-997b-7b956a99eecb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 14
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88749dd1-a73c-4996-9b05-8ffd8e1279f4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 15
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8b278ed9-485e-4979-97e6-115adce9c76f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 16
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8b839bf3-6d7e-4a20-ac17-e1bc70561c05
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 17
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91f33cd0-0d2a-4c79-b468-1afa6827a1f2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 18
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9eecb29d-fefa-49eb-a3bd-ae4a54f13a93
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 19
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a87fe027-ecb9-4179-9e47-ce654f9f99f3
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 20
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad074ab8-c55b-46d3-a0b2-fbd278414873
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇳🇱 The Netherlands 21
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: qc0kO4Q3E_A1eddLvWA-BnHNcTOLTJAqlkVSa1pEMQg
+    short-id: 1338c01e1ff11fa8
+  server: 5.188.115.185
+  servername: api.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2815f8e-ecfd-4c15-b55d-41007d258351
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 22
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8aa8ce1-e5fe-43f6-ad47-c5e4ebaff812
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 23
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba82fcb1-b919-48d5-af8b-9089a9dbc6f5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 24
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: be46f076-2a3c-465c-aa7e-7e373b86a443
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 25
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2162cb1-1196-432f-ad69-1e61e0e1a35f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 26
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c892d16c-22be-41cc-9236-e2281486819f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 27
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7363fbf-fb4f-48b0-9866-19ec739f243a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 28
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2fefcd7-a58e-4e10-a6bf-a2ebc40ea727
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 29
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0d3bda7-396d-4709-8090-bafa91308129
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 30
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wt6P3gC6Fizmx9sSUfKWJR7y4XyDW7qBgrR1lVNShh8
+    short-id: 5e6193b86ab75103
+  server: 5.188.115.185
+  servername: cdn.pubhoster.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f25291d0-658f-4955-b2e3-9ccd7aec9169
 - client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 1
+  network: grpc
+  port: 8445
+  reality-opts:
+    public-key: ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys
+    short-id: 0498897564df
+  server: 94.198.54.132
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc2479fe-d4a6-4515-a32d-2e73f711ee34
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇷🇺 Russia 2
   network: xhttp
   port: 443
   reality-opts:
