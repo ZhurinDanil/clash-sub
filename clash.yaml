@@ -1,9 +1,9 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: ''
   name: 🇨🇿 Czechia 1
   network: grpc
-  port: 9891
+  port: 9890
   reality-opts:
     public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
     short-id: ''
@@ -12,22 +12,8 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: fd94a343-cb11-45e6-9882-72352d0a2b8f
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI
-    short-id: beff3ff061a64cfd
-  server: 109.120.152.86
-  servername: fi-one.quiet-rogue.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
-- client-fingerprint: random
   flow: ''
   name: 🇫🇷 France 1
   network: grpc
@@ -37,34 +23,6 @@ proxies:
     short-id: aabb
   server: 134.0.116.208
   servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd94a343-cb11-45e6-9882-72352d0a2b8f
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 46.8.221.218
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇺 Hungary 1
-  network: tcp
-  port: 9894
-  reality-opts:
-    public-key: GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg
-    short-id: ''
-  server: 176.108.245.57
-  servername: www.io.ozone.ru
   tls: true
   type: vless
   udp: true
@@ -85,35 +43,7 @@ proxies:
   uuid: fd94a343-cb11-45e6-9882-72352d0a2b8f
 - client-fingerprint: edge
   flow: ''
-  name: 🇵🇱 Poland 2
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: j8OW1foMwfeiy3VMbNPHLgTXgy_ZPdFFxv-H3HrbNF0
-    short-id: f0c18fcc1d09b637
-  server: eu-gw.videomonitor.cloud
-  servername: dzen.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1e4bfe2-2b12-11f1-92cb-12ba70109d32
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇸🇪 Sweden 1
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 40eDnye2AHCQqgM2_ikKzRayZ4Vlu4rnnkHmLmNalQc
-    short-id: 32a37218722f0081
-  server: 109.120.152.86
-  servername: swe-one.quiet-rogue.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
-- client-fingerprint: edge
-  flow: ''
-  name: 🇸🇪 Sweden 2
   network: grpc
   port: 9872
   reality-opts:
@@ -125,37 +55,23 @@ proxies:
   type: vless
   udp: true
   uuid: fd94a343-cb11-45e6-9882-72352d0a2b8f
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇺🇸 United States 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
-    short-id: 3182f9ae
-  server: 193.233.48.92
-  servername: media3.abvphelp.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
-  network: raw
-  port: 443
+  flow: ''
+  name: 🇨🇭 Switzerland 1
+  network: grpc
+  port: 9882
   reality-opts:
-    public-key: Aj6Lfc0JKKROX46eHAQHlzrNpOTY9CKp7BcVj9cw8Ag
-    short-id: 75f8575e5396a2fe
-  server: 185.253.23.123
-  servername: cluster3.salesmarketmsk.ru
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  server: 80.78.246.205
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 392ae120-ac77-0065-9f36-322ce13a47bb
-- client-fingerprint: chrome
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
+- client-fingerprint: edge
   flow: ''
-  name: 🌐 Anycast-IP 2
+  name: 🌐 Anycast-IP 1
   network: grpc
   port: 7443
   reality-opts:
@@ -167,7 +83,21 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  flow: ''
+  name: 🌐 Anycast-IP 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
+    short-id: f85aebea
+  server: 89.125.103.176
+  servername: www.nespresso.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
   network: tcp
@@ -187,11 +117,11 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: r6Nj6OV9cOZ99UlezfjTUTBLqk046KnGC6XuFNbJIH0
-    short-id: 3b5c7237908229c3
-  server: 77.91.95.186
-  servername: ads.x5.ru
+    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
+    short-id: 17faf32cb516c9cb
+  server: 194.55.244.184
+  servername: ru.srv.anti-zapret.com
   tls: true
   type: vless
   udp: true
-  uuid: 05f69fad-cd6a-4e07-b110-f4be955a2217
+  uuid: f82332b2-dc8c-4196-ac12-f276e37e278a
