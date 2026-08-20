@@ -1,21 +1,63 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: raw
-  port: 2027
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
-  server: 78.159.246.204
-  servername: storage.yandex.net
+    public-key: QC03TEA8YdxpkQyJ8duwrqaP1dWAIlCjONzicWlWDjs
+    short-id: b0d8f964b7ac8ac0
+  server: 31.76.34.146
+  servername: cdn3-85.cdn-vkvideo.com
   tls: true
   type: vless
   udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- client-fingerprint: firefox
+  uuid: f4f2229e-ca2a-40b1-b4ae-24248c21b645
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
+  name: 🇫🇮 Finland 1
+  network: tcp
+  port: 27443
+  reality-opts:
+    public-key: SzQ67e8z2qNV5Ad-HpYTUOwbRphD31SSC9X9eVynPQw
+    short-id: ''
+  server: 201.51.5.44
+  servername: vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 2
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  server: 45.151.182.188
+  servername: cdn.byteark.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78eb4455-0d07-3138-93e3-7c8654f11d74
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 3
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  server: 80.66.65.43
+  servername: cdn.byteark.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78eb4455-0d07-3138-93e3-7c8654f11d74
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
   network: tcp
   port: 443
   reality-opts:
@@ -28,6 +70,34 @@ proxies:
   udp: true
   uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
 - client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
+  network: raw
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 78.159.246.204
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇱🇹 Lithuania 1
+  network: tcp
+  port: 20443
+  reality-opts:
+    public-key: 9vJourxbBUWOjkTd_gGVCAqUANwnBvMmQjcEel8SxHE
+    short-id: ''
+  server: 217.26.27.149
+  servername: vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
+- client-fingerprint: safari
   flow: ''
   name: 🇳🇴 Norway 1
   network: grpc
@@ -41,3 +111,87 @@ proxies:
   type: vless
   udp: true
   uuid: 20c4eab4-b569-4423-90d2-3e3364669e6f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NMEX862Hl5C5RIv-SbSc76pkKbKdB_3nnkiaSNVOTG0
+    short-id: ''
+  server: 46.243.232.122
+  servername: yastatic.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
+    short-id: a3f8d21c4b907e56
+  server: s.lobbytech.ru
+  servername: www.kinopoisk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+- client-fingerprint: safari
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8
+    short-id: ''
+  server: 104.143.201.196
+  servername: id.pervye.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4829c2f5-f45a-4330-9b3c-d381b9efdbec
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: ZLaCpPpshvZDbNPuaP-xGV4Uh9Eo7tDzonyFtFqis3w
+    short-id: afdd2a7f996dd0e9
+  server: 176.109.85.142
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c7e5320-7f9e-4af8-9024-c4790929ddef
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 3
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: ZLaCpPpshvZDbNPuaP-xGV4Uh9Eo7tDzonyFtFqis3w
+    short-id: afdd2a7f996dd0e9
+  server: 176.109.85.143
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c7e5320-7f9e-4af8-9024-c4790929ddef
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -yeI0ekHEAovFeiF1q7UFNRYJ8Uq_U4yla4PEn1q-GY
+    short-id: ''
+  server: 5.129.249.11
+  servername: ru1.dataroute.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
