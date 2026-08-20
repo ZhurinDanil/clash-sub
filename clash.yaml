@@ -1,7 +1,21 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
+  network: raw
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  server: 78.159.246.204
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
   network: tcp
   port: 443
   reality-opts:
@@ -13,3 +27,17 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
+- client-fingerprint: android
+  flow: ''
+  name: 🇳🇴 Norway 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 6vDdlh4aAipoRQ-IXDjzTUtKpZS09xtNXIisCa__2CM
+    short-id: f74c6a18133e2e72
+  server: 185.186.143.76
+  servername: ru-kitchen.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20c4eab4-b569-4423-90d2-3e3364669e6f
