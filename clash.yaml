@@ -1,4 +1,74 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: 122218f4c1f172e4
+  server: 189.74.106.131
+  servername: api.yandex-cloud.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e94beb2-de41-40f6-bd26-37602fa74e22
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: 122218f4c1f172e4
+  server: 189.74.106.35
+  servername: api.yandex-cloud.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e94beb2-de41-40f6-bd26-37602fa74e22
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: 122218f4c1f172e4
+  server: 189.74.106.3
+  servername: api.yandex-cloud.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e94beb2-de41-40f6-bd26-37602fa74e22
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: 122218f4c1f172e4
+  server: 189.74.106.67
+  servername: api.yandex-cloud.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e94beb2-de41-40f6-bd26-37602fa74e22
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: 122218f4c1f172e4
+  server: 189.74.106.99
+  servername: api.yandex-cloud.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e94beb2-de41-40f6-bd26-37602fa74e22
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇯🇵 Japan 1
@@ -13,20 +83,34 @@ proxies:
   type: vless
   udp: true
   uuid: 78eb4455-0d07-1bbc-93e3-7c8654f11d74
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇳🇱 The Netherlands 1
-  network: grpc
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
   port: 443
   reality-opts:
-    public-key: W1HS-FMd_ifTXpXHzdLXTGcLRWF7ReGSecd7kdhRF2U
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: 31.177.111.140
-  servername: m1.vk.ru
+  server: 84.23.54.213
+  servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
-  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: in-ru-vk-01.ray-balance.space
+  servername: www.ray-balance.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
 - client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 1
