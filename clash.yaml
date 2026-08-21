@@ -1,46 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 138.124.254.82
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-0002-9d5e-c541f791b55f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
-  network: raw
-  port: 8444
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: 45.151.182.188
-  servername: cdn.byteark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78eb4455-0d07-3138-93e3-7c8654f11d74
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
-  server: 78.159.246.204
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇯🇵 Japan 1
@@ -55,77 +13,21 @@ proxies:
   type: vless
   udp: true
   uuid: 78eb4455-0d07-1bbc-93e3-7c8654f11d74
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇯🇵 Japan 2
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: brdg.geodema.network
-  servername: cdn.byteark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78eb4455-0d07-1bbc-93e3-7c8654f11d74
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 1
-  network: tcp
-  port: 5443
-  reality-opts:
-    public-key: w42qluNCHvJAkqCCjg_BHu7eTr2qRQYn93OKUSfmHEI
-    short-id: ''
-  server: 46.243.235.177
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3a1ccc1e-e0f6-4836-94b8-8405b36e03be
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 1
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 40eDnye2AHCQqgM2_ikKzRayZ4Vlu4rnnkHmLmNalQc
-    short-id: 32a37218722f0081
-  server: 109.107.189.203
-  servername: swe-one.quiet-rogue.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw
-    short-id: bad5722c72a038
-  server: 194.55.239.112
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4192ac60-9b2f-46e0-a23f-b01dc94e819d
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 United States 1
-  network: tcp
-  port: 6443
+  flow: ''
+  name: 🇳🇱 The Netherlands 1
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw
-    short-id: bad5722c72a038
-  server: 37.9.4.182
-  servername: ads.x5.ru
+    public-key: W1HS-FMd_ifTXpXHzdLXTGcLRWF7ReGSecd7kdhRF2U
+    short-id: ''
+  server: 31.177.111.140
+  servername: m1.vk.ru
   tls: true
   type: vless
   udp: true
-  uuid: 4192ac60-9b2f-46e0-a23f-b01dc94e819d
-- client-fingerprint: android
+  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
+- client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 1
   network: xhttp
@@ -153,31 +55,3 @@ proxies:
   type: vless
   udp: true
   uuid: 1b7dcb6a-4915-4741-92bf-bc1e7b531140
-- client-fingerprint: android
-  flow: ''
-  name: 🇷🇺 Russia 3
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 201.51.13.38
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇷🇺 Russia 4
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 72.56.250.133
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
