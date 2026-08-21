@@ -1,35 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: android
+  flow: ''
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lrcvhYPvMfH_MpHC_PFYNb_bsw6vy2VR0yZxv3Pv8C4
-    short-id: ''
-  server: 35xkx2q3tm.philips.kweps.ru
-  servername: www.philips.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20df893e-dcf4-491d-8261-6dbb24f9566b
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Zo3OftHANSWinV-kajh98gqzcjWnkB_q7JPaG87SMGA
-    short-id: ''
-  server: rus.deall.icu
-  servername: rus.deall.icu
-  tls: true
-  type: vless
-  udp: true
-  uuid: a261baf0-8e37-4ff0-b9d1-7180c570073a
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇩🇪 Germany 2
   network: grpc
   port: 2087
   reality-opts:
@@ -41,6 +13,62 @@ proxies:
   type: vless
   udp: true
   uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 2087
+  reality-opts:
+    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
+    short-id: f2a4c6e8
+  server: 85.193.80.164
+  servername: vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇪🇸 Spain 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: 84.23.54.213
+  servername: www.ray-balance.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lrcvhYPvMfH_MpHC_PFYNb_bsw6vy2VR0yZxv3Pv8C4
+    short-id: ''
+  server: 35xkx2q3tm.philips.kweps.ru
+  servername: www.philips.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20df893e-dcf4-491d-8261-6dbb24f9566b
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇺🇸 United States 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 2b5b1ffa8a6a1a68
+  server: mnl.savesafe.space
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - client-fingerprint: android
   flow: ''
   name: 🌐 Anycast-IP 1
@@ -56,20 +84,20 @@ proxies:
   udp: true
   uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
 - client-fingerprint: android
-  flow: ''
+  flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 2
-  network: grpc
-  port: 2087
+  network: tcp
+  port: 443
   reality-opts:
     public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
-    short-id: f2a4c6e8
-  server: ru.lobbytech.ru
-  servername: vk.com
+    short-id: a3f8d21c4b907e56
+  server: 83.217.201.244
+  servername: www.kinopoisk.ru
   tls: true
   type: vless
   udp: true
   uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🌐 Anycast-IP 3
   network: xhttp
@@ -89,53 +117,39 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
-    short-id: a3f8d21c4b907e56
-  server: 85.193.80.164
-  servername: www.kinopoisk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
-    short-id: a3f8d21c4b907e56
-  server: ru.lobbytech.ru
-  servername: www.kinopoisk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
-- client-fingerprint: android
-  flow: ''
-  name: 🌐 Anycast-IP 6
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: sR2q1hwe2nEMePajxh7xDTb0-nDA0LUZyCrxfgo373Y
-    short-id: 1a2b3c4d
-  server: ru.lobbytech.ru
-  servername: vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 7
-  network: tcp
-  port: 443
-  reality-opts:
     public-key: bBTka5j8aqNSD5hl8X0YUhwYH04IrPIaeKUFkijUllg
     short-id: ''
-  server: mg.vertiex.ru
+  server: 201.51.3.146
   servername: www.philips.com
   tls: true
   type: vless
   udp: true
   uuid: 20df893e-dcf4-491d-8261-6dbb24f9566b
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 5
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: lrcvhYPvMfH_MpHC_PFYNb_bsw6vy2VR0yZxv3Pv8C4
+    short-id: ''
+  server: 72.56.250.149
+  servername: www.philips.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20df893e-dcf4-491d-8261-6dbb24f9566b
+- client-fingerprint: edge
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: nNoxOT_HzUZkKbHiK34iSfF89wlXAXBdlkquGVqGUDk
+    short-id: f4e0550a
+  server: 2.26.104.206
+  servername: russianum1.tcpshield.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b7dcb6a-4915-4741-92bf-bc1e7b531140
