@@ -3,7 +3,7 @@ proxies:
   flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: tcp
-  port: 14405
+  port: 14406
   reality-opts:
     public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
     short-id: 1a2b3c4d5e6f7a8b
@@ -12,10 +12,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 9aed98d0-303a-4479-91b7-75c2f59bd4bd
+  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
 - client-fingerprint: firefox
   flow: ''
-  name: 🇫🇷 France 1
+  name: 🇳🇱 The Netherlands 1
   network: grpc
   port: 9002
   reality-opts:
@@ -28,6 +28,20 @@ proxies:
   udp: true
   uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
 - client-fingerprint: chrome
+  flow: ''
+  name: 🇺🇸 United States 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 2b5b1ffa8a6a1a68
+  server: mnl.savesafe.space
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
   network: tcp
@@ -41,31 +55,3 @@ proxies:
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: android
-  flow: ''
-  name: 🇷🇺 Russia 1
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 201.51.13.38
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇷🇺 Russia 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 72.56.250.133
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
