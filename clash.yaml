@@ -14,20 +14,6 @@ proxies:
   udp: true
   uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
-  server: 46.243.234.133
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- client-fingerprint: chrome
   flow: ''
   name: 🇮🇹 Italy 1
   network: grpc
@@ -41,7 +27,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0a2988ed-9f42-499e-b4a8-3ed4cbda5457
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: ''
   name: 🇮🇹 Italy 2
   network: grpc
@@ -55,7 +41,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0e75f6ee-9a4d-4019-8276-cacf388d2ec6
-- client-fingerprint: android
+- client-fingerprint: firefox
   flow: ''
   name: 🇮🇹 Italy 3
   network: grpc
@@ -69,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 25d18f6f-f701-4da1-93d8-ec712f05963b
-- client-fingerprint: android
+- client-fingerprint: edge
   flow: ''
   name: 🇮🇹 Italy 4
   network: grpc
@@ -83,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: 4fe19d97-7b1d-4cb2-99ee-4bd8658a4c34
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: ''
   name: 🇮🇹 Italy 5
   network: grpc
@@ -98,198 +84,30 @@ proxies:
   udp: true
   uuid: 626c0789-16d1-4815-be8b-bd03959d7d12
 - client-fingerprint: android
-  flow: ''
-  name: 🇮🇹 Italy 6
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
   port: 443
   reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: 185.207.66.243
-  servername: dl.google.com
+  server: 84.23.54.213
+  servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
 - client-fingerprint: android
-  flow: ''
-  name: 🇮🇹 Italy 7
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 2
+  network: tcp
   port: 443
   reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: 185.207.66.243
-  servername: dl.google.com
+  server: in-ru-vk-01.ray-balance.space
+  servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
-  uuid: 80d02a71-54a5-4c5b-976d-5ee573c502af
-- client-fingerprint: android
-  flow: ''
-  name: 🇮🇹 Italy 8
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: ''
-  server: 185.207.66.243
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
-- client-fingerprint: android
-  flow: ''
-  name: 🇮🇹 Italy 9
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: ''
-  server: 185.207.66.243
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8
-    short-id: ''
-  server: 77.233.220.45
-  servername: ru.oblaco.bet
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef2c48a7-c113-4610-9d81-b35779660d9e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a2988ed-9f42-499e-b4a8-3ed4cbda5457
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e75f6ee-9a4d-4019-8276-cacf388d2ec6
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25d18f6f-f701-4da1-93d8-ec712f05963b
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4fe19d97-7b1d-4cb2-99ee-4bd8658a4c34
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 626c0789-16d1-4815-be8b-bd03959d7d12
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80d02a71-54a5-4c5b-976d-5ee573c502af
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 9
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 10
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: d68d40aba9c0394a
-  server: 188.225.86.184
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
