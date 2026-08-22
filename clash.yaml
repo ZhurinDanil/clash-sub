@@ -1,49 +1,35 @@
 proxies:
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇺🇸 United States 1
-  network: xhttp
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: nlSTIZeziCL_gR8HN1UF4F_Gbcrqr4Z9pr_sM6dGbig
+    short-id: c303fd64bf463450
+  server: 176.109.88.217
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
   port: 443
   reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: 2b5b1ffa8a6a1a68
-  server: mnl.savesafe.space
-  servername: ya.ru
+    public-key: y7-4lvUXsMrTroNME_K3yrdwfQjcRCEp0aI3bl8x1VQ
+    short-id: 91412c46
+  server: 89.208.209.74
+  servername: www.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  flow: ''
-  name: 🌐 Anycast-IP 1
-  network: grpc
-  port: 2087
-  reality-opts:
-    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
-    short-id: f2a4c6e8
-  server: 85.193.80.164
-  servername: vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
-- client-fingerprint: safari
-  flow: ''
-  name: 🌐 Anycast-IP 2
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: sR2q1hwe2nEMePajxh7xDTb0-nDA0LUZyCrxfgo373Y
-    short-id: 1a2b3c4d
-  server: 85.193.80.164
-  servername: vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
-- client-fingerprint: firefox
+  uuid: 95c0b073-f0da-435d-bd5e-f43f453c4730
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 3
+  name: 🌐 Anycast-IP 1
   network: tcp
   port: 443
   reality-opts:
@@ -55,21 +41,7 @@ proxies:
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
-    short-id: ''
-  server: in-ru-vk-01.ray-balance.space
-  servername: www.ray-balance.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: safari
+- client-fingerprint: ios
   flow: ''
   name: 🇷🇺 Russia 1
   network: xhttp
@@ -83,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1b7dcb6a-4915-4741-92bf-bc1e7b531140
-- client-fingerprint: chrome
+- client-fingerprint: ios
   flow: ''
   name: 🇷🇺 Russia 2
   network: grpc
