@@ -1,60 +1,18 @@
 proxies:
 - client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U
-    short-id: c9e5505275320b51
-  server: 178.250.157.206
-  servername: dunlix.norvexa.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
-    short-id: 08804e078e1257c8
-  server: 217.149.22.8
-  servername: skimio.orbvia.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇫🇷 France 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U
-    short-id: c9e5505275320b51
-  server: dunlix.norvexa.online
-  servername: dunlix.norvexa.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
-- client-fingerprint: android
-  flow: xtls-rprx-vision
+  flow: ''
   name: 🇩🇪 Germany 1
-  network: raw
-  port: 2027
+  network: grpc
+  port: 6443
   reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
-  server: 46.243.234.205
-  servername: storage.yandex.net
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 77.221.151.51
+  servername: maps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 1
@@ -70,6 +28,20 @@ proxies:
   udp: true
   uuid: 76f6b7fe-5de8-4637-87a0-6ddd33d67b3e
 - client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇪🇸 Spain 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: 84.23.54.213
+  servername: www.ray-balance.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
+- client-fingerprint: chrome
   flow: ''
   name: 🇳🇱 The Netherlands 1
   network: grpc
@@ -84,6 +56,20 @@ proxies:
   udp: true
   uuid: 59954126-633d-4ed2-9af5-8801e85ec7d5
 - client-fingerprint: android
+  flow: ''
+  name: 🇺🇸 United States 1
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 77.221.151.51
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
   network: tcp
@@ -97,17 +83,3 @@ proxies:
   type: vless
   udp: true
   uuid: 82719790-ff61-4284-8668-ba140a4d6cbd
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 6gz_3tpT8L9jwst8r9r-FRdekpGNobE6AVDMjQaRvlo
-    short-id: b44f10d2fc37a45a
-  server: 72.56.236.77
-  servername: r.windconnect.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
