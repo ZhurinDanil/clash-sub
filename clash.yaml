@@ -1,21 +1,7 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
-    short-id: 08804e078e1257c8
-  server: 217.149.22.8
-  servername: skimio.orbvia.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
   network: tcp
   port: 443
   reality-opts:
@@ -27,7 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇫🇷 France 1
   network: tcp
@@ -41,20 +27,90 @@ proxies:
   type: vless
   udp: true
   uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
-- client-fingerprint: firefox
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
+  network: raw
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 46.243.234.205
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
+    short-id: 08804e078e1257c8
+  server: 217.149.22.8
+  servername: skimio.orbvia.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 3
   network: tcp
   port: 44003
   reality-opts:
     public-key: mCtDwMr9u9MdztUGzCGADj-nfHv6CQpAf_ywbyKl8ww
     short-id: 5dd3388b52296b89
-  server: ru.pool-c.netcenter-cdn.com
-  servername: pool-c.pools.netcenter-cdn.com
+  server: 104.171.128.210
+  servername: pool-b.pools.netcenter-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 29161b9c-cfe4-4e4a-afdb-079f99c2a07f
+  uuid: 4c282138-0775-4a05-b734-941fb765f424
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 4
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: mCtDwMr9u9MdztUGzCGADj-nfHv6CQpAf_ywbyKl8ww
+    short-id: 5dd3388b52296b89
+  server: 186.246.8.84
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c282138-0775-4a05-b734-941fb765f424
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 5
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: mCtDwMr9u9MdztUGzCGADj-nfHv6CQpAf_ywbyKl8ww
+    short-id: 5dd3388b52296b89
+  server: 62.113.41.114
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c282138-0775-4a05-b734-941fb765f424
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 6
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: mCtDwMr9u9MdztUGzCGADj-nfHv6CQpAf_ywbyKl8ww
+    short-id: 5dd3388b52296b89
+  server: 89.169.3.45
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c282138-0775-4a05-b734-941fb765f424
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇱🇻 Latvia 1
@@ -71,8 +127,78 @@ proxies:
   uuid: 2a6a619b-3a18-0006-b40f-d028ea60465d
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
+  name: 🇸🇬 Singapore 1
   network: tcp
+  port: 44006
+  reality-opts:
+    public-key: cVZg8AuCM1z8Z_u9oz3otZKsBcOI1Yav66U5Wbb_ozg
+    short-id: 32e0
+  server: 104.171.128.210
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8dfaa78-e166-4187-881f-5a192c0f9705
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇸🇬 Singapore 2
+  network: tcp
+  port: 44006
+  reality-opts:
+    public-key: cVZg8AuCM1z8Z_u9oz3otZKsBcOI1Yav66U5Wbb_ozg
+    short-id: 32e0
+  server: 186.246.8.84
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8dfaa78-e166-4187-881f-5a192c0f9705
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇸🇬 Singapore 3
+  network: tcp
+  port: 44006
+  reality-opts:
+    public-key: cVZg8AuCM1z8Z_u9oz3otZKsBcOI1Yav66U5Wbb_ozg
+    short-id: 32e0
+  server: 201.51.4.52
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8dfaa78-e166-4187-881f-5a192c0f9705
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 Singapore 4
+  network: tcp
+  port: 44006
+  reality-opts:
+    public-key: cVZg8AuCM1z8Z_u9oz3otZKsBcOI1Yav66U5Wbb_ozg
+    short-id: 32e0
+  server: 62.113.41.114
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8dfaa78-e166-4187-881f-5a192c0f9705
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 Singapore 5
+  network: tcp
+  port: 44006
+  reality-opts:
+    public-key: cVZg8AuCM1z8Z_u9oz3otZKsBcOI1Yav66U5Wbb_ozg
+    short-id: 32e0
+  server: 89.169.3.45
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8dfaa78-e166-4187-881f-5a192c0f9705
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: raw
   port: 59443
   reality-opts:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
@@ -86,7 +212,7 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 2
-  network: tcp
+  network: raw
   port: 63443
   reality-opts:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
@@ -97,7 +223,7 @@ proxies:
   type: vless
   udp: true
   uuid: 2a6a619b-3a18-40f6-b40f-d028ea60465d
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: ''
   name: 🇳🇱 The Netherlands 3
   network: grpc
@@ -111,135 +237,163 @@ proxies:
   type: vless
   udp: true
   uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-- client-fingerprint: edge
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 4
+  name: 🇺🇸 United States 1
   network: tcp
-  port: 44001
+  port: 44004
   reality-opts:
-    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
-    short-id: '20'
-  server: 139.100.228.66
-  servername: pool-c.pools.netcenter-cdn.com
+    public-key: bSfBNHTpiDoGdv-ABxwb8aYcie1omvJG8HYX1caNCTU
+    short-id: ace3e0
+  server: 104.171.128.210
+  servername: pool-b.pools.netcenter-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 8a46f9a6-be9c-45a6-952f-3c75f4d38c67
-- client-fingerprint: edge
+  uuid: 55e6c21b-2133-4700-9cc4-36aac5f706b0
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 5
+  name: 🇺🇸 United States 2
   network: tcp
-  port: 44001
+  port: 44004
   reality-opts:
-    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
-    short-id: '20'
-  server: 139.100.228.67
-  servername: pool-c.pools.netcenter-cdn.com
+    public-key: bSfBNHTpiDoGdv-ABxwb8aYcie1omvJG8HYX1caNCTU
+    short-id: ace3e0
+  server: 186.246.8.84
+  servername: pool-b.pools.netcenter-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 8a46f9a6-be9c-45a6-952f-3c75f4d38c67
-- client-fingerprint: firefox
+  uuid: 55e6c21b-2133-4700-9cc4-36aac5f706b0
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 6
+  name: 🇺🇸 United States 3
   network: tcp
-  port: 44001
+  port: 44004
   reality-opts:
-    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
-    short-id: '20'
-  server: 139.100.228.68
-  servername: pool-c.pools.netcenter-cdn.com
+    public-key: bSfBNHTpiDoGdv-ABxwb8aYcie1omvJG8HYX1caNCTU
+    short-id: ace3e0
+  server: 201.51.4.52
+  servername: pool-b.pools.netcenter-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 8a46f9a6-be9c-45a6-952f-3c75f4d38c67
-- client-fingerprint: chrome
+  uuid: 55e6c21b-2133-4700-9cc4-36aac5f706b0
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 7
+  name: 🇺🇸 United States 4
   network: tcp
-  port: 44001
+  port: 44004
   reality-opts:
-    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
-    short-id: '20'
-  server: 139.100.228.70
-  servername: pool-c.pools.netcenter-cdn.com
+    public-key: bSfBNHTpiDoGdv-ABxwb8aYcie1omvJG8HYX1caNCTU
+    short-id: ace3e0
+  server: 62.113.41.114
+  servername: pool-b.pools.netcenter-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 8a46f9a6-be9c-45a6-952f-3c75f4d38c67
-- client-fingerprint: chrome
+  uuid: 55e6c21b-2133-4700-9cc4-36aac5f706b0
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 8
+  name: 🇺🇸 United States 5
   network: tcp
-  port: 44001
+  port: 44004
   reality-opts:
-    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
-    short-id: '20'
-  server: ru.pool-c.netcenter-cdn.com
-  servername: pool-c.pools.netcenter-cdn.com
+    public-key: bSfBNHTpiDoGdv-ABxwb8aYcie1omvJG8HYX1caNCTU
+    short-id: ace3e0
+  server: 89.169.3.45
+  servername: pool-b.pools.netcenter-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: 8a46f9a6-be9c-45a6-952f-3c75f4d38c67
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 9
-  network: raw
-  port: 44001
-  reality-opts:
-    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
-    short-id: '20'
-  server: 139.100.228.69
-  servername: pool-c.pools.netcenter-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a46f9a6-be9c-45a6-952f-3c75f4d38c67
-- client-fingerprint: firefox
+  uuid: 55e6c21b-2133-4700-9cc4-36aac5f706b0
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
-    short-id: ''
-  server: 84.23.54.213
-  servername: www.ray-balance.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI
-    short-id: d484643ca8396614
-  server: 109.73.206.180
-  servername: st.ozone.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 663836b2-f676-43fb-977f-47c495b1b383
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
   network: raw
   port: 443
   reality-opts:
-    public-key: 90FUgmJX1CBru0UjtONGwq6lToXb5veyOwutf1GPY1Y
-    short-id: 589e6959130eedc3
-  server: 45.131.40.12
-  servername: rus01.ultraspeed.top
+    public-key: 6gz_3tpT8L9jwst8r9r-FRdekpGNobE6AVDMjQaRvlo
+    short-id: b44f10d2fc37a45a
+  server: 72.56.236.77
+  servername: r.windconnect.pro
   tls: true
   type: vless
   udp: true
-  uuid: 0ab6b3f5-65f0-4a80-9672-6a311fab1187
-- client-fingerprint: edge
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 2
+  network: tcp
+  port: 44001
+  reality-opts:
+    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
+    short-id: 175236a1893d863e
+  server: 104.171.128.210
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01dc3eeb-fd69-43e0-83dd-2b4e3979a1d2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 3
+  network: tcp
+  port: 44001
+  reality-opts:
+    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
+    short-id: 175236a1893d863e
+  server: 186.246.8.84
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01dc3eeb-fd69-43e0-83dd-2b4e3979a1d2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 4
+  network: tcp
+  port: 44001
+  reality-opts:
+    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
+    short-id: 175236a1893d863e
+  server: 201.51.4.52
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01dc3eeb-fd69-43e0-83dd-2b4e3979a1d2
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 5
+  network: tcp
+  port: 44001
+  reality-opts:
+    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
+    short-id: 175236a1893d863e
+  server: 62.113.41.114
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01dc3eeb-fd69-43e0-83dd-2b4e3979a1d2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 6
+  network: tcp
+  port: 44001
+  reality-opts:
+    public-key: qXyJbGAN_0PyZFVR7vb7anVdCK2Zhxexs7dVgc3vqn0
+    short-id: 175236a1893d863e
+  server: 89.169.3.45
+  servername: pool-b.pools.netcenter-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01dc3eeb-fd69-43e0-83dd-2b4e3979a1d2
+- client-fingerprint: safari
   flow: ''
-  name: 🇷🇺 Russia 3
+  name: 🇷🇺 Russia 1
   network: xhttp
   port: 443
   reality-opts:
@@ -253,21 +407,7 @@ proxies:
   uuid: 8723d2d9-4be9-4372-b978-9ac0adee051e
 - client-fingerprint: chrome
   flow: ''
-  name: 🇷🇺 Russia 4
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 72.56.239.66
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇷🇺 Russia 5
+  name: 🇷🇺 Russia 2
   network: xhttp
   port: 443
   reality-opts:
@@ -279,3 +419,31 @@ proxies:
   type: vless
   udp: true
   uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
+- client-fingerprint: android
+  flow: ''
+  name: 🇷🇺 Russia 3
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: 15affa0af66dfc79
+  server: 72.56.239.66
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: 84.23.54.213
+  servername: www.ray-balance.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
