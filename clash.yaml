@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: ''
   name: 🇩🇪 Germany 1
   network: grpc
@@ -13,10 +13,10 @@ proxies:
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 2
-  network: tcp
+  network: raw
   port: 7444
   reality-opts:
     public-key: vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0
@@ -28,20 +28,20 @@ proxies:
   udp: true
   uuid: a42939a4-c61c-4ecc-886b-3a317bdf4452
 - client-fingerprint: android
-  flow: ''
-  name: 🇳🇱 The Netherlands 1
-  network: grpc
-  port: 9002
+  flow: xtls-rprx-vision
+  name: 🇻🇮 U.S. Virgin Islands 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: 78.159.250.33
-  servername: api-maps.yandex.ru
+  server: 84.23.54.213
+  servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-- client-fingerprint: ios
+  uuid: 710fc22f-06b2-03ef-bb3e-f57c17b670a6
+- client-fingerprint: chrome
   flow: ''
   name: 🇺🇸 United States 1
   network: grpc
@@ -55,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
   network: tcp
@@ -72,34 +72,34 @@ proxies:
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 2
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: in-ru-vk-01.ray-balance.space
+  servername: www.ray-balance.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 3
   network: tcp
   port: 443
   reality-opts:
     public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: 84.23.54.213
+  server: in-ru-vk-01.ray-balance.space
   servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03ef-bb3e-f57c17b670a6
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
   name: 🇷🇺 Russia 1
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
-    short-id: 8ba6e72ee60667f6
-  server: 185.137.232.194
-  servername: aispir.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b092ee6-5e4b-0032-8236-a46bec9393fd
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇷🇺 Russia 2
   network: grpc
   port: 443
   reality-opts:
@@ -111,9 +111,9 @@ proxies:
   type: vless
   udp: true
   uuid: a42939a4-c61c-4ecc-886b-3a317bdf4452
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: ''
-  name: 🇷🇺 Russia 3
+  name: 🇷🇺 Russia 2
   network: grpc
   port: 443
   reality-opts:
