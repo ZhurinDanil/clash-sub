@@ -1,29 +1,43 @@
 proxies:
+- client-fingerprint: android
+  flow: ''
+  name: 🇫🇷 France 1
+  network: grpc
+  port: 9002
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 78.159.250.33
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: 84.23.54.213
+  servername: www.ray-balance.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  name: 🌐 Anycast-IP 2
   network: raw
   port: 443
   reality-opts:
-    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
-    short-id: 08804e078e1257c8
-  server: 217.149.22.8
-  servername: skimio.orbvia.online
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: in-ru-vk-01.ray-balance.space
+  servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
-  uuid: 0f6a3565-44e6-46ec-a562-a6c73bf6b685
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
-  server: 46.243.234.205
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
