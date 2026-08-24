@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: ios
   flow: ''
   name: 🇨🇿 Czechia 1
   network: grpc
@@ -8,34 +8,6 @@ proxies:
     public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
     short-id: aabbccdd
   server: 80.78.244.33
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇫🇮 Finland 1
-  network: grpc
-  port: 49049
-  reality-opts:
-    public-key: MobFN6snpaF7EcuVxJwYUnBaF8ZCxg8c2tKN6KuPQhs
-    short-id: ''
-  server: 185.229.9.235
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d362ec8-559e-4538-9e92-e091b4e3f935
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇫🇷 France 1
-  network: grpc
-  port: 9880
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  server: 134.0.116.208
   servername: dl.google.com
   tls: true
   type: vless
@@ -55,7 +27,7 @@ proxies:
   type: vless
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: ''
   name: 🇵🇱 Poland 1
   network: grpc
@@ -83,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: android
+- client-fingerprint: firefox
   flow: ''
   name: 🇸🇪 Sweden 1
   network: grpc
@@ -111,6 +83,20 @@ proxies:
   type: vless
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
+- client-fingerprint: android
+  flow: ''
+  name: 🇨🇭 Switzerland 2
+  network: grpc
+  port: 9882
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: ''
+  server: 80.78.246.205
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
@@ -125,23 +111,9 @@ proxies:
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: edge
+- client-fingerprint: safari
   flow: ''
   name: 🌐 Anycast-IP 2
-  network: xhttp
-  port: 6443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  server: 176.124.222.105
-  servername: api.vkimages.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 3
   network: xhttp
   port: 6443
   reality-opts:
@@ -153,9 +125,9 @@ proxies:
   type: vless
   udp: true
   uuid: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
-- client-fingerprint: firefox
+- client-fingerprint: android
   flow: ''
-  name: 🌐 Anycast-IP 4
+  name: 🌐 Anycast-IP 3
   network: xhttp
   port: 6443
   reality-opts:
@@ -169,7 +141,7 @@ proxies:
   uuid: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
 - client-fingerprint: chrome
   flow: ''
-  name: 🌐 Anycast-IP 5
+  name: 🌐 Anycast-IP 4
   network: xhttp
   port: 6443
   reality-opts:
@@ -183,7 +155,7 @@ proxies:
   uuid: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 6
+  name: 🌐 Anycast-IP 5
   network: tcp
   port: 443
   reality-opts:
@@ -195,7 +167,7 @@ proxies:
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03ef-bb3e-f57c17b670a6
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 1
   network: tcp
@@ -209,37 +181,23 @@ proxies:
   type: vless
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 2
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-    short-id: ''
-  server: 2.26.104.217
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd44419a-02a9-4c03-9cb8-a7f8ffd3ae68
-- client-fingerprint: edge
-  flow: ''
-  name: 🇷🇺 Russia 3
   network: xhttp
   port: 443
   reality-opts:
     public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
     short-id: 15affa0af66dfc79
-  server: 72.56.242.175
+  server: xhttpru.enotvpn.net
   servername: deepl.com
   tls: true
   type: vless
   udp: true
   uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 7
+  name: 🌐 Anycast-IP 6
   network: tcp
   port: 443
   reality-opts:
@@ -251,6 +209,20 @@ proxies:
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
+- client-fingerprint: edge
+  flow: ''
+  name: 🌐 Anycast-IP 7
+  network: xhttp
+  port: 6443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: 844352756c1fabba
+  server: 176.124.222.105
+  servername: api.vkimages.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 8
