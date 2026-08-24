@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: android
+  flow: ''
+  name: 🇧🇬 Bulgaria 1
+  network: grpc
+  port: 9002
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 78.159.250.33
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
 - client-fingerprint: chrome
   flow: ''
   name: 🇨🇿 Czechia 1
@@ -27,51 +41,9 @@ proxies:
   type: vless
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: android
-  flow: ''
-  name: 🇩🇪 Germany 1
-  network: grpc
-  port: 9895
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 89.248.192.63
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇮🇹 Italy 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: ''
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
-- client-fingerprint: ios
-  flow: ''
-  name: 🇵🇱 Poland 1
-  network: grpc
-  port: 9894
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  server: 89.248.192.63
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
 - client-fingerprint: edge
   flow: ''
-  name: 🇵🇱 Poland 2
+  name: 🇵🇱 Poland 1
   network: grpc
   port: 9892
   reality-opts:
@@ -84,28 +56,14 @@ proxies:
   udp: true
   uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
 - client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇪🇸 Spain 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
-    short-id: ''
-  server: in-ru-vk-01.ray-balance.space
-  servername: www.ray-balance.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: android
   flow: ''
-  name: 🇨🇭 Switzerland 1
+  name: 🇸🇪 Sweden 1
   network: grpc
-  port: 9882
+  port: 9872
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: ''
-  server: 80.78.246.205
+    short-id: aabbccdd
+  server: 194.58.95.183
   servername: dl.google.com
   tls: true
   type: vless
@@ -119,15 +77,43 @@ proxies:
   reality-opts:
     public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: in-ru-vk-01.ray-balance.space
+  server: 84.23.54.213
   servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03ef-bb3e-f57c17b670a6
-- client-fingerprint: chrome
+- client-fingerprint: ios
   flow: ''
   name: 🇬🇧 United Kingdom 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 2b5b1ffa8a6a1a68
+  server: mnl.savesafe.space
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 United Kingdom 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: D-OHTModvYqWAvNpZUlIEB4he1pQ0HUHB4fUd6LyOic
+    short-id: ecc652c213fed5d1
+  server: 188.68.220.99
+  servername: uk.nightproducts.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2daa9f67-8edc-41a2-a401-4a2497640c53
+- client-fingerprint: android
+  flow: ''
+  name: 🇬🇧 United Kingdom 3
   network: xhttp
   port: 443
   reality-opts:
@@ -139,15 +125,15 @@ proxies:
   type: vless
   udp: true
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
-  name: 🇬🇧 United Kingdom 2
+  name: 🇬🇧 United Kingdom 4
   network: xhttp
   port: 443
   reality-opts:
     public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
     short-id: 2b5b1ffa8a6a1a68
-  server: mnl.savesafe.space
+  server: 91.142.78.23
   servername: ya.ru
   tls: true
   type: vless
@@ -175,7 +161,7 @@ proxies:
   reality-opts:
     public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: 84.23.54.213
+  server: in-ru-vk-01.ray-balance.space
   servername: www.ray-balance.space
   tls: true
   type: vless
