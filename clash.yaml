@@ -1,4 +1,32 @@
 proxies:
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KyjoodHNlOIZbMeq1zt7J2jq2JAuNIDsuYK5HiHSaAY
+    short-id: 244a05b59dcb0e4f
+  server: se.nurvps.de
+  servername: rutube.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8c47da55-d009-4ed7-9bd3-cb1b7d37c217
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇦🇹 Austria 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UksqyimJXSHNTi9cfVP_qTnTdROFHGgXFQkCFXkNTVc
+    short-id: 2b5054e52ea0886a
+  server: cdn.nurcloud.org
+  servername: at.nurcloud.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8c47da55-d009-4ed7-9bd3-cb1b7d37c217
 - client-fingerprint: chrome
   flow: ''
   name: 🇪🇸 Spain 1
@@ -13,35 +41,49 @@ proxies:
   type: vless
   udp: true
   uuid: becd3b04-62a8-4b74-be67-be746008b4c2
-- client-fingerprint: edge
-  flow: ''
-  name: 🇸🇪 Sweden 1
-  network: grpc
-  port: 9872
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  server: 194.58.95.183
-  servername: dl.google.com
+    public-key: _KOPwSi3ejhLJoYOFT4bz0qB_0r064ae-XuG5sKAZS4
+    short-id: 6Da46894f6a521A1
+  server: 109.120.191.142
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: edge
+  uuid: 72cb684a-2227-4bcb-b40a-ad99904b5979
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 United States 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  server: 90.156.225.184
+  servername: cdnjs.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9588457-8753-411f-8368-a667bdc12c51
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
-    short-id: ''
-  server: 84.23.54.213
-  servername: www.ray-balance.space
+    public-key: iEn05nrDTTyNqlV2Brol7NQDZVRtyDw92o7FtkbJcF8
+    short-id: fb28c3048bd6e18a
+  server: ru.nurcloud.org
+  servername: ru.nurcloud.org
   tls: true
   type: vless
   udp: true
-  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: ios
+  uuid: 8c47da55-d009-4ed7-9bd3-cb1b7d37c217
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 2
   network: tcp
@@ -55,7 +97,7 @@ proxies:
   type: vless
   udp: true
   uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 3
   network: tcp
@@ -63,7 +105,7 @@ proxies:
   reality-opts:
     public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: 84.23.54.213
+  server: in-ru-vk-01.ray-balance.space
   servername: www.ray-balance.space
   tls: true
   type: vless
@@ -77,12 +119,26 @@ proxies:
   reality-opts:
     public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
     short-id: ''
-  server: in-ru-vk-01.ray-balance.space
+  server: 84.23.54.213
   servername: www.ray-balance.space
   tls: true
   type: vless
   udp: true
-  uuid: bc6a863f-f482-03f2-a950-3dc3d3b17249
+  uuid: bc6a863f-f482-03f5-a950-3dc3d3b17249
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fhacrLdXUT3a0PjnL5EVARAmGiNBn_0ysfCJfL3n_gQ
+    short-id: 4be4130078ebed0a
+  server: 185.22.153.130
+  servername: ytru.lunavpn.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72cb684a-2227-4bcb-b40a-ad99904b5979
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 5
@@ -96,10 +152,24 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: bc6a863f-f482-03f5-a950-3dc3d3b17249
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis
+    short-id: ''
+  server: 84.23.54.213
+  servername: www.ray-balance.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc6a863f-f482-03f2-a950-3dc3d3b17249
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 7
   network: tcp
   port: 443
   reality-opts:
@@ -111,9 +181,9 @@ proxies:
   type: vless
   udp: true
   uuid: bc6a863f-f482-03f5-a950-3dc3d3b17249
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 7
+  name: 🌐 Anycast-IP 8
   network: tcp
   port: 443
   reality-opts:
@@ -127,7 +197,7 @@ proxies:
   uuid: 710fc22f-06b2-03ef-bb3e-f57c17b670a6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 8
+  name: 🌐 Anycast-IP 9
   network: tcp
   port: 443
   reality-opts:
