@@ -1,29 +1,43 @@
 proxies:
-- client-fingerprint: android
-  flow: ''
-  name: 🇱🇻 Latvia 1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
   network: tcp
-  port: 5269
+  port: 8443
   reality-opts:
-    public-key: s4-6wXzdAwaUFvAYsXCwyFsq61kjmFJ5w5rYW7z_uB8
-    short-id: 5f24112b
-  server: 82.202.179.92
-  servername: max.ru
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  server: 46.8.209.163
+  servername: rutube.ru
   tls: true
   type: vless
   udp: true
-  uuid: eaee7415-f1eb-4404-8801-f3dcd340cb50
-- client-fingerprint: chrome
+  uuid: 97b930ef-d873-0012-8940-9e461909a3a3
+- client-fingerprint: android
   flow: ''
-  name: 🇷🇺 Russia 1
+  name: 🇳🇱 The Netherlands 1
   network: grpc
   port: 443
   reality-opts:
-    public-key: bj4GN5p31ILpE4DZL7FLPHUbB0rzcgWKYzdQ3SKhtVM
-    short-id: ''
-  server: 92.255.110.157
-  servername: dl.google.com
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  server: 81.163.23.39
+  servername: cdn.byteark.com
   tls: true
   type: vless
   udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
+  uuid: b49a0ce3-33e2-434a-8023-bb5f565c7ebe
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gd2fqgWRBZL_U7tMX6YIdl6yg7I2l3tRuwJj7qjubW8
+    short-id: 7e33d5800b29437b
+  server: 94.241.140.80
+  servername: web.max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0825ac8b-9d44-48c1-abea-ed51647dca82
