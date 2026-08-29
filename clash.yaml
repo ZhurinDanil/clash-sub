@@ -1,29 +1,71 @@
 proxies:
 - client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: raw
-  port: 8443
+  name: 🇩🇪 Germany 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: ZLaCpPpshvZDbNPuaP-xGV4Uh9Eo7tDzonyFtFqis3w
-    short-id: afdd2a7f996dd0e9
-  server: 176.109.85.142
-  servername: ads.x5.ru
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: e1f8a3b6
+  server: 147.45.100.89
+  servername: 5post-gate.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 303035c0-dd28-4568-87bb-9a11637c5407
+  uuid: 918d29b8-8f78-40ec-96fa-b0c76f24b91b
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 2
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA
+    short-id: 20a080af5636a681
+  server: 46.243.234.72
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24708d62-a508-4c63-a860-7d4e04e440b1
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇪🇸 Spain 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk
+    short-id: a1b2c3d4
+  server: 194.67.111.218
+  servername: fr.aeternavpn.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+- client-fingerprint: android
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: xhttp
+  port: 40000
+  reality-opts:
+    public-key: vqnE1wKOqp4JXotgCl4SI2CBJ7ys3080cZjL83r9pmE
+    short-id: 49443d1a
+  server: rua02.333210.best
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 793169ce-4ab0-4458-bab0-cd6baa83bdc2
 - client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇷🇺 Russia 2
-  network: raw
-  port: 8443
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: ZLaCpPpshvZDbNPuaP-xGV4Uh9Eo7tDzonyFtFqis3w
-    short-id: afdd2a7f996dd0e9
-  server: 176.109.85.143
-  servername: ads.x5.ru
+    public-key: Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc
+    short-id: 7d8e9f0a
+  server: 176.108.243.2
+  servername: 5post-gate.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 303035c0-dd28-4568-87bb-9a11637c5407
+  uuid: 918d29b8-8f78-40ec-96fa-b0c76f24b91b
