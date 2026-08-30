@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: tcp
   port: 443
   reality-opts:
@@ -13,9 +13,23 @@ proxies:
   type: vless
   udp: true
   uuid: 918d29b8-8f78-40ec-96fa-b0c76f24b91b
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇫🇷 France 1
+  network: tcp
+  port: 16445
+  reality-opts:
+    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
+    short-id: a1b2c3d4
+  server: 159.194.234.196
+  servername: fr.aeternavpn.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+- client-fingerprint: edge
   flow: ''
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 1
   network: grpc
   port: 2053
   reality-opts:
@@ -29,35 +43,133 @@ proxies:
   uuid: 24708d62-a508-4c63-a860-7d4e04e440b1
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇪🇸 Spain 1
+  name: 🇲🇩 Moldova 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk
+    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
     short-id: a1b2c3d4
   server: 194.67.111.218
-  servername: fr.aeternavpn.space
+  servername: hotcoals.aeternavpn.space
   tls: true
   type: vless
   udp: true
   uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
 - client-fingerprint: android
   flow: ''
-  name: 🇷🇺 Russia 1
-  network: xhttp
-  port: 40000
+  name: 🌐 Anycast-IP 1
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: vqnE1wKOqp4JXotgCl4SI2CBJ7ys3080cZjL83r9pmE
-    short-id: 49443d1a
-  server: rua02.333210.best
-  servername: aws.amazon.com
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 8b6f2e4d7c1a5b9f
+  server: 186.246.2.31
+  servername: ser.moktana.app
   tls: true
   type: vless
   udp: true
-  uuid: 793169ce-4ab0-4458-bab0-cd6baa83bdc2
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 8b6f2e4d7c1a5b9f
+  server: 5.129.246.114
+  servername: ser.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 3
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 8b6f2e4d7c1a5b9f
+  server: ser.moktana.app
+  servername: ser.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 4
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: 186.246.6.110
+  servername: der.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+- client-fingerprint: chrome
+  flow: ''
+  name: 🌐 Anycast-IP 5
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: 186.246.6.33
+  servername: der.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 6
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: 193.160.208.137
+  servername: der.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 7
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: der.moktana.app
+  servername: der.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 8
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: 186.246.13.160
+  servername: der.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
 - client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
+  name: 🇷🇺 Russia 1
   network: tcp
   port: 443
   reality-opts:
