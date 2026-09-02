@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 1
   network: grpc
@@ -13,35 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9d635464-57dc-4bac-a1be-dd731d74ed06
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 193.233.255.43
-  servername: de.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ae1bbd2-dd81-4737-bbec-6a8c1c74e8f1
-- client-fingerprint: edge
-  flow: ''
-  name: 🇺🇸 United States 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
-    short-id: 2da4299da566b7
-  server: 94.228.166.135
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
-- client-fingerprint: firefox
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
   network: tcp
@@ -55,17 +27,3 @@ proxies:
   type: vless
   udp: true
   uuid: efbfea27-dfb8-4414-878c-a2c2b87ff9fc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0
-    short-id: 3e70d4cbb01bddfd
-  server: ru.opngtr.nl
-  servername: cdn.savesafe.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
