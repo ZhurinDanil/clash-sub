@@ -1,7 +1,91 @@
 proxies:
 - client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇪🇪 Estonia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4C9KU3mBvc1uusC8ZUheHqIYAKkKlFDalP7QSL2cYHs
+    short-id: 7a3f9e2b1c8d4f6a
+  server: cdn0.cloud-cdn.xyz
+  servername: d2-ee.cloud-cdn.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: adff89a7-bde7-4614-962a-4068a65a655e
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 1
+  network: grpc
+  port: 11447
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: 3b149d533a
+  server: 46.16.36.222
+  servername: mageia.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hvf_8QEX4pt-BjtgdiPCb1WsiLHG9Mk46e7oqHi8eCQ
+    short-id: 4375ebbdd8c3ae9c
+  server: cdn11.cloud-cdn.xyz
+  servername: fl.cloud-s3.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: adff89a7-bde7-4614-962a-4068a65a655e
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇫🇷 France 1
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 185.103.100.19
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
+- client-fingerprint: edge
+  flow: ''
+  name: 🇫🇷 France 2
+  network: grpc
+  port: 11443
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: 3b149d533a
+  server: 46.16.36.222
+  servername: mageia.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: android
   flow: ''
   name: 🇩🇪 Germany 1
+  network: grpc
+  port: 6443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 185.103.100.19
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
+- client-fingerprint: android
+  flow: ''
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 443
   reality-opts:
@@ -15,18 +99,18 @@ proxies:
   uuid: 5f922903-69b5-4d99-924d-52ca6337741e
 - client-fingerprint: chrome
   flow: ''
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 2053
   reality-opts:
-    public-key: IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA
-    short-id: 20a080af5636a681
-  server: 46.243.234.72
+    public-key: EtfCxtqZmJ_cNs8Q02ZLuiHFoH7o7DogIcMSQjuuAiI
+    short-id: 346951f93706f6ec
+  server: 46.243.234.143
   servername: 5post-gate.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 24708d62-a508-4c63-a860-7d4e04e440b1
+  uuid: 9d635464-57dc-4bac-a1be-dd731d74ed06
 - client-fingerprint: edge
   flow: ''
   name: 🇰🇿 Kazakhstan 1
@@ -55,35 +139,21 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  flow: ''
   name: 🇵🇱 Poland 2
-  network: tcp
-  port: 443
+  network: grpc
+  port: 11445
   reality-opts:
-    public-key: BjG7XoEMR2uxHbBk_rtkR7P_S_luG2VcvQlvZ4YHzH8
-    short-id: 27e53bbcab7593d7
-  server: 51.250.46.190
-  servername: max.ru
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: '61'
+  server: 46.16.36.222
+  servername: mageia.ubuntuhosting.host
   tls: true
   type: vless
   udp: true
-  uuid: 423cb984-5f34-4da3-a279-eb7a65f0527f
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: BjG7XoEMR2uxHbBk_rtkR7P_S_luG2VcvQlvZ4YHzH8
-    short-id: 27e53bbcab7593d7
-  server: 84.201.178.175
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423cb984-5f34-4da3-a279-eb7a65f0527f
-- client-fingerprint: android
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇸🇪 Sweden 1
   network: tcp
@@ -97,76 +167,48 @@ proxies:
   type: vless
   udp: true
   uuid: 1ff9ceea-7008-4c0e-a832-32a0c81f0c46
-- client-fingerprint: android
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇨🇭 Switzerland 1
+  name: 🇳🇱 The Netherlands 1
   network: tcp
-  port: 44002
+  port: 443
   reality-opts:
-    public-key: sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ
-    short-id: c2166e3b
-  server: 147.45.99.111
-  servername: cloudbridgecdn.pro
+    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
+    short-id: a9dc98a7dc87a7dc
+  server: 95.163.232.208
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 8cc0f156-c22f-465f-8bf1-68460d330c63
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇨🇭 Switzerland 2
-  network: tcp
-  port: 44002
-  reality-opts:
-    public-key: sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ
-    short-id: c2166e3b
-  server: 201.34.141.76
-  servername: cloudbridgecdn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8cc0f156-c22f-465f-8bf1-68460d330c63
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇨🇭 Switzerland 3
-  network: tcp
-  port: 44002
-  reality-opts:
-    public-key: sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ
-    short-id: c2166e3b
-  server: 201.51.12.158
-  servername: cloudbridgecdn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8cc0f156-c22f-465f-8bf1-68460d330c63
+  uuid: f0fb771d-ebff-478d-89ad-3490bfd7ee8b
 - client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇨🇭 Switzerland 4
-  network: tcp
-  port: 44002
+  flow: ''
+  name: 🇳🇱 The Netherlands 2
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ
-    short-id: c2166e3b
-  server: 72.56.34.176
-  servername: cloudbridgecdn.pro
+    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
+    short-id: 3fa234ea9feaa048
+  server: 90.156.218.143
+  servername: mint.ubuntuhosting.host
   tls: true
   type: vless
   udp: true
-  uuid: 8cc0f156-c22f-465f-8bf1-68460d330c63
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
 - client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇨🇭 Switzerland 5
-  network: tcp
-  port: 44002
+  flow: ''
+  name: 🇺🇸 United States 1
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ
-    short-id: c2166e3b
-  server: 83.217.223.158
-  servername: cloudbridgecdn.pro
+    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
+    short-id: 2da4299da566b7
+  server: 185.103.100.19
+  servername: maps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 8cc0f156-c22f-465f-8bf1-68460d330c63
+  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
 - client-fingerprint: chrome
   flow: ''
   name: 🌐 Anycast-IP 1
@@ -175,49 +217,7 @@ proxies:
   reality-opts:
     public-key: nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E
     short-id: 707c8615b9
-  server: 85.198.83.81
-  servername: endeavouros.ubuntuhosting.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sbvKAdRy_0h33iRxgGwHAD1HC62WGwlkWwj0S5ptJEU
-    short-id: 9c2378562188c3cb
-  server: ru.falsemirrov.com
-  servername: ru.falsemirrov.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423cb984-5f34-4da3-a279-eb7a65f0527f
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E
-    short-id: 3a2c
-  server: 147.45.163.134
-  servername: endeavouros.ubuntuhosting.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
-- client-fingerprint: chrome
-  flow: ''
-  name: 🌐 Anycast-IP 3
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E
-    short-id: 707c8615b9
-  server: 93.183.80.119
+  server: 217.199.254.215
   servername: endeavouros.ubuntuhosting.host
   tls: true
   type: vless
