@@ -1,49 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 1
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
-    short-id: 7765b2a4cef1033e
-  server: 46.8.208.29
-  servername: cdn.okko.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f39df59-0ec9-4b92-b6f7-10f746942c70
-- client-fingerprint: ios
-  flow: ''
-  name: 🇩🇪 Germany 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
-    short-id: 7765b2a4cef1033e
-  server: 46.8.208.29
-  servername: cdn.okko.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5f922903-69b5-4d99-924d-52ca6337741e
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 3
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA
-    short-id: 20a080af5636a681
-  server: 46.243.234.72
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24708d62-a508-4c63-a860-7d4e04e440b1
 - client-fingerprint: android
   flow: ''
-  name: 🇩🇪 Germany 4
+  name: 🇩🇪 Germany 1
   network: grpc
   port: 2053
   reality-opts:
@@ -55,23 +13,9 @@ proxies:
   type: vless
   udp: true
   uuid: 9d635464-57dc-4bac-a1be-dd731d74ed06
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 5
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: bBKApM5WgpuMsXoaDD2Umv4K7pc-02P_yfmHClQ-Ong
-    short-id: daa26763b27edd53
-  server: 46.243.234.193
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e41dbbf8-b0ca-4328-a237-1520da5246c1
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 6
+  name: 🇩🇪 Germany 2
   network: tcp
   port: 443
   reality-opts:
@@ -84,34 +28,6 @@ proxies:
   udp: true
   uuid: 2ae1bbd2-dd81-4737-bbec-6a8c1c74e8f1
 - client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
-    short-id: ''
-  server: 72.56.38.83
-  servername: absolute-disaster.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: Fluffy_VPN-zKZUa4Ie
-- client-fingerprint: android
-  flow: ''
-  name: 🇳🇱 The Netherlands 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: na4liMQYlI_sUt5fxfVoty37p2jNVlG2zUIzpPC95XU
-    short-id: 846229eb47b3a5c9
-  server: 46.243.235.77
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91c3fcdf-d85b-46f8-ad85-5c5adadf661b
-- client-fingerprint: chrome
   flow: ''
   name: 🇺🇸 United States 1
   network: grpc
@@ -125,3 +41,31 @@ proxies:
   type: vless
   udp: true
   uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lkM6TUAgqgOYUcsnl6rycqfaL-GNYZyyEI3Zfu9-21s
+    short-id: f2a54777ec76a14c
+  server: 958fbe5d.site
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: efbfea27-dfb8-4414-878c-a2c2b87ff9fc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0
+    short-id: 3e70d4cbb01bddfd
+  server: ru.opngtr.nl
+  servername: cdn.savesafe.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
