@@ -1,18 +1,46 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇪🇪 Estonia 1
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: 4C9KU3mBvc1uusC8ZUheHqIYAKkKlFDalP7QSL2cYHs
-    short-id: 7a3f9e2b1c8d4f6a
-  server: cdn0.cloud-cdn.xyz
-  servername: d2-ee.cloud-cdn.xyz
+    public-key: xG6u83MW-QpWnhsmfV77wSlUPyDnrALdKU_hSNwTqxE
+    short-id: 4c4c46b76c0d436f
+  server: cdn11.cloud-cdn.xyz
+  servername: d2-de.cloud-s3.xyz
   tls: true
   type: vless
   udp: true
   uuid: adff89a7-bde7-4614-962a-4068a65a655e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇪 Estonia 1
+  network: tcp
+  port: 23443
+  reality-opts:
+    public-key: WGIBJ3eoHqBYgaklDehHUZYSAREh5HtFtcUs7MjUfxg
+    short-id: a432f464e0d4f65a
+  server: 195.133.27.72
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: edge
+  flow: ''
+  name: 🇪🇪 Estonia 2
+  network: grpc
+  port: 24443
+  reality-opts:
+    public-key: s2uiu3GQA2SlZzsr86Z5Dav97eAFTPf7Nvr-zqzzRgg
+    short-id: 72ccd4a7563c2953
+  server: 195.133.27.72
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
 - client-fingerprint: chrome
   flow: ''
   name: 🇫🇮 Finland 1
@@ -27,37 +55,51 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
+- client-fingerprint: android
+  flow: ''
   name: 🇫🇮 Finland 2
+  network: grpc
+  port: 6443
+  reality-opts:
+    public-key: lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8
+    short-id: bad5722c72a0
+  server: 79.174.92.85
+  servername: iv.kommersant.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 545d7cfe-152e-46d5-a868-914522b447b9
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 3
   network: tcp
   port: 443
   reality-opts:
     public-key: hvf_8QEX4pt-BjtgdiPCb1WsiLHG9Mk46e7oqHi8eCQ
     short-id: 4375ebbdd8c3ae9c
-  server: cdn11.cloud-cdn.xyz
+  server: 193.124.125.221
   servername: fl.cloud-s3.xyz
   tls: true
   type: vless
   udp: true
   uuid: adff89a7-bde7-4614-962a-4068a65a655e
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇫🇷 France 1
-  network: grpc
-  port: 8443
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 4
+  network: raw
+  port: 443
   reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 185.103.100.19
-  servername: maps.apple.com
+    public-key: hvf_8QEX4pt-BjtgdiPCb1WsiLHG9Mk46e7oqHi8eCQ
+    short-id: 4375ebbdd8c3ae9c
+  server: 193.124.125.236
+  servername: fl.cloud-s3.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
+  uuid: adff89a7-bde7-4614-962a-4068a65a655e
 - client-fingerprint: edge
   flow: ''
-  name: 🇫🇷 France 2
+  name: 🇫🇷 France 1
   network: grpc
   port: 11443
   reality-opts:
@@ -69,37 +111,23 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇷 France 2
+  network: grpc
+  port: 11444
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: d05e7ab9872797f4
+  server: 46.16.36.222
+  servername: mageia.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
 - client-fingerprint: android
   flow: ''
   name: 🇩🇪 Germany 1
-  network: grpc
-  port: 6443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 185.103.100.19
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
-- client-fingerprint: android
-  flow: ''
-  name: 🇩🇪 Germany 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
-    short-id: 7765b2a4cef1033e
-  server: 46.8.208.29
-  servername: cdn.okko.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5f922903-69b5-4d99-924d-52ca6337741e
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 3
   network: grpc
   port: 2053
   reality-opts:
@@ -125,20 +153,48 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: edge
+  flow: ''
+  name: 🇱🇻 Latvia 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae6e6c4b-7b9b-0037-bd0e-42ce01b96f86
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇱🇻 Latvia 2
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7c881df-840d-0037-b440-61435885f6e7
 - client-fingerprint: chrome
   flow: ''
   name: 🇵🇱 Poland 1
   network: grpc
-  port: 11446
+  port: 22443
   reality-opts:
-    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
-    short-id: b34f41089f1e
-  server: 46.16.36.222
-  servername: mageia.ubuntuhosting.host
+    public-key: V8llhEcbGI7Zqf52Ec0kryrdRv7lvLcKCjHe1Di23yw
+    short-id: fdf9d63fcdd6be6a
+  server: 195.133.27.72
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
 - client-fingerprint: chrome
   flow: ''
   name: 🇵🇱 Poland 2
@@ -153,10 +209,108 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇵🇱 Poland 3
+  network: grpc
+  port: 11446
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: b34f41089f1e
+  server: 46.16.36.222
+  servername: mageia.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇱 Poland 4
+  network: tcp
+  port: 21443
+  reality-opts:
+    public-key: M6BT_GEwaoIZqpxPO6vxMqcXSMjmhAYd2Tb4fJO-uC4
+    short-id: f6d36e2e08205c67
+  server: 195.133.27.72
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇸🇪 Sweden 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae6e6c4b-7b9b-0029-bd0e-42ce01b96f86
+- client-fingerprint: safari
+  flow: ''
+  name: 🇸🇪 Sweden 2
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae6e6c4b-7b9b-002f-bd0e-42ce01b96f86
+- client-fingerprint: safari
+  flow: ''
+  name: 🇸🇪 Sweden 3
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae6e6c4b-7b9b-0031-bd0e-42ce01b96f86
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇸🇪 Sweden 4
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7c881df-840d-0031-b440-61435885f6e7
+- client-fingerprint: android
+  flow: ''
+  name: 🇸🇪 Sweden 5
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae6e6c4b-7b9b-0024-bd0e-42ce01b96f86
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 1
-  network: tcp
+  name: 🇸🇪 Sweden 6
+  network: raw
   port: 443
   reality-opts:
     public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
@@ -173,14 +327,14 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
-    short-id: a9dc98a7dc87a7dc
-  server: 95.163.232.208
-  servername: ads.x5.ru
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    short-id: ''
+  server: 72.56.38.83
+  servername: absolute-disaster.org
   tls: true
   type: vless
   udp: true
-  uuid: f0fb771d-ebff-478d-89ad-3490bfd7ee8b
+  uuid: Fluffy_VPN-zKZUa4Ie
 - client-fingerprint: edge
   flow: ''
   name: 🇳🇱 The Netherlands 2
@@ -195,21 +349,21 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
-- client-fingerprint: edge
+- client-fingerprint: android
   flow: ''
-  name: 🇺🇸 United States 1
-  network: grpc
+  name: 🇬🇧 United Kingdom 1
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
-    short-id: 2da4299da566b7
-  server: 185.103.100.19
-  servername: maps.apple.com
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 2b5b1ffa8a6a1a68
+  server: 82.117.87.128
+  servername: ya.ru
   tls: true
   type: vless
   udp: true
-  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
-- client-fingerprint: chrome
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+- client-fingerprint: firefox
   flow: ''
   name: 🌐 Anycast-IP 1
   network: grpc
@@ -223,3 +377,31 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: safari
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae6e6c4b-7b9b-0032-bd0e-42ce01b96f86
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇷🇺 Russia 2
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7c881df-840d-0032-b440-61435885f6e7
