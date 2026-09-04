@@ -1,35 +1,7 @@
 proxies:
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇦🇹 Austria 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 45.131.212.60
-  servername: at.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ba36a4e-9542-43d3-85c1-9f0177972231
-- client-fingerprint: android
+- client-fingerprint: firefox
   flow: ''
   name: 🇨🇿 Czechia 1
-  network: grpc
-  port: 9891
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: ''
-  server: 212.41.11.31
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: android
-  flow: ''
-  name: 🇨🇿 Czechia 2
   network: grpc
   port: 9891
   reality-opts:
@@ -40,10 +12,38 @@ proxies:
   tls: true
   type: vless
   udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇨🇿 Czechia 2
+  network: grpc
+  port: 9891
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: ''
+  server: 212.41.11.31
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
   uuid: 86221972-81a1-41f4-a48c-c512af05777c
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
   name: 🇫🇷 France 1
+  network: grpc
+  port: 9894
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: ''
+  server: 45.92.177.10
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇫🇷 France 2
   network: grpc
   port: 9894
   reality-opts:
@@ -54,24 +54,38 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: chrome
+  uuid: 86221972-81a1-41f4-a48c-c512af05777c
+- client-fingerprint: edge
   flow: ''
-  name: 🇫🇷 France 2
-  network: grpc
-  port: 9894
+  name: 🇩🇪 Germany 1
+  network: xhttp
+  port: 18082
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  server: 45.92.177.10
-  servername: dl.google.com
+    public-key: a1MdDR-BBYGSzhVAlLdOIPXUWbTRz_YAT_31hEcVe2o
+    short-id: 5f6af0122209fc10
+  server: 46.8.209.137
+  servername: royalehosting.net
   tls: true
   type: vless
   udp: true
-  uuid: 86221972-81a1-41f4-a48c-c512af05777c
-- client-fingerprint: android
+  uuid: 4a7e45b7-f202-4271-81d3-48db732d7470
+- client-fingerprint: edge
   flow: ''
-  name: 🇩🇪 Germany 1
+  name: 🇩🇪 Germany 2
+  network: xhttp
+  port: 18082
+  reality-opts:
+    public-key: a1MdDR-BBYGSzhVAlLdOIPXUWbTRz_YAT_31hEcVe2o
+    short-id: 5f6af0122209fc10
+  server: 46.8.209.137
+  servername: royalehosting.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59736950-b530-4827-8244-fab412b91b4b
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 3
   network: grpc
   port: 443
   reality-opts:
@@ -82,38 +96,38 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2f39df59-0ec9-4b92-b6f7-10f746942c70
-- client-fingerprint: android
+  uuid: 5f922903-69b5-4d99-924d-52ca6337741e
+- client-fingerprint: firefox
   flow: ''
-  name: 🇩🇪 Germany 2
+  name: 🇵🇱 Poland 1
   network: grpc
-  port: 9892
+  port: 9895
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  server: 188.225.83.101
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 45.92.177.10
   servername: dl.google.com
   tls: true
   type: vless
   udp: true
   uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: android
+- client-fingerprint: firefox
   flow: ''
-  name: 🇩🇪 Germany 3
+  name: 🇵🇱 Poland 2
   network: grpc
-  port: 9892
+  port: 9895
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  server: 188.225.83.101
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  server: 45.92.177.10
   servername: dl.google.com
   tls: true
   type: vless
   udp: true
   uuid: 86221972-81a1-41f4-a48c-c512af05777c
-- client-fingerprint: safari
+- client-fingerprint: ios
   flow: ''
-  name: 🇵🇱 Poland 1
+  name: 🇵🇱 Poland 3
   network: grpc
   port: 11445
   reality-opts:
@@ -125,77 +139,21 @@ proxies:
   type: vless
   udp: true
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
-- client-fingerprint: android
-  flow: ''
-  name: 🇵🇱 Poland 2
-  network: grpc
-  port: 9895
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: ''
-  server: 45.92.177.10
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: android
-  flow: ''
-  name: 🇵🇱 Poland 3
-  network: grpc
-  port: 9895
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: ''
-  server: 45.92.177.10
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86221972-81a1-41f4-a48c-c512af05777c
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇸🇪 Sweden 1
-  network: grpc
-  port: 9872
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  server: 111.88.99.27
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: android
-  flow: ''
-  name: 🇸🇪 Sweden 2
-  network: grpc
-  port: 9872
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  server: 111.88.99.27
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86221972-81a1-41f4-a48c-c512af05777c
-- client-fingerprint: android
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 3
+  name: 🇵🇱 Poland 4
   network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 45.131.212.13
-  servername: se.sellflow.org
+    public-key: Qj3NTtCNB0VWw5lg0LYXwTQZ1eunIR18zCdxuTPiFAA
+    short-id: 8360c567c422f813
+  server: 45.11.27.152
+  servername: d-pl.cloud-cdn.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 3ba36a4e-9542-43d3-85c1-9f0177972231
-- client-fingerprint: android
+  uuid: adff89a7-bde7-4614-962a-4068a65a655e
+- client-fingerprint: firefox
   flow: ''
   name: 🇨🇭 Switzerland 1
   network: grpc
@@ -209,23 +167,65 @@ proxies:
   type: vless
   udp: true
   uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: ''
   name: 🇨🇭 Switzerland 2
   network: grpc
   port: 9882
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
+    short-id: aa
   server: 212.41.11.31
   servername: dl.google.com
   tls: true
   type: vless
   udp: true
   uuid: 86221972-81a1-41f4-a48c-c512af05777c
-- client-fingerprint: android
-  flow: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    short-id: ''
+  server: 72.56.38.83
+  servername: absolute-disaster.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: Fluffy_VPN-zKZUa4Ie
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: HHbMyxLRgywVoS_G5d35HW0bToENF0ihXHJ20iLAYRM
+    short-id: b6549e
+  server: 217.199.254.215
+  servername: kaos.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- client-fingerprint: firefox
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: grpc
+  port: 9894
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: ''
+  server: 111.88.99.27
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+- client-fingerprint: firefox
+  flow: ''
+  name: 🌐 Anycast-IP 2
   network: grpc
   port: 9894
   reality-opts:
@@ -236,45 +236,31 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: android
+  uuid: 86221972-81a1-41f4-a48c-c512af05777c
+- client-fingerprint: firefox
   flow: ''
-  name: 🌐 Anycast-IP 1
+  name: 🌐 Anycast-IP 3
   network: grpc
-  port: 9894
+  port: 9872
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabbccdd
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
   server: 111.88.99.27
   servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 86221972-81a1-41f4-a48c-c512af05777c
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
-    short-id: ''
-  server: 176.123.167.215
-  servername: www.io.ozone.ru
-  tls: true
-  type: vless
-  udp: true
   uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 2
-  network: tcp
-  port: 9443
+- client-fingerprint: edge
+  flow: ''
+  name: 🌐 Anycast-IP 4
+  network: grpc
+  port: 9872
   reality-opts:
-    public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
-    short-id: ''
-  server: 176.123.167.215
-  servername: www.io.ozone.ru
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  server: 111.88.99.27
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
