@@ -1,33 +1,47 @@
 proxies:
 - client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: raw
+  port: 1034
+  reality-opts:
+    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+    short-id: b0d8c9a285c70f6f
+  server: 37.18.15.178
+  servername: unpkg.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38eb3e71-4349-4bd6-9baf-9740e1896495
+- client-fingerprint: edge
   flow: ''
   name: 🇩🇪 Germany 1
   network: grpc
   port: 443
   reality-opts:
-    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
-    short-id: 7765b2a4cef1033e
-  server: 46.8.208.29
-  servername: cdn.okko.tv
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 82.146.59.128
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 2f39df59-0ec9-4b92-b6f7-10f746942c70
-- client-fingerprint: android
+  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
+- client-fingerprint: edge
   flow: ''
   name: 🇩🇪 Germany 2
   network: grpc
   port: 443
   reality-opts:
-    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
-    short-id: 7765b2a4cef1033e
-  server: 46.8.208.29
-  servername: cdn.okko.tv
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 83.136.235.83
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 5f922903-69b5-4d99-924d-52ca6337741e
-- client-fingerprint: chrome
+  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
+- client-fingerprint: firefox
   flow: ''
   name: 🇩🇪 Germany 3
   network: grpc
@@ -41,21 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: edge
-  flow: ''
-  name: 🇩🇪 Germany 4
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 83.136.235.83
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: ''
   name: 🇳🇱 The Netherlands 1
   network: grpc
@@ -69,3 +69,31 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: raw
+  port: 1035
+  reality-opts:
+    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+    short-id: b0d8c9a285c70f6f
+  server: 37.18.15.178
+  servername: cdnjs.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38eb3e71-4349-4bd6-9baf-9740e1896495
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: tcp
+  port: 1035
+  reality-opts:
+    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+    short-id: b0d8c9a285c70f6f
+  server: play.main-soft.ru
+  servername: cdnjs.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38eb3e71-4349-4bd6-9baf-9740e1896495
