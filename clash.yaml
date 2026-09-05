@@ -1,46 +1,46 @@
 proxies:
 - client-fingerprint: edge
-  flow: ''
-  name: 🇦🇹 Austria 1
-  network: grpc
-  port: 9830
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 1
+  network: tcp
+  port: 14443
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  server: 82.202.143.37
-  servername: dl.google.com
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  server: 178.248.232.207
+  servername: static.rutube.ru
   tls: true
   type: vless
   udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: chrome
+  uuid: 954f495f-3c39-000e-9745-752bb56f605f
+- client-fingerprint: edge
   flow: ''
-  name: 🇨🇿 Czechia 1
+  name: 🇫🇮 Finland 2
   network: grpc
-  port: 9891
+  port: 6443
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabbccdd
-  server: 188.124.47.34
-  servername: dl.google.com
+    public-key: lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8
+    short-id: bad5722c72a0
+  server: 79.174.92.85
+  servername: iv.kommersant.ru
   tls: true
   type: vless
   udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  uuid: 2324f230-0341-47c7-8aac-8974fd48f0a4
 - client-fingerprint: firefox
-  flow: ''
+  flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
-  network: grpc
-  port: 443
+  network: tcp
+  port: 60443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: ns.o11111o.club
-  servername: id.vk.com
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  server: 178.248.232.207
+  servername: static.rutube.ru
   tls: true
   type: vless
   udp: true
-  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
+  uuid: 954f495f-3c39-0012-9745-752bb56f605f
 - client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 2
@@ -69,31 +69,17 @@ proxies:
   type: vless
   udp: true
   uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: ''
-  name: 🇵🇱 Poland 1
+  name: 🇩🇪 Germany 4
   network: grpc
-  port: 9895
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 95.143.190.125
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 Sweden 1
-  network: raw
   port: 443
   reality-opts:
-    public-key: aVmuYo7bRHD_fitsWFFVpBx-l6vcaUyrR_12xYSHVzo
-    short-id: 4fb6032b378d19d5
-  server: 188.225.62.97
-  servername: api-maps.yandex.ru
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ns.o11111o.club
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
+  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
