@@ -1,46 +1,18 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
-  network: tcp
-  port: 14443
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 178.248.232.207
-  servername: static.rutube.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 954f495f-3c39-000e-9745-752bb56f605f
-- client-fingerprint: edge
-  flow: ''
-  name: 🇫🇮 Finland 2
-  network: grpc
-  port: 6443
-  reality-opts:
-    public-key: lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8
-    short-id: bad5722c72a0
-  server: 79.174.92.85
-  servername: iv.kommersant.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2324f230-0341-47c7-8aac-8974fd48f0a4
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  flow: ''
   name: 🇩🇪 Germany 1
-  network: tcp
-  port: 60443
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 178.248.232.207
-  servername: static.rutube.ru
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ns.o11111o.club
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 954f495f-3c39-0012-9745-752bb56f605f
+  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
 - client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 2
@@ -50,34 +22,6 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
   server: 176.12.71.1
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 3
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 91.107.122.141
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇩🇪 Germany 4
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: ns.o11111o.club
   servername: id.vk.com
   tls: true
   type: vless
