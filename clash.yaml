@@ -1,7 +1,21 @@
 proxies:
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gQ77kXT_HW87HDpD0u95L7gAPBNuV8e4kFgUdKH56l8
+    short-id: 803c4bb737a161c0
+  server: 185.186.143.125
+  servername: ded-fi.file-rkat.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00d1939a-d03c-4e93-a02b-2040b8429063
 - client-fingerprint: firefox
   flow: ''
-  name: 🇫🇮 Finland 1
+  name: 🇫🇮 Finland 2
   network: grpc
   port: 6443
   reality-opts:
@@ -13,31 +27,45 @@ proxies:
   type: vless
   udp: true
   uuid: b7797db2-27fa-4127-a9f7-18ae181a1cb7
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
-  network: raw
-  port: 443
+  network: tcp
+  port: 5443
   reality-opts:
-    public-key: xG6u83MW-QpWnhsmfV77wSlUPyDnrALdKU_hSNwTqxE
-    short-id: 4c4c46b76c0d436f
-  server: 193.124.125.221
-  servername: d2-de.cloud-s3.xyz
+    public-key: ZOhyzm2BZ0OsSTfS_zizRo8TlkXopKsyL48KiR76tj0
+    short-id: 6f5648b1673b8042
+  server: 87.242.95.198
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: adff89a7-bde7-4614-962a-4068a65a655e
-- client-fingerprint: android
+  uuid: c4854b1a-ec0f-4c5e-940b-f23c8fd39253
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇵🇱 Poland 1
+  network: grpc
+  port: 33743
+  reality-opts:
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+    short-id: ''
+  server: 84.201.142.221
+  servername: www.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
+  name: 🇷🇺 Russia 1
   network: raw
   port: 443
   reality-opts:
-    public-key: xG6u83MW-QpWnhsmfV77wSlUPyDnrALdKU_hSNwTqxE
-    short-id: 4c4c46b76c0d436f
-  server: 193.124.125.194
-  servername: d2-de.cloud-s3.xyz
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: e7
+  server: 217.16.31.162
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: adff89a7-bde7-4614-962a-4068a65a655e
+  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
