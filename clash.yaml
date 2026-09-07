@@ -1,47 +1,5 @@
 proxies:
 - client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
-    short-id: 1067b23f928e7618
-  server: flarora.ferreo.sbs
-  servername: flarora.ferreo.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇨🇿 Czechia 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F0qiIYc2oh4Y7T_JM6WPIk_FbL79iOWBoIsmJGFuqyY
-    short-id: 4e33be95ff68e7fc
-  server: 80.249.144.234
-  servername: ch.nightproducts.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇫🇮 Finland 1
-  network: grpc
-  port: 6443
-  reality-opts:
-    public-key: lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8
-    short-id: bad5722c72a0
-  server: 79.174.92.85
-  servername: iv.kommersant.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7797db2-27fa-4127-a9f7-18ae181a1cb7
-- client-fingerprint: android
   flow: ''
   name: 🇷🇺 Russia 1
   network: xhttp
@@ -55,3 +13,17 @@ proxies:
   type: vless
   udp: true
   uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: e7
+  server: 217.16.31.162
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
