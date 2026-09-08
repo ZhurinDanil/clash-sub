@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: xhttp
@@ -13,20 +13,6 @@ proxies:
   type: vless
   udp: true
   uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: 217.16.31.162
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
 - client-fingerprint: chrome
   flow: ''
   name: 🇦🇹 Austria 1
@@ -55,7 +41,7 @@ proxies:
   type: vless
   udp: true
   uuid: b7797db2-27fa-4127-a9f7-18ae181a1cb7
-- client-fingerprint: android
+- client-fingerprint: edge
   flow: ''
   name: 🇫🇷 France 1
   network: grpc
@@ -69,7 +55,35 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: android
+- client-fingerprint: edge
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
+    short-id: 7765b2a4cef1033e
+  server: 46.8.208.29
+  servername: cdn.okko.tv
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f39df59-0ec9-4b92-b6f7-10f746942c70
+- client-fingerprint: edge
+  flow: ''
+  name: 🇩🇪 Germany 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
+    short-id: 7765b2a4cef1033e
+  server: 46.8.208.29
+  servername: cdn.okko.tv
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f922903-69b5-4d99-924d-52ca6337741e
+- client-fingerprint: chrome
   flow: ''
   name: 🇵🇱 Poland 1
   network: grpc
@@ -83,7 +97,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: android
+- client-fingerprint: ios
   flow: ''
   name: 🇵🇱 Poland 2
   network: grpc
@@ -111,7 +125,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: ''
   name: 🇳🇱 The Netherlands 1
   network: grpc
@@ -126,16 +140,30 @@ proxies:
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
 - client-fingerprint: chrome
-  flow: ''
-  name: 🇳🇱 The Netherlands 2
-  network: grpc
-  port: 8443
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: 22xsvJd-vHeh8Xtg7n8Zb6C7yz31UCPyWZTreKTUrlY
-    short-id: a1b2c3d4
-  server: 109.172.39.252
-  servername: maps.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 45.131.212.37
+  servername: sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: e7
+  server: 217.16.31.162
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
