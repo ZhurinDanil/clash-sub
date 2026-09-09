@@ -1,7 +1,21 @@
 proxies:
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pU7eWw1B4phNfOaRY9-r4kDHqoQe_lRp5id6XDsWgyA
+    short-id: 17cb877eb6914141
+  server: applyjitteryspilt.orbitgazette.art
+  servername: applyjitteryspilt.orbitgazette.art
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d94a576-3eb3-4f1d-bf88-1ed29b09e9e4
 - client-fingerprint: chrome
   flow: ''
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
   network: xhttp
   port: 443
   reality-opts:
@@ -13,17 +27,45 @@ proxies:
   type: vless
   udp: true
   uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇦🇹 Austria 1
-  network: grpc
-  port: 9830
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 France 1
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 82.202.143.37
-  servername: dl.google.com
+    public-key: n2v6NvgEHxPfvzo1IvFhc85vdhO80sQZ7t3TFYkagCc
+    short-id: d1de39d194b602ff
+  server: refriedbuzzhasty.dailygazette.one
+  servername: refriedbuzzhasty.dailygazette.one
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: 6d94a576-3eb3-4f1d-bf88-1ed29b09e9e4
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: f_bFaksQOoVyhloR3wrRvk5tTg10DasjJyyFSkXwMj0
+    short-id: ed48dbbed3cd8468
+  server: robaprik-vafloril.thicketpond.dev
+  servername: robaprik-vafloril.thicketpond.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d94a576-3eb3-4f1d-bf88-1ed29b09e9e4
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: e7
+  server: 217.16.31.162
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
