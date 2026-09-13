@@ -1,19 +1,5 @@
 proxies:
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇦🇹 Austria 1
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: JH077KoB3PWwc8qs7D2SPRWLDS7xKE4JbjDzEoSVvzQ
-    short-id: 37164c3e
-  server: 212.115.55.242
-  servername: ru-dc.wequ.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 1
   network: grpc
@@ -31,19 +17,33 @@ proxies:
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 2
   network: tcp
-  port: 7443
+  port: 443
   reality-opts:
-    public-key: IGkfedwznP5Qy28l7u5ra1FOgN7Wo1w2qh0UjAoWcTY
-    short-id: 2605aa36
-  server: 37.139.42.193
-  servername: max.ru
+    public-key: G4fqCmAVU43HdijV43q-USF8wRgPt8Ld3L7_msJyfTo
+    short-id: fc1b2a12a84ea61b
+  server: 188.130.209.199
+  servername: send.mycdn-io.ru
   tls: true
   type: vless
   udp: true
-  uuid: 9ae0806c-6398-43da-a3c1-9275b461e9b5
-- client-fingerprint: edge
+  uuid: 0799864e-f978-46a4-adc7-834473f01493
+- client-fingerprint: chrome
   flow: ''
   name: 🇩🇪 Germany 3
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 82.146.58.101
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- client-fingerprint: edge
+  flow: ''
+  name: 🇩🇪 Germany 4
   network: grpc
   port: 443
   reality-opts:
@@ -55,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
   name: 🇰🇿 Kazakhstan 1
   network: grpc
@@ -77,13 +77,27 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
+  server: 178.250.158.61
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+- client-fingerprint: android
+  flow: ''
+  name: 🇳🇴 Norway 2
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
   server: 178.250.157.177
   servername: id.vk.com
   tls: true
   type: vless
   udp: true
   uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 1
   network: tcp
@@ -114,20 +128,6 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   name: 🇺🇸 United States 1
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 80.87.195.166
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
-- client-fingerprint: android
-  flow: ''
-  name: 🇺🇸 United States 2
   network: grpc
   port: 2096
   reality-opts:
