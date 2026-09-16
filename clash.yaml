@@ -1,7 +1,35 @@
 proxies:
+- client-fingerprint: edge
+  flow: ''
+  name: 🇫🇮 Finland 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 82.146.56.149
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
 - client-fingerprint: ios
   flow: ''
   name: 🇩🇪 Germany 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 62.109.31.124
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 2
   network: grpc
   port: 443
   reality-opts:
@@ -27,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
-- client-fingerprint: firefox
+- client-fingerprint: ios
   flow: ''
   name: 🇨🇭 Switzerland 1
   network: grpc
@@ -55,35 +83,7 @@ proxies:
   type: vless
   udp: true
   uuid: 208a5dda-5f5e-47e8-8f22-8db77e00ab1b
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇷🇺 Russia 1
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
-    short-id: 8ba6e72ee60667f6
-  server: 161.104.38.98
-  servername: donatov.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: dbbcfdbd-89a0-0032-9161-a57271d42474
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇷🇺 Russia 2
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28
-    short-id: 76f9d74c385ae618
-  server: 193.17.92.57
-  servername: vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1cbb3702-b434-45cf-8520-3e32d860fd83
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: ''
   name: 🌐 Anycast-IP 2
   network: grpc
@@ -91,7 +91,7 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 82.146.56.149
+  server: 78.24.217.72
   servername: id.vk.com
   tls: true
   type: vless
