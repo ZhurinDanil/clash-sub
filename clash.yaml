@@ -1,29 +1,71 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  name: 🇫🇮 Finland 1
   network: tcp
-  port: 8443
+  port: 2080
   reality-opts:
-    public-key: _NcF141EQLSjJU5JxyZXjH6NCi5eb_BOes9E_unBjRc
-    short-id: ''
-  server: br.dexlen.cc
-  servername: br.dexlen.cc
+    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+    short-id: b0d8c9a285c70f6f
+  server: 46.243.232.77
+  servername: unpkg.com
   tls: true
   type: vless
   udp: true
-  uuid: add59713-f5c6-4442-83a3-6bc9281f5c90
+  uuid: 38eb3e71-4349-4bd6-9baf-9740e1896495
 - client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
-  network: tcp
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: grpc
   port: 443
   reality-opts:
-    public-key: BbjjRMPPIGkHRqx414sZ2rfyS7rsJ5lyu9uglc2bkQ0
-    short-id: 8a8efaaffa
-  server: 79.174.86.214
-  servername: 5post-gate.x5.ru
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 5d1e8b3f6c2a9d4e
+  server: 185.207.66.8
+  servername: hexagonicfield.com
   tls: true
   type: vless
   udp: true
-  uuid: 91c593d7-6095-4e20-aaf2-e591b61da7f2
+  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 5d1e8b3f6c2a9d4e
+  server: 185.207.66.8
+  servername: upload.hexagonicfield.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+- client-fingerprint: chrome
+  flow: ''
+  name: 🌐 Anycast-IP 3
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 3f8e2d1c9b4a7e6f
+  server: 186.246.13.160
+  servername: my.hexagonicfield.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 2085
+  reality-opts:
+    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+    short-id: b0d8c9a285c70f6f
+  server: 46.243.232.77
+  servername: unpkg.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38eb3e71-4349-4bd6-9baf-9740e1896495
