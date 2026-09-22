@@ -1,15 +1,57 @@
 proxies:
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇫🇷 France 1
-  network: grpc
-  port: 443
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇨🇿 Czechia 1
+  network: tcp
+  port: 2099
   reality-opts:
-    public-key: aK5um9qlbrjpXgpI4H9n05FBmWAvKUbmLm7iAj9K9mw
-    short-id: ''
-  server: 104.171.138.229
-  servername: cdn.mafioznik.xyz
+    public-key: 4YFpLhV9HbwlCXzvCL8EfvYe-V-VCuXZIaOWS11lKXI
+    short-id: 11f303a9ff001d7c
+  server: 90.156.218.106
+  servername: 331456.relay-edge.net
   tls: true
   type: vless
   udp: true
-  uuid: 8057eabc-921d-0004-9acb-80ccc6b48379
+  uuid: a76f6959-7d88-40c5-8984-4d888aa42389
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇪🇪 Estonia 1
+  network: tcp
+  port: 2104
+  reality-opts:
+    public-key: 4YFpLhV9HbwlCXzvCL8EfvYe-V-VCuXZIaOWS11lKXI
+    short-id: 11f303a9ff001d7c
+  server: 90.156.218.106
+  servername: 419ec9.relay-edge.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a76f6959-7d88-40c5-8984-4d888aa42389
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 7777
+  reality-opts:
+    public-key: SxYQfCF7C0hUlC_K0y8GONEC2jhHwzwO1AHVhkbqFyc
+    short-id: 43dcff53849b81e6
+  server: 188.225.76.244
+  servername: api.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 933eb45b-0e97-4ed1-bfb9-e34bd0b4342c
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 6666
+  reality-opts:
+    public-key: SxYQfCF7C0hUlC_K0y8GONEC2jhHwzwO1AHVhkbqFyc
+    short-id: 43dcff53849b81e6
+  server: 188.225.76.244
+  servername: vkvd519.okcdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 933eb45b-0e97-4ed1-bfb9-e34bd0b4342c
