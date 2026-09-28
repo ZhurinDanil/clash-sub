@@ -1,19 +1,33 @@
 proxies:
 - client-fingerprint: chrome
-  flow: ''
+  flow: xtls-rprx-vision
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
-  network: grpc
-  port: 9881
+  network: tcp
+  port: 9443
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  server: 176.123.167.90
-  servername: dl.google.com
+    public-key: odSdmvJdEvpq0T1pafMg8z-N52Le8lZjflBL92Rt8xQ
+    short-id: f711b8d16ba9b971
+  server: 2.26.121.150
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
+  uuid: edb45dfd-b6b5-4b1e-adfe-8544e7b8eae0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 France 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: J0SK1ic3YJvP1gac5m3KSVaUuK_bxFtqz0fh0uEdEw4
+    short-id: '00000000'
+  server: 91.240.87.237
+  servername: fiae3.maxtelemost.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b201db0-b373-455a-8ccd-fd624aaef8d3
+- client-fingerprint: firefox
   flow: ''
   name: 🇱🇻 Latvia 1
   network: xhttp
@@ -41,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 553d8193-d897-0024-bb46-f075b670f22a
-- client-fingerprint: chrome
+- client-fingerprint: random
   flow: ''
   name: 🇬🇧 United Kingdom 1
   network: xhttp
