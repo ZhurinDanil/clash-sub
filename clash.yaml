@@ -1,5 +1,33 @@
 proxies:
+- client-fingerprint: edge
+  flow: ''
+  name: 🇫🇮 Finland 1
+  network: grpc
+  port: 25481
+  reality-opts:
+    public-key: mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E
+    short-id: 3b84fc70657725af
+  server: 45.133.151.166
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -HXpsd4_-Rh8PxkK7dwmEzsAHsss5MQSG-ePRSygFWs
+    short-id: 7dcd042eaf3ba4b1
+  server: 188.225.58.19
+  servername: smartcaptcha.yandexcloud.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e9b0c09-dc28-4888-9b21-888a93541987
+- client-fingerprint: random
   flow: ''
   name: 🇮🇹 Italy 1
   network: grpc
@@ -13,23 +41,65 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: ''
-  name: 🇺🇸 United States 1
+  name: 🇳🇴 Norway 1
   network: grpc
-  port: 25177
+  port: 9881
   reality-opts:
-    public-key: Fx-24jm_CeI_bLPdVD_5vq-mxRuyWGmqqvQTs8fnFlk
-    short-id: 5941fdd509782e74
-  server: us5.h1cloud.net
-  servername: www.icloud.com
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabb
+  server: 176.108.252.139
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇵🇱 Poland 1
+  network: grpc
+  port: 9892
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 45.132.176.190
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇵🇱 Poland 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  server: 90.156.218.163
+  servername: eh.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇬🇧 United Kingdom 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
+    short-id: 6bc02f1c474260c3
+  server: 84.38.181.249
+  servername: open.spotify.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
 - client-fingerprint: ios
   flow: ''
-  name: 🇺🇸 United States 2
+  name: 🇺🇸 United States 1
   network: tcp
   port: 25178
   reality-opts:
@@ -41,17 +111,17 @@ proxies:
   type: vless
   udp: true
   uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
-- client-fingerprint: android
-  flow: ''
-  name: 🇺🇸 United States 3
-  network: raw
-  port: 25178
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 1
+  network: tcp
+  port: 444
   reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-  server: 87.228.92.105
-  servername: www.icloud.com
+    public-key: P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0
+    short-id: ''
+  server: 188.130.209.225
+  servername: vextor.win
   tls: true
   type: vless
   udp: true
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
+  uuid: a6be94fc-e742-4714-8a38-c8d7410ae066
