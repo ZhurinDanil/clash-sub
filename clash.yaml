@@ -13,21 +13,21 @@ proxies:
   type: vless
   udp: true
   uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
   network: tcp
-  port: 443
+  port: 9445
   reality-opts:
-    public-key: -HXpsd4_-Rh8PxkK7dwmEzsAHsss5MQSG-ePRSygFWs
-    short-id: 7dcd042eaf3ba4b1
-  server: 188.225.58.19
-  servername: smartcaptcha.yandexcloud.net
+    public-key: i3F_hP7yc9VpcUC2Vn1oAqLyW3hZayGdTybl-VnWdz0
+    short-id: 02827ef87f4a23c0
+  server: 185.241.195.152
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 9e9b0c09-dc28-4888-9b21-888a93541987
-- client-fingerprint: random
+  uuid: d91dc97c-a09b-40fa-9da0-a3d1729f7427
+- client-fingerprint: chrome
   flow: ''
   name: 🇮🇹 Italy 1
   network: grpc
@@ -55,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
   name: 🇵🇱 Poland 1
   network: grpc
@@ -69,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 2
   network: tcp
@@ -83,6 +83,34 @@ proxies:
   type: vless
   udp: true
   uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇪🇸 Spain 1
+  network: tcp
+  port: 25535
+  reality-opts:
+    public-key: Jh7CocBJSA55VZcLfXwXwoQ_Hi5pV-L1vv1SY-IrSh4
+    short-id: 7642ce57308852e7
+  server: es2.h1cloud.net
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c379d8e4-c67d-42ec-a3ed-ca99d1ad0546
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 Sweden 1
+  network: tcp
+  port: 4444
+  reality-opts:
+    public-key: i3F_hP7yc9VpcUC2Vn1oAqLyW3hZayGdTybl-VnWdz0
+    short-id: 02827ef87f4a23c0
+  server: 188.225.36.154
+  servername: s3.yandexcloud.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d91dc97c-a09b-40fa-9da0-a3d1729f7427
 - client-fingerprint: chrome
   flow: ''
   name: 🇬🇧 United Kingdom 1
@@ -97,31 +125,3 @@ proxies:
   type: vless
   udp: true
   uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-- client-fingerprint: ios
-  flow: ''
-  name: 🇺🇸 United States 1
-  network: tcp
-  port: 25178
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-  server: us5.h1cloud.net
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 1
-  network: tcp
-  port: 444
-  reality-opts:
-    public-key: P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0
-    short-id: ''
-  server: 188.130.209.225
-  servername: vextor.win
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6be94fc-e742-4714-8a38-c8d7410ae066
