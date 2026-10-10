@@ -1,4 +1,32 @@
 proxies:
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 1
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ss.ll0ll.vip
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f13b36ac-3765-4458-8a4d-08575038c463
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 2
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 91.107.126.228
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f13b36ac-3765-4458-8a4d-08575038c463
 - client-fingerprint: android
   flow: ''
   name: 🇵🇱 Poland 1
@@ -13,23 +41,9 @@ proxies:
   type: vless
   udp: true
   uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 2
-  network: tcp
-  port: 18719
-  reality-opts:
-    public-key: 67kiie1pkFCJ69nlB60nzJQp2MOna9AqM_A0tjB9u10
-    short-id: 782ab5b6
-  server: 195.133.48.33
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a7e2199-6a71-43e5-86ca-8ba012337a11
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 3
   network: tcp
   port: 443
   reality-opts:
@@ -41,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-- client-fingerprint: chrome
+- client-fingerprint: random
   flow: ''
   name: 🇷🇸 Serbia 1
   network: grpc
@@ -55,37 +69,135 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: ''
-  name: 🇳🇱 The Netherlands 1
-  network: xhttp
-  port: 443
+  name: 🇨🇭 Switzerland 1
+  network: grpc
+  port: 2096
   reality-opts:
-    public-key: biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 84.201.146.8
-  servername: max.ru
+  server: ns.l90909l.vip
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: 3fcec4e4-a674-44d2-8cae-c253cec43b9c
+- client-fingerprint: android
+  flow: ''
+  name: 🇨🇭 Switzerland 2
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 153.76.161.59
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fcec4e4-a674-44d2-8cae-c253cec43b9c
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
-  network: raw
-  port: 7449
+  name: 🇨🇭 Switzerland 3
+  network: tcp
+  port: 18629
   reality-opts:
-    public-key: TixECE6AqdT0DEihGXGqBAovNYMxZSB2csK0Lmm1ch0
-    short-id: 11e097a032298bd8
-  server: 46.243.235.246
-  servername: passport.yandex.ru
+    public-key: 67kiie1pkFCJ69nlB60nzJQp2MOna9AqM_A0tjB9u10
+    short-id: 782ab5b6
+  server: 195.133.48.33
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: f23bc4f1-cc71-4003-ae6c-d6abe21d8191
+  uuid: 5e99c4ee-bfb1-48c5-9400-169ba90474ce
+- client-fingerprint: random
+  flow: ''
+  name: 🌐 Anycast-IP 1
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 80.87.194.252
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f13b36ac-3765-4458-8a4d-08575038c463
+- client-fingerprint: android
+  flow: ''
+  name: 🌐 Anycast-IP 2
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 80.87.194.253
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f13b36ac-3765-4458-8a4d-08575038c463
 - client-fingerprint: chrome
   flow: ''
   name: 🇷🇺 Russia 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+    short-id: ''
+  server: 159.194.244.247
+  servername: ru-1-3.unturned-rust-dead.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+- client-fingerprint: ios
+  flow: ''
+  name: 🇷🇺 Russia 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+    short-id: ''
+  server: 93.188.184.150
+  servername: ru-1-2.unturned-rust-dead.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+- client-fingerprint: safari
+  flow: ''
+  name: 🇷🇺 Russia 3
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+    short-id: ''
+  server: ru-1-2.unturned-rust-dead.lol
+  servername: ru-1-2.unturned-rust-dead.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 4
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: p87u9cOh91BaXsKS-HoCoOUXxHcOwkM6ByTWmz_6b2Y
+    short-id: 0da7e14db353e7d0
+  server: 217.149.30.73
+  servername: time.nztvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇷🇺 Russia 5
   network: xhttp
   port: 8468
   reality-opts:
@@ -97,31 +209,17 @@ proxies:
   type: vless
   udp: true
   uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
-- client-fingerprint: safari
-  flow: ''
-  name: 🇷🇺 Russia 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-    short-id: ''
-  server: ru-1-3.unturned-rust-dead.lol
-  servername: ru-1-3.unturned-rust-dead.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 Russia 3
-  network: raw
-  port: 8443
+  flow: ''
+  name: 🌐 Anycast-IP 3
+  network: grpc
+  port: 2096
   reality-opts:
-    public-key: p87u9cOh91BaXsKS-HoCoOUXxHcOwkM6ByTWmz_6b2Y
-    short-id: 0da7e14db353e7d0
-  server: 217.149.30.73
-  servername: time.nztvpn.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ns.ll0ll.vip
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  uuid: f13b36ac-3765-4458-8a4d-08575038c463
