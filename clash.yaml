@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇱 Poland 1
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  server: 90.156.218.163
+  servername: eh.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
+  port: 50443
+  reality-opts:
+    public-key: r-_zNu0BrD8PgGzg-KQSes06Si83txHWYPH-o8xXihk
+    short-id: ''
+  server: 178.248.236.21
+  servername: de01-edge.atlanta-games.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07d0b603-7955-47b9-a913-12e6208062cb
+- client-fingerprint: android
+  flow: ''
+  name: 🇷🇺 Russia 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: ohYKVa5uVRwqzZndETnytrSXE63zaUFVNN1_T4eTHnc
+    short-id: ''
+  server: 72.56.246.80
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b173b69-8045-4fb8-b713-6db630337970
