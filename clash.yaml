@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 1
   network: raw
@@ -13,21 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🌐 Anycast-IP 1
-  network: tcp
-  port: 50443
-  reality-opts:
-    public-key: r-_zNu0BrD8PgGzg-KQSes06Si83txHWYPH-o8xXihk
-    short-id: ''
-  server: 178.248.236.21
-  servername: de01-edge.atlanta-games.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07d0b603-7955-47b9-a913-12e6208062cb
-- client-fingerprint: android
+- client-fingerprint: edge
   flow: ''
   name: 🇷🇺 Russia 1
   network: grpc
@@ -41,3 +27,17 @@ proxies:
   type: vless
   udp: true
   uuid: 2b173b69-8045-4fb8-b713-6db630337970
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇷🇺 Russia 2
+  network: tcp
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 93.183.106.180
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f837d05-6d7a-488b-a896-ea2b2ccf5413
