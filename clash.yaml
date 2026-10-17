@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 🇦🇹 Austria 1
   network: tcp
@@ -13,52 +13,38 @@ proxies:
   type: vless
   udp: true
   uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-- client-fingerprint: edge
-  flow: ''
-  name: 🇫🇮 Finland 1
-  network: grpc
-  port: 25481
-  reality-opts:
-    public-key: mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E
-    short-id: 3b84fc70657725af
-  server: 45.133.151.167
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-- client-fingerprint: ios
-  flow: ''
-  name: 🇫🇮 Finland 2
-  network: grpc
-  port: 25481
-  reality-opts:
-    public-key: mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E
-    short-id: 3b84fc70657725af
-  server: fi-p1.h1cloud.net
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-- client-fingerprint: chrome
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
+  name: 🇫🇷 France 1
   network: tcp
   port: 443
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-  server: api.setevoymayak.cc
-  servername: api.setevoymayak.cc
+  server: api.videolaguna.cc
+  servername: api.videolaguna.cc
   tls: true
   type: vless
   udp: true
   uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 1
   network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: api.mediapolyana.cc
+  servername: api.mediapolyana.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇱 Poland 2
+  network: raw
   port: 443
   reality-opts:
     public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
@@ -69,3 +55,45 @@ proxies:
   type: vless
   udp: true
   uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇳🇱 The Netherlands 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: Ed29G1bO6isJRo8iGPm7W_9c4mVFqHUilPmDP0llJW8
+    short-id: ''
+  server: 46.182.24.240
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7285eb6f-6fef-4f15-9e74-da442d0f826a
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇳🇱 The Netherlands 2
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: DuxQy3KWEZTU_sBhXSfeo_1Q0-0lMcSnx21bWvUi5hQ
+    short-id: ''
+  server: 84.201.180.13
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇷 Turkey 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc
+    short-id: 89e0494514ec
+  server: entry6.chick-chirik.com
+  servername: www.oracle.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dd045fba-0257-4643-be29-4325450ef186
