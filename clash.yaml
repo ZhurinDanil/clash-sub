@@ -1,57 +1,43 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
+  flow: ''
+  name: 🇫🇮 Finland 2
+  network: grpc
+  port: 25481
+  reality-opts:
+    public-key: mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E
+    short-id: 3b84fc70657725af
+  server: fi-p1.h1cloud.net
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
+- client-fingerprint: android
+  flow: ''
+  name: 🇫🇮 Finland 3
   network: tcp
-  port: 62443
-  reality-opts:
-    public-key: vqRiLDLgn_0PWMUvELC0C4JD-a2LUoM0iZ6wdvgMBmQ
-    short-id: d0cd6a0b1a18092b
-  server: 178.248.236.45
-  servername: rutube.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 320bb8a2-0b37-4d1a-9b7e-615fe6534ecf
-- client-fingerprint: edge
-  flow: ''
-  name: 🇳🇱 The Netherlands 1
-  network: xhttp
   port: 443
   reality-opts:
-    public-key: biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo
-    short-id: ''
-  server: 84.201.146.8
-  servername: max.ru
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+    short-id: 023a1e6ffc32be10
+  server: 3f8efdt.fi1.h1clayd.click
+  servername: 3f8efdt.fi1.h1clayd.click
   tls: true
   type: vless
   udp: true
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-- client-fingerprint: edge
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+- client-fingerprint: ios
   flow: ''
-  name: 🇳🇱 The Netherlands 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: DuxQy3KWEZTU_sBhXSfeo_1Q0-0lMcSnx21bWvUi5hQ
-    short-id: ''
-  server: 84.201.180.13
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-- client-fingerprint: edge
-  flow: ''
-  name: 🌐 Anycast-IP 1
+  name: 🇷🇺 Russia 1
   network: grpc
   port: 443
   reality-opts:
-    public-key: Jde1DJZOlruMw7ZSXiJnz0RY4MoYJ4iV1eQkvIU6Qj0
-    short-id: a3c9e1f04b7d2856
-  server: 91.240.87.0
-  servername: magnit.chronoaudit.ru
+    public-key: H0iW-vqJSN6Q2KYuT1v9-ThYh3lNb-MnHVpuvqPnGDY
+    short-id: 413ebf956c2d8102
+  server: 104.171.134.165
+  servername: yt-ru.convertvideo123.online
   tls: true
   type: vless
   udp: true
-  uuid: aeffee83-4a56-4e01-ad8b-9bae65cb8d70
+  uuid: 355a9948-c284-4669-bd57-43fcdc8dd71e
