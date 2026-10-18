@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: ios
   flow: ''
   name: 🇫🇮 Finland 1
   network: grpc
@@ -13,7 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-- client-fingerprint: ios
+- client-fingerprint: safari
   flow: ''
   name: 🇫🇮 Finland 2
   network: grpc
@@ -28,20 +28,34 @@ proxies:
   udp: true
   uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
 - client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇱🇻 Latvia 1
-  network: tcp
-  port: 20003
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 9443
   reality-opts:
-    public-key: MAQju7q8wIeEznBQoDXP9l4SpuAkEs8CGDKaNNpKlHI
-    short-id: '4326'
-  server: sub-edge-05-1g.whitenw.net
-  servername: onf.ru
+    public-key: 9YcV-gA7iaXFnI0HXQa624OIqm4zxO_U2eMCWXQAiCQ
+    short-id: 8375b32501373f41
+  server: 87.242.95.164
+  servername: passport.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 9ec97e03-5e0b-4feb-b6f2-1c377977e471
-- client-fingerprint: android
+  uuid: 93697c60-3a66-468a-b2c8-7959557ecdfe
+- client-fingerprint: edge
+  flow: ''
+  name: 🇸🇦 Saudi Arabia 1
+  network: grpc
+  port: 23688
+  reality-opts:
+    public-key: kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk
+    short-id: f679b4f2
+  server: 94.139.247.207
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
+- client-fingerprint: chrome
   flow: ''
   name: 🇸🇪 Sweden 1
   network: grpc
@@ -55,34 +69,20 @@ proxies:
   type: vless
   udp: true
   uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: tcp
-  port: 12443
-  reality-opts:
-    public-key: oaHOP3_Dv1Kadp45Isz5QxQ4Pf0duSThF1wKlvIUxwE
-    short-id: ''
-  server: 188.225.78.8
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e77680d0-b8d0-47ed-b811-61d58893cf1f
-- client-fingerprint: chrome
+- client-fingerprint: android
   flow: ''
-  name: 🇳🇱 The Netherlands 2
-  network: xhttp
-  port: 443
+  name: 🇸🇪 Sweden 2
+  network: grpc
+  port: 23688
   reality-opts:
-    public-key: biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo
-    short-id: ''
-  server: 84.201.146.8
-  servername: max.ru
+    public-key: kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk
+    short-id: f679b4f2
+  server: 46.253.132.237
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
 - client-fingerprint: edge
   flow: ''
   name: 🌐 Anycast-IP 1
