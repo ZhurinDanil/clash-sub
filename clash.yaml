@@ -1,19 +1,5 @@
 proxies:
-- client-fingerprint: edge
-  flow: ''
-  name: 🇪🇪 Estonia 1
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: DnXBmz9AHnv3Rs-4z_ZLt_sBgmTjVNXxq9aW9xkanEg
-    short-id: 703a00989e6967e8
-  server: 195.24.67.165
-  servername: qwq.clear-nodefast.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: d44bf370-e495-4fe3-92c8-710be5598f66
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: ''
   name: 🇫🇮 Finland 2
   network: grpc
@@ -27,7 +13,21 @@ proxies:
   type: vless
   udp: true
   uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-- client-fingerprint: safari
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: grpc
+  port: 9892
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: ''
+  server: 82.202.141.141
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: chrome
   flow: ''
   name: 🇺🇸 United States 1
   network: grpc
@@ -42,58 +42,58 @@ proxies:
   udp: true
   uuid: e667f5c7-6b38-48ef-ab89-40519713afb0
 - client-fingerprint: chrome
-  flow: ''
-  name: 🇺🇸 United States 2
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 78.24.218.88
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e667f5c7-6b38-48ef-ab89-40519713afb0
-- client-fingerprint: safari
-  flow: ''
-  name: 🇺🇸 United States 3
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: us.90909.club
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e667f5c7-6b38-48ef-ab89-40519713afb0
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: Usvy1RFcgqX9W-qhEJ9n-afLa4rBA8TUV9Wv6BkmmnI
-    short-id: 7cb377bfea848154
-  server: bridge.nurcloud.org
-  servername: ae.api.nurcloud.org
+    public-key: iEn05nrDTTyNqlV2Brol7NQDZVRtyDw92o7FtkbJcF8
+    short-id: fb28c3048bd6e18a
+  server: 147.45.109.59
+  servername: ru.api.nurcloud.org
   tls: true
   type: vless
   udp: true
-  uuid: fb6d2b17-440d-4d8c-9f8d-8ccef1861c34
-- client-fingerprint: firefox
+  uuid: 274c70c5-2167-483d-b847-977498d97843
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 2
   network: tcp
   port: 443
   reality-opts:
-    public-key: j1p0hmghXQkpoamrREgYJMcK7D_y3I2gxqy9RzjOD2I
-    short-id: d2cf64ff98c7c4ca
-  server: ru.msk.nurcloud.org
-  servername: ru.msk.nurcloud.org
+    public-key: iEn05nrDTTyNqlV2Brol7NQDZVRtyDw92o7FtkbJcF8
+    short-id: fb28c3048bd6e18a
+  server: ru.api.nurcloud.org
+  servername: ru.api.nurcloud.org
   tls: true
   type: vless
   udp: true
-  uuid: 1ab9e166-5a54-48b9-a07f-79d1d840ae21
+  uuid: 274c70c5-2167-483d-b847-977498d97843
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: L4Aifg9Z38BOPDA_pr-zmfj0BweN9sM5m_oSNGsFKiE
+    short-id: ec2a6d77d897a2c3
+  server: 45.139.24.100
+  servername: www.pobeda.aero
+  tls: true
+  type: vless
+  udp: true
+  uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2LWgemfg0df7tGt4icLbRG-Cz7QNPVr3g7xIdwbTTHQ
+    short-id: caa05b44ba5b7b3d
+  server: 89.110.89.118
+  servername: www.spbu.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
