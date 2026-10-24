@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: ''
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: xhttp
@@ -13,23 +13,79 @@ proxies:
   type: vless
   udp: true
   uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇮 Finland 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
+    short-id: b3c9d0c6bdd114a6
+  server: 36a466g.fi1.h1clayd.click
+  servername: 36a466g.fi1.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+- client-fingerprint: edge
+  flow: ''
+  name: 🇫🇮 Finland 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+    short-id: 023a1e6ffc32be10
+  server: 3f8efdt.fi1.h1clayd.click
+  servername: 3f8efdt.fi1.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 1
+  name: 🇫🇷 France 1
   network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 193.160.140.107
-  servername: ai.ozon.ru
+  server: 45.9.118.205
+  servername: ozon.ru
   tls: true
   type: vless
   udp: true
   uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: tcp
+  port: 25362
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  server: 83.171.241.147
+  servername: www.chip.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+- client-fingerprint: chrome
+  flow: ''
   name: 🇩🇪 Germany 2
+  network: tcp
+  port: 25362
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  server: de15.h1cloud.net
+  servername: www.chip.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 3
   network: tcp
   port: 443
   reality-opts:
@@ -41,9 +97,9 @@ proxies:
   type: vless
   udp: true
   uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: ''
-  name: 🇳🇴 Norway 1
+  name: 🇳🇴 Norway 2
   network: tcp
   port: 27591
   reality-opts:
@@ -55,7 +111,7 @@ proxies:
   type: vless
   udp: true
   uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 1
   network: tcp
@@ -69,7 +125,7 @@ proxies:
   type: vless
   udp: true
   uuid: 4f7d0057-44d8-499e-8e5c-68fdd63698fd
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 2
   network: raw
@@ -83,6 +139,34 @@ proxies:
   type: vless
   udp: true
   uuid: 4f7d0057-44d8-499e-8e5c-68fdd63698fd
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 The Netherlands 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw
+    short-id: 9d0e1b6bf9c5eddb
+  server: 200.169.184.168
+  servername: net.formatgo.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9d6f7a6-41d7-4bdd-bf3f-7415cc9d7f90
+- client-fingerprint: edge
+  flow: ''
+  name: 🇳🇱 The Netherlands 2
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo
+    short-id: ''
+  server: 84.201.146.8
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 United Kingdom 1
@@ -105,7 +189,7 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 147.45.46.153
+  server: 147.45.46.142
   servername: gb.ozon.ru
   tls: true
   type: vless
@@ -119,7 +203,7 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 193.160.141.17
+  server: 193.160.140.125
   servername: gb.ozon.ru
   tls: true
   type: vless
@@ -128,6 +212,34 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 United Kingdom 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 193.160.141.17
+  servername: gb.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 United Kingdom 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 193.223.104.111
+  servername: gb.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 United Kingdom 6
   network: tcp
   port: 443
   reality-opts:
