@@ -6,20 +6,6 @@ proxies:
   port: 19133
   reality-opts:
     public-key: ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc
-    short-id: 10a59b0a94367ac2
-  server: router.hermit.pw
-  servername: music.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69158986-cfae-4567-8391-0f96d9d985bd
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇨🇾 Cyprus 2
-  network: xhttp
-  port: 19133
-  reality-opts:
-    public-key: ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc
     short-id: ''
   server: 89.208.210.53
   servername: music.apple.com
@@ -27,6 +13,34 @@ proxies:
   type: vless
   udp: true
   uuid: 69158986-cfae-4567-8391-0f96d9d985bd
+- client-fingerprint: safari
+  flow: ''
+  name: 🇨🇾 Cyprus 2
+  network: xhttp
+  port: 19133
+  reality-opts:
+    public-key: ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc
+    short-id: 10a59b0a94367ac2
+  server: router.hermit.pw
+  servername: music.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69158986-cfae-4567-8391-0f96d9d985bd
+- client-fingerprint: edge
+  flow: ''
+  name: 🇪🇪 Estonia 1
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw
+    short-id: a1b2c3d4e5f6a7b8
+  server: 188.225.83.133
+  servername: xnodtwx.artemida.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c346148-ece9-487a-bffb-ba5a399b2d71
 - client-fingerprint: firefox
   flow: ''
   name: 🇫🇮 Finland 1
@@ -55,7 +69,35 @@ proxies:
   type: vless
   udp: true
   uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
-- client-fingerprint: chrome
+- client-fingerprint: ios
+  flow: ''
+  name: 🇫🇮 Finland 3
+  network: grpc
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ss.90909.club
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb96fef-4476-4ab0-915e-32e8f014c3b2
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇫🇮 Finland 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H0_ikooEh725UVXsMCoRPoRYMheLUL_L-xZA3fl_nS4
+    short-id: ae641bd0ef87fbfa
+  server: 176.109.105.205
+  servername: cl-fn-in.movietop24.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5cf36f5-50e9-405b-adb4-b40fdf0d4619
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
   network: tcp
@@ -69,9 +111,23 @@ proxies:
   type: vless
   udp: true
   uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇩🇪 Germany 2
+  network: tcp
+  port: 25362
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  server: de15.h1cloud.net
+  servername: www.chip.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
+  name: 🇩🇪 Germany 3
   network: tcp
   port: 443
   reality-opts:
@@ -83,48 +139,6 @@ proxies:
   type: vless
   udp: true
   uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 3
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw
-    short-id: a1b2c3d4e5f6a7b8
-  server: xnodtwx.artemida.live
-  servername: xnodtwx.artemida.live
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c346148-ece9-487a-bffb-ba5a399b2d71
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 4
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw
-    short-id: a1b2c3d4e5f6a7b8
-  server: 188.225.83.133
-  servername: xnodtwx.artemida.live
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c346148-ece9-487a-bffb-ba5a399b2d71
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 147.45.46.150
-  servername: ai.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇿 Kazakhstan 1
@@ -139,7 +153,21 @@ proxies:
   type: vless
   udp: true
   uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-- client-fingerprint: ios
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: 🇱🇻 Latvia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mvx4r8ZPvTxfdnRb_E8fXQJ8fmLgEf4MSN91b58m7EA
+    short-id: b629457828a7d4bf
+  server: 213.176.19.162
+  servername: ru-in-lv-4vp.zvcorp24.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5cf36f5-50e9-405b-adb4-b40fdf0d4619
+- client-fingerprint: firefox
   flow: ''
   name: 🇳🇱 The Netherlands 1
   network: grpc
@@ -153,90 +181,6 @@ proxies:
   type: vless
   udp: true
   uuid: eeb96fef-4476-4ab0-915e-32e8f014c3b2
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇳🇱 The Netherlands 2
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 157.22.241.129
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb96fef-4476-4ab0-915e-32e8f014c3b2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 United Kingdom 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 147.45.47.103
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 United Kingdom 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 147.45.47.110
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 United Kingdom 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 193.223.104.116
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 United Kingdom 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 37.235.249.9
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 United Kingdom 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 37.235.250.16
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 United States 1
@@ -251,23 +195,9 @@ proxies:
   type: vless
   udp: true
   uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-- client-fingerprint: firefox
+- client-fingerprint: safari
   flow: ''
   name: 🇺🇸 United States 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: yQfhPYAXsz1EqKpOglHh72NzJsf9YoPuD1bjMC-DDiM
-    short-id: ''
-  server: 159.194.248.11
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d40fdcdb-8d6f-406d-a050-12e196fe8804
-- client-fingerprint: firefox
-  flow: ''
-  name: 🇺🇸 United States 3
   network: xhttp
   port: 443
   reality-opts:
@@ -279,17 +209,3 @@ proxies:
   type: vless
   udp: true
   uuid: 345e0ef7-6861-4722-ab44-799c37507b24
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇺🇸 United States 4
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: us.90909.club
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb96fef-4476-4ab0-915e-32e8f014c3b2
