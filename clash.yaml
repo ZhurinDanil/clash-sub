@@ -1,8 +1,22 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  flow: ''
   name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
   network: tcp
+  port: 25879
+  reality-opts:
+    public-key: XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU
+    short-id: f1a7a14461a3f389
+  server: 83.171.241.254
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 241306b3-9f27-4ed3-9524-6c0792c55856
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
+  network: raw
   port: 18443
   reality-opts:
     public-key: oo2BXh-enbxxGXJcEzT3lgP26ru2rVnU5RP7PVUO0Sk
@@ -14,50 +28,8 @@ proxies:
   udp: true
   uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
 - client-fingerprint: firefox
-  flow: ''
+  flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
-  network: tcp
-  port: 25362
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-  server: 83.171.241.177
-  servername: www.chip.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇩🇪 Germany 2
-  network: tcp
-  port: 25362
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-  server: de15.h1cloud.net
-  servername: www.chip.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 189.74.106.74
-  servername: api.setevoypriliv.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6788563f-df4b-4363-aa71-cd50c4b03cd8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 4
   network: tcp
   port: 443
   reality-opts:
@@ -68,74 +40,32 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c6628db6-025d-40e8-b79d-033f4372a6b7
-- client-fingerprint: firefox
+  uuid: 9ad899f2-b00b-4cd9-a1f8-72c59e216f19
+- client-fingerprint: android
   flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 5
+  name: 🇩🇪 Germany 2
   network: tcp
   port: 443
   reality-opts:
-    public-key: 9y3Ixv18XYzbYpJ3Q8V3tM_BHDPbaB9dN1wx7wxr3Sw
-    short-id: 95473efc7d2ca504
-  server: 139.100.213.61
-  servername: ru.orbitaconference.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8b69db2-c072-41e8-9f03-06d71db3c135
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱 The Netherlands 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw
-    short-id: 9d0e1b6bf9c5eddb
+    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
+    short-id: e0aadc6f38ff06a8
   server: 200.169.184.168
-  servername: net.formatgo.ru
+  servername: tm6.24convertflow.ru
   tls: true
   type: vless
   udp: true
   uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇳🇱 The Netherlands 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo
-    short-id: ''
-  server: 84.201.146.8
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 United States 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jwT3lcIzJQMjzBKRNsmyRGrgaa1qNfE7pQF_nAKu0GA
-    short-id: a73cf719b624
-  server: 45.12.5.171
-  servername: ru9.aimodelhub.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba895ce4-8c24-0003-9f22-81ee227c89d0
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🌐 Anycast-IP 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: jwT3lcIzJQMjzBKRNsmyRGrgaa1qNfE7pQF_nAKu0GA
-    short-id: a73cf719b624
-  server: ru9.aimodelhub.top
-  servername: ru9.aimodelhub.top
+    public-key: 3yddqUiJeYh6absBxMNR6OSMRjvi_-wVXy1GGS5K-y0
+    short-id: ae97223a8f799872
+  server: 213.165.60.187
+  servername: xpc2.waspnest.space
   tls: true
   type: vless
   udp: true
-  uuid: ba895ce4-8c24-0003-9f22-81ee227c89d0
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
