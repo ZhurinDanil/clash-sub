@@ -1,1 +1,57 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇨🇭 Switzerland 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: WCGVWrqI3t-c5ZIbUEmwjN3wiFFT7xV09PIio-OQGHU
+    short-id: d16860c57700c886
+  server: 87.242.87.165
+  servername: codifyr.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fa8c52f8-d800-4ddd-bdc3-4f8a24b073c6
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇨🇭 Switzerland 2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: WCGVWrqI3t-c5ZIbUEmwjN3wiFFT7xV09PIio-OQGHU
+    short-id: d16860c57700c886
+  server: 87.242.87.165
+  servername: codifyr.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fa8c52f8-d800-4ddd-bdc3-4f8a24b073c6
+- client-fingerprint: ios
+  flow: ''
+  name: 🇨🇭 Switzerland 3
+  network: grpc
+  port: 8445
+  reality-opts:
+    public-key: WCGVWrqI3t-c5ZIbUEmwjN3wiFFT7xV09PIio-OQGHU
+    short-id: d16860c57700c886
+  server: 87.242.87.165
+  servername: codifyr.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fa8c52f8-d800-4ddd-bdc3-4f8a24b073c6
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇺🇸 United States 2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 3Kgy_0tHtOzEn9_mEylNsBVlAHNngT6S4AuYy5wEOSU
+    short-id: 0c37b64d1935ebc1
+  server: 45.143.94.91
+  servername: us1.cloudvienta.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3837e7a5-d40e-4b85-8700-5f9725a5a2cb
