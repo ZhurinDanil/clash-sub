@@ -1,5 +1,19 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇿 Czechia 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: J0SK1ic3YJvP1gac5m3KSVaUuK_bxFtqz0fh0uEdEw4
+    short-id: ''
+  server: 194.26.229.241
+  servername: aeza1.maxtelemost.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0aa6bee3-cfa1-0004-9a76-19f231d1681f
+- client-fingerprint: chrome
   flow: ''
   name: 🇨🇭 Switzerland 1
   network: xhttp
@@ -27,7 +41,7 @@ proxies:
   type: vless
   udp: true
   uuid: fa8c52f8-d800-4ddd-bdc3-4f8a24b073c6
-- client-fingerprint: ios
+- client-fingerprint: edge
   flow: ''
   name: 🇨🇭 Switzerland 3
   network: grpc
@@ -41,17 +55,3 @@ proxies:
   type: vless
   udp: true
   uuid: fa8c52f8-d800-4ddd-bdc3-4f8a24b073c6
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇺🇸 United States 2
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 3Kgy_0tHtOzEn9_mEylNsBVlAHNngT6S4AuYy5wEOSU
-    short-id: 0c37b64d1935ebc1
-  server: 45.143.94.91
-  servername: us1.cloudvienta.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3837e7a5-d40e-4b85-8700-5f9725a5a2cb
