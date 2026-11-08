@@ -1,15 +1,29 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇫🇮 Finland 1
-  network: tcp
+- client-fingerprint: edge
+  flow: ''
+  name: 🇳🇴 Norway 1
+  network: grpc
   port: 443
   reality-opts:
-    public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
-    short-id: b9120cd53ffd7bba
-  server: 5.129.249.155
-  servername: assets-59.topp-con.xyz
+    public-key: 6vDdlh4aAipoRQ-IXDjzTUtKpZS09xtNXIisCa__2CM
+    short-id: f74c6a18133e2e72
+  server: 185.186.143.76
+  servername: ru-kitchen.ru
   tls: true
   type: vless
   udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  uuid: 528c9248-7b50-45fb-9188-e46d889dafe6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭 Switzerland 1
+  network: tcp
+  port: 2058
+  reality-opts:
+    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
+    short-id: 937255313d6ce673
+  server: 157.22.185.58
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
