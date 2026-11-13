@@ -1,15 +1,29 @@
 proxies:
-- client-fingerprint: android
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇪🇪 Estonia 1
+  name: 🇫🇷 France 1
   network: tcp
-  port: 8445
+  port: 443
   reality-opts:
-    public-key: I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4
-    short-id: ''
-  server: dwedfs.whitenw.net
-  servername: passport.yandex.ru
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: 189.74.117.29
+  servername: api.videodolina.cc
   tls: true
   type: vless
   udp: true
-  uuid: 84a56b88-2f89-4a57-b925-74abd5b7fd87
+  uuid: 122188c6-66ff-4f8d-a1b5-54280b4b106a
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇫🇷 France 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: 189.74.117.29
+  servername: api.videodolina.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 27b9f6d7-1668-4b8a-acf1-11398febcfee
