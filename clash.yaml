@@ -1,5 +1,19 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇫🇷 France 1
+  network: xhttp
+  port: 17014
+  reality-opts:
+    public-key: mqFYVFk9FKZBDy2qjiWJR8Gy8FAxOAkBBMTdPF6avX0
+    short-id: b9eb4a95b4828b86
+  server: cdn.snyalby.ru
+  servername: www.inria.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25567295-9b9b-4aed-aa0b-ce9c562c74ef
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 Germany 1
   network: tcp
@@ -7,21 +21,7 @@ proxies:
   reality-opts:
     public-key: bqzRxK5Nr7muCBDtExsYRK4yrxMwVPOH0_avLu27LQI
     short-id: a132a3
-  server: 31.192.106.192
-  servername: node2.shakalchk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 140a9844-d304-4ff2-aa47-c0a2a67da6f0
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 Germany 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bqzRxK5Nr7muCBDtExsYRK4yrxMwVPOH0_avLu27LQI
-    short-id: a132a3
-  server: 31.192.106.192
+  server: 158.255.6.203
   servername: node2.shakalchk.ru
   tls: true
   type: vless
@@ -29,35 +29,49 @@ proxies:
   uuid: 4fb48619-c29d-47f3-8c21-12bdc3286935
 - client-fingerprint: ios
   flow: ''
-  name: 🇭🇺 Hungary 1
-  network: grpc
-  port: 11443
-  reality-opts:
-    public-key: LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28
-    short-id: 9edc24fc
-  server: 212.41.8.76
-  servername: s3.storage.selcloud.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
-- client-fingerprint: firefox
-  flow: ''
   name: 🇮🇱 Israel 1
   network: grpc
   port: 443
   reality-opts:
-    public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
-    short-id: 6d289ff0f47c0aac
-  server: 83.171.241.180
-  servername: 961ec0g.nl17.h1clayd.click
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  server: 717252g.nl8.h1clayd.click
+  servername: 717252g.nl8.h1clayd.click
   tls: true
   type: vless
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- client-fingerprint: ios
+- client-fingerprint: firefox
   flow: ''
   name: 🇮🇱 Israel 2
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
+    short-id: 7b2b1a14a6e0630d
+  server: 83.171.241.166
+  servername: fc82dfx.nl8.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇮🇱 Israel 3
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0
+    short-id: f72d4a2c7cbbacb1
+  server: 83.171.241.192
+  servername: 80cb66x.nl13.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇮🇱 Israel 4
   network: xhttp
   port: 443
   reality-opts:
@@ -71,21 +85,63 @@ proxies:
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
 - client-fingerprint: firefox
   flow: ''
-  name: 🇵🇱 Poland 1
-  network: xhttp
-  port: 7443
+  name: 🇪🇸 Spain 1
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: NmMggGv5jmohnMmZytnLdenxmpNwa4P9E2PZW1EV8go
-    short-id: 5e25bf4462660ed8
-  server: 45.10.217.5
-  servername: pl-origin.krabvpn.pro
+    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
+    short-id: 2437eeeb791b6d80
+  server: 49930ag.es8.h1clayd.click
+  servername: 49930ag.es8.h1clayd.click
   tls: true
   type: vless
   udp: true
-  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
-- client-fingerprint: edge
+  uuid: 88edfb30-a34b-41e1-a08f-985a93e3bc36
+- client-fingerprint: firefox
   flow: ''
-  name: 🇪🇸 Spain 1
+  name: 🇪🇸 Spain 2
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
+    short-id: 2437eeeb791b6d80
+  server: 83.171.241.220
+  servername: 49930ag.es8.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88edfb30-a34b-41e1-a08f-985a93e3bc36
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇪🇸 Spain 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
+    short-id: 91313fc9f7571857
+  server: 230b29t.es8.h1clayd.click
+  servername: 230b29t.es8.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇪🇸 Spain 4
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
+    short-id: 2437eeeb791b6d80
+  server: 49930ag.es8.h1clayd.click
+  servername: 49930ag.es8.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+- client-fingerprint: firefox
+  flow: ''
+  name: 🇪🇸 Spain 5
   network: tcp
   port: 443
   reality-opts:
@@ -97,7 +153,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
-- client-fingerprint: safari
+- client-fingerprint: ios
   flow: ''
   name: 🇳🇱 The Netherlands 1
   network: xhttp
@@ -111,45 +167,3 @@ proxies:
   type: vless
   udp: true
   uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: 🇳🇱 The Netherlands 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg
-    short-id: c48282c0acf92721
-  server: 147.45.214.143
-  servername: st.ozone.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb9b439d-e5d2-4337-a781-b18a67b8127e
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇺🇸 United States 1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-  server: 62981et.us11.h1clayd.click
-  servername: 62981et.us11.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 632cd343-1e8f-4bf6-a9a2-20ada1f6970f
-- client-fingerprint: ios
-  flow: ''
-  name: 🇺🇸 United States 2
-  network: grpc
-  port: 14443
-  reality-opts:
-    public-key: rVt9_jYmjD8R-DjRQrX7uRPJ2803fRXf9quNOqfxJQM
-    short-id: 55a57f74
-  server: 212.41.8.76
-  servername: s3.storage.selcloud.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
