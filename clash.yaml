@@ -1,5 +1,33 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: android
+  flow: xtls-rprx-vision
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 1
+  network: raw
+  port: 8443
+  reality-opts:
+    public-key: DulhUFMYzxIsucjtPONJQMszzyi9V6bqQ9WI3GjGFAY
+    short-id: abc123
+  server: rua.strauspro.com
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f092ef0-a7e6-03e9-b989-836aebc00ff7
+- client-fingerprint: android
+  flow: ''
+  name: .𖥔 ݁ ˖ִ🛸༄˖°. 2
+  network: xhttp
+  port: 8443
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+    short-id: 40a4b9403abe554c
+  server: r4.pythonmakemigreat.wiki
+  servername: assets.study.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇦🇹 Austria 1
   network: tcp
@@ -7,41 +35,13 @@ proxies:
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-  server: 189.74.115.6
+  server: 189.74.115.7
   servername: api.mediaroshcha.cc
   tls: true
   type: vless
   udp: true
-  uuid: 74f809f5-b34f-409a-a344-f594be10aba6
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇦🇹 Austria 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 189.74.115.6
-  servername: api.mediaroshcha.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed9a4102-24ce-4f64-8312-df534ad56049
+  uuid: 9b0eb7db-c3be-4564-bf69-025ae05d02b4
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪 Estonia 1
-  network: tcp
-  port: 12443
-  reality-opts:
-    public-key: I5KELk2Aw3Z-9bTrOTPwKWYoZjlQDVU0rTUd-Gtck1M
-    short-id: 74712fc37c1992a4
-  server: 95.174.93.249
-  servername: 95.174.93.249
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe256a15-9af9-4b00-85dc-d1523288d3da
-- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇫🇷 France 1
   network: tcp
@@ -49,27 +49,41 @@ proxies:
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-  server: 189.74.117.19
+  server: 189.74.117.20
   servername: api.videodolina.cc
   tls: true
   type: vless
   udp: true
-  uuid: 74f809f5-b34f-409a-a344-f594be10aba6
-- client-fingerprint: android
-  flow: xtls-rprx-vision
-  name: 🇫🇷 France 2
-  network: tcp
-  port: 443
+  uuid: 9b0eb7db-c3be-4564-bf69-025ae05d02b4
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇩🇪 Germany 1
+  network: xhttp
+  port: 8443
   reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 189.74.117.19
-  servername: api.videodolina.cc
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+    short-id: ''
+  server: r1.pythonmakemigreat.wiki
+  servername: assets.study.golangwikito.cfd
   tls: true
   type: vless
   udp: true
-  uuid: ed9a4102-24ce-4f64-8312-df534ad56049
-- client-fingerprint: android
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 Germany 2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: DulhUFMYzxIsucjtPONJQMszzyi9V6bqQ9WI3GjGFAY
+    short-id: abc123
+  server: 109.248.239.190
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f092ef0-a7e6-03e9-b989-836aebc00ff7
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇵🇱 Poland 1
   network: tcp
@@ -77,23 +91,65 @@ proxies:
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-  server: 189.74.116.4
+  server: 189.74.116.6
   servername: api.mediatropa.cc
   tls: true
   type: vless
   udp: true
-  uuid: 74f809f5-b34f-409a-a344-f594be10aba6
-- client-fingerprint: android
+  uuid: 9b0eb7db-c3be-4564-bf69-025ae05d02b4
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇵🇱 Poland 2
+  name: 🇳🇱 The Netherlands 1
   network: tcp
   port: 443
   reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 189.74.116.4
-  servername: api.mediatropa.cc
+    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
+    short-id: d4735e3a265e
+  server: yellow-4hmq5ehr3ievlnabv8l2.concept7.ru
+  servername: player.mediavitrina.ru
   tls: true
   type: vless
   udp: true
-  uuid: ed9a4102-24ce-4f64-8312-df534ad56049
+  uuid: 48818046-00b5-4576-bbe8-d2971fe0f844
+- client-fingerprint: android
+  flow: ''
+  name: 🇺🇸 United States 1
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: r445h-YroH5eENllZFKxE6XndWGAc9SBPAzfyIHnajQ
+    short-id: 07b7580eec1fec3a
+  server: api.ggssstreaming.ru
+  servername: api.ggssstreaming.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
+    short-id: 4b227777d4dd
+  server: yellow-5hmq5ehr3ievlnabv8l2.concept7.ru
+  servername: river-3-369.rtbcdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48818046-00b5-4576-bbe8-d2971fe0f844
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🌐 Anycast-IP 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
+    short-id: d4735e3a265e
+  server: 217.19.123.47
+  servername: player.mediavitrina.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48818046-00b5-4576-bbe8-d2971fe0f844
